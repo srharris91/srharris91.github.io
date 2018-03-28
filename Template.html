@@ -1,140 +1,235 @@
-<!--#include virtual="header.html" -->
-<div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-        <h1 class="w3-text-teal">Heading</h1>
-        <p>Lorem ipsum dolor $\xi = \frac23$ sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, **Shaun Changed This** consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div class="w3-third w3-container">
-        <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-        <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
-    </div>
-</div>
+<!DOCTYPE html>
+<html>
+    <title>Shaun's Personal Website</title>
+    <script type="text/x-mathjax-config">
+MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+    z-index: 3;
+    width: 250px;
+    top: 43px;
+    bottom: 0;
+    height: inherit;
+}
+    </style>
+    <body>
 
-<div class="w3-row">
-    <div class="w3-twothird w3-container">
-        <h1 class="w3-text-teal">Heading</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <h2>Math in TeX notation</h2>
-
-        When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
-        $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
-        $$ \begin{array}{rcll}
-        y & = & x^{2}+bx+c\\
-        & = & x^{2}+2\times\dfrac{b}{2}x+c\\
-        & = & \underbrace{x^{2}+2\times\dfrac{b}{2}x+\left(\frac{b}{2}\right)^{2}}-
-        {\left(\dfrac{b}{2}\right)^{2}+c}\\
-        &  & \qquad\left(x+{\dfrac{b}{2}}\right)^{2}\\
-        & = & \left(x+\dfrac{b}{2}\right)^{2}-\left(\dfrac{b}{2}\right)^{2}+c 
-        & \left|+\left({\dfrac{b}{2}}\right)^{2}-c\right.\\
-        y+\left(\dfrac{b}{2}\right)^{2}-c & = & \left(x+
-        \dfrac{b}{2}\right)^{2} & \left|\strut(\textrm{vertex form})\right.\\
-        y-y_{S} & = & (x-x_{S})^{2}\\
-        S(x_{S};y_{S}) & \,\textrm{or}\, 
-        & S\left(-\dfrac{b}{2};\,\left(\dfrac{b}{2}\right)^{2}-c\right)
-        \end{array} $$
-    </div>
-    <div class="w3-third w3-container">
-        <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-        <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
-    </div>
-</div>
-
-<div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-        <h1 class="w3-text-teal">Heading</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div class="w3-third w3-container">
-        <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-        <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
-    </div>
-</div>
-
-<div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-        <h1 class="w3-text-teal">Heading</h1>
-        <p>Lorem ipsum dolor $\xi = \frac23$ sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-</div>
-
-<div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-        <div markdown=1>
-            <h2 class="w3-text-teal">Heading2</h2>
-            <p> Testing markdown
-            ## real test of a markdown header
-            ## *bold*
-            # _italics_</p>
-
-            <h3 class="w3-text-teal">Heading3</h3>
-            <p> This isn't really working is it....
-            $ \frac{x}{y}=\frac12 $
-            </p>
+        <!-- Navbar -->
+        <div class="w3-top">
+            <div class="w3-bar w3-theme w3-card w3-large">
+                <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+                <a href="index" class="w3-bar-item w3-button w3-theme-l1" title="Home"><i class="fa fa-home"></i></a>
+                <a href="Contact" class="w3-bar-item w3-button w3-hover-white" title="Contact"><i class="fa fa-envelope"></i></a>
+                <a href="News" class="w3-bar-item w3-button w3-hover-white" title="News"><i class="fa fa-newspaper-o"></i></a>
+                <a href="CV" class="w3-bar-item w3-button w3-hover-white" title="Curriculum Vitae">CV</a>
+            </div>
         </div>
-    </div>
-</div>
 
-<div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-        <h1 class="w3-text-teal">Heading</h1>
-        <p>Lorem ipsum dolor $\xi = \frac23$ sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <p><embed src="SHarris_CV.pdf" width="500" height="375" type='application/pdf'></p>
+        <!-- Sidebar -->
+        <nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+            <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+                <i class="fa fa-remove"></i>
+            </a>
+            <h4 class="w3-bar-item"><b>Menu</b></h4>
+            <a class="w3-bar-item w3-button w3-hover-black" href="index" title="Home"><i class="fa fa-home"></i> Home</a>
+            <a class="w3-bar-item w3-button w3-hover-black" href="Contact" title="Contact"><i class="fa fa-envelope"></i> Contact</a>
+            <a class="w3-bar-item w3-button w3-hover-black" href="News" title="News"><i class="fa fa-newspaper-o"></i> News</a>
+            <div class="w3-dropdown-hover">
+                <button class="w3-button">Curriculum Vitae<i class="fa fa-caret-down"></i></button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a class="w3-bar-item w3-button" href="CV" title="Curriculum Vitae"><i class="fa fa-file-o"></i> Curriculum Vitae</a>
+                    <a class="w3-bar-item w3-button" href="SHarris_CV.pdf" title="Curriculum Vitae"><i class="fa fa-file-pdf-o"></i> Curriculum Vitae</a>
+                </div>
+            </div>
+            <div class="w3-dropdown-hover">
+                <button class="w3-button">More<i class="fa fa-caret-down"></i></button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="vimwiki_html/index" class="w3-bar-item w3-button"><i class="fa fa-archive"></i> Vimwiki</a>
+                    <a href="vimwiki_html/diary/diary" class="w3-bar-item w3-button"><i class="fa fa-book"></i> Vimwiki_diary</a>
+                    <a href="ME210/index" class="w3-bar-item w3-button"><i class="fa fa-car"></i> ME210 Mechatronics</a>
+                </div>
+            </div>
+        </nav>
 
-    </div>
-</div>
+        <!-- Overlay effect when opening sidebar on small screens -->
+        <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
-<div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-        <p><embed src="SHarris_CV.pdf" width="100%" height="800px" type='application/pdf'></p>
-    </div>
-</div>
+        <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+        <div class="w3-main" style="margin-left:250px">
+            <!-- MAIN -->
+            <div class="w3-row w3-padding-64">
+                <div class="w3-twothird w3-container">
+                    <h1 class="w3-text-teal">Heading</h1>
+                    <p>Lorem ipsum dolor $\xi = \frac23$ sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
+                    dolor sit amet, **Shaun Changed This** consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="w3-third w3-container">
+                    <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+                    <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+                </div>
+            </div>
 
-<div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-        <div markdown=1>
-            <h2 class="w3-text-teal">Heading2</h2>
+            <div class="w3-row">
+                <div class="w3-twothird w3-container">
+                    <h1 class="w3-text-teal">Heading</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h2>Math in TeX notation</h2>
 
-            Testing markdown
-            ## real test of a markdown header
-            ## *bold*
-            # _italics_
-            <h3 class="w3-text-teal">Heading3</h3>
+                    When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
+                    $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+                    $$ \begin{array}{rcll}
+                    y & = & x^{2}+bx+c\\
+                    & = & x^{2}+2\times\dfrac{b}{2}x+c\\
+                    & = & \underbrace{x^{2}+2\times\dfrac{b}{2}x+\left(\frac{b}{2}\right)^{2}}-
+                    {\left(\dfrac{b}{2}\right)^{2}+c}\\
+                    &  & \qquad\left(x+{\dfrac{b}{2}}\right)^{2}\\
+                    & = & \left(x+\dfrac{b}{2}\right)^{2}-\left(\dfrac{b}{2}\right)^{2}+c 
+                    & \left|+\left({\dfrac{b}{2}}\right)^{2}-c\right.\\
+                    y+\left(\dfrac{b}{2}\right)^{2}-c & = & \left(x+
+                    \dfrac{b}{2}\right)^{2} & \left|\strut(\textrm{vertex form})\right.\\
+                    y-y_{S} & = & (x-x_{S})^{2}\\
+                    S(x_{S};y_{S}) & \,\textrm{or}\, 
+                    & S\left(-\dfrac{b}{2};\,\left(\dfrac{b}{2}\right)^{2}-c\right)
+                    \end{array} $$
+                </div>
+                <div class="w3-third w3-container">
+                    <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+                    <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+                </div>
+            </div>
 
-            This isn't really working is it....
-            $ \frac{x}{y}=\frac12 $
+            <div class="w3-row w3-padding-64">
+                <div class="w3-twothird w3-container">
+                    <h1 class="w3-text-teal">Heading</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="w3-third w3-container">
+                    <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+                    <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+                </div>
+            </div>
 
+            <div class="w3-row w3-padding-64">
+                <div class="w3-twothird w3-container">
+                    <h1 class="w3-text-teal">Heading</h1>
+                    <p>Lorem ipsum dolor $\xi = \frac23$ sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+
+            <div class="w3-row w3-padding-64">
+                <div class="w3-twothird w3-container">
+                    <div markdown=1>
+                        <h2 class="w3-text-teal">Heading2</h2>
+                        <p> Testing markdown
+                        ## real test of a markdown header
+                        ## *bold*
+                        # _italics_</p>
+
+                        <h3 class="w3-text-teal">Heading3</h3>
+                        <p> This isn't really working is it....
+                        $ \frac{x}{y}=\frac12 $
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-row w3-padding-64">
+                <div class="w3-twothird w3-container">
+                    <h1 class="w3-text-teal">Heading</h1>
+                    <p>Lorem ipsum dolor $\xi = \frac23$ sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p><embed src="SHarris_CV.pdf" width="500" height="375" type='application/pdf'></p>
+
+                </div>
+            </div>
+
+            <div class="w3-row w3-padding-64">
+                <div class="w3-twothird w3-container">
+                    <p><embed src="SHarris_CV.pdf" width="100%" height="800px" type='application/pdf'></p>
+                </div>
+            </div>
+
+            <div class="w3-row w3-padding-64">
+                <div class="w3-twothird w3-container">
+                    <div markdown=1>
+                        <h2 class="w3-text-teal">Heading2</h2>
+
+                        Testing markdown
+                        ## real test of a markdown header
+                        ## *bold*
+                        # _italics_
+                        <h3 class="w3-text-teal">Heading3</h3>
+
+                        This isn't really working is it....
+                        $ \frac{x}{y}=\frac12 $
+
+                    </div>
+                </div>
+            </div>
+            <!-- Pagination -->
+            <div class="w3-center w3-padding-32">
+                <div class="w3-bar">
+                    <a class="w3-button w3-black" href="#">1</a>
+                    <a class="w3-button w3-hover-black" href="#">2</a>
+                    <a class="w3-button w3-hover-black" href="#">3</a>
+                    <a class="w3-button w3-hover-black" href="#">4</a>
+                    <a class="w3-button w3-hover-black" href="#">5</a>
+                    <a class="w3-button w3-hover-black" href="#">»</a>
+                </div>
+            </div>
+
+            <footer id="myFooter">
+                <div class="w3-container w3-theme-l2 w3-padding-32">
+                    <h4>Footer</h4>
+                    and stuff
+                </div>
+
+                <div class="w3-container w3-theme-l1">
+                    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+                </div>
+            </footer>
+
+            <!-- END MAIN -->
         </div>
-    </div>
-</div>
-<!-- Pagination -->
-<div class="w3-center w3-padding-32">
-    <div class="w3-bar">
-        <a class="w3-button w3-black" href="#">1</a>
-        <a class="w3-button w3-hover-black" href="#">2</a>
-        <a class="w3-button w3-hover-black" href="#">3</a>
-        <a class="w3-button w3-hover-black" href="#">4</a>
-        <a class="w3-button w3-hover-black" href="#">5</a>
-        <a class="w3-button w3-hover-black" href="#">»</a>
-    </div>
-</div>
 
-<footer id="myFooter">
-    <div class="w3-container w3-theme-l2 w3-padding-32">
-        <h4>Footer</h4>
-        and stuff
-    </div>
+        <script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
 
-    <div class="w3-container w3-theme-l1">
-        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-    </div>
-</footer>
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
 
-<!-- END MAIN -->
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+        overlayBg.style.display = "none";
+    } else {
+        mySidebar.style.display = 'block';
+        overlayBg.style.display = "block";
+    }
+}
 
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+    overlayBg.style.display = "none";
+}
+        </script>
 
-<!--#include virtual="footer.html" -->
+    </body>
+</html>
