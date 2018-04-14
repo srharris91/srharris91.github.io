@@ -77,30 +77,218 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
 
                     
-<div id="My knowledge base"><h1 id="My knowledge base">My knowledge base</h1></div>
-<ul>
-<li>
-<a href="Tasks.html">Tasks</a> -- things to be done <em>yesterday</em>!!!
+<div id="GDB - GNU Project Debugger"><h2 id="GDB - GNU Project Debugger">GDB - GNU Project Debugger</h2></div>
+<div id="GDB - GNU Project Debugger-To start"><h3 id="To start">To start</h3></div>
+<p>
+Compile program with -g flag then run:
+</p>
+<pre bash>
+gdb ./a.out
+</pre>
+<p>
+To begin the program execution type
+</p>
+<pre bash>
+run
+</pre>
+<p>
+or
+</p>
+<pre bash>
+r
+</pre>
 
-<li>
-<a href="Classes.html">Classes</a>
+<p>
+Then it will run the program and say if it exited normally or not.  Then to set a breakpoint at a function named do_something, type:
+</p>
+<pre bash>
+break do_something
+</pre>
+<p>
+Then type 
+</p>
+<pre bash>
+r
+</pre>
+<p>
+for run (or could do full run command) to run the program to that break point.  It will tell the inputs to the function.
+Type:
+</p>
+<pre bash>
+finish
+</pre>
+<p>
+or
+</p>
+<pre bash>
+fin
+</pre>
 
-<li>
-<a href="Debugging.html">Debugging</a>
+<p>
+to finish the specific function and return the output.
+Then to continue, type
+</p>
+<pre bash>
+c
+</pre>
+<p>
+and it will continue to the next break point.
+Then type
+</p>
+<pre bash>
+fin
+</pre>
+<p>
+to finish the next function call again.
+</p>
 
-<li>
-<a href="Websites.html">Websites</a> -- good resources
+<p>
+To finish the program in the middle, type
+</p>
+<pre bash>
+kill
+</pre>
 
-<li>
-<a href="Project.html">Project</a> 
+<p>
+Then you can check what breakpoints you have by typing
+</p>
+<pre bash>
+info breakpoints
+</pre>
+<p>
+or
+</p>
+<pre bash>
+i b
+</pre>
 
-<li>
-<a href="Scratchpad.html">Scratchpad</a> -- various temporary stuff.
+<p>
+And you can delete Num 1 by typing (where Num lists the number of the breakpoint set)
+</p>
+<pre bash>
+delete 1
+</pre>
 
-<li>
-<a href="Template.html">Template</a>
+<p>
+You can also set conditional breakpoints by typing
+</p>
+<pre bash>
+breakpoint do_something if x &lt; 0
+</pre>
+<p>
+Which will only break at the function call if the x is less than 0.
+</p>
 
-</ul>
+<p>
+gdb breakpoint commands can be seen here: <a href="https:&#47;&#47;sourceware.org&#47;gdb&#47;onlinedocs&#47;gdb&#47;Break-Commands.html">https://sourceware.org/gdb/onlinedocs/gdb/Break-Commands.html</a>
+</p>
+
+<p>
+To print out a variable named i after you have hit a breakpoint, type:
+</p>
+<pre bash>
+print i
+</pre>
+
+<p>
+To break at line 45 of file compile.cpp type:
+</p>
+<pre bash>
+break compile.cpp:45
+</pre>
+
+<p>
+Also, to step through your program line by line, you can type (by default goes into functions... so you get constructors and things)
+</p>
+<pre bash>
+s
+</pre>
+<p>
+and then just enter to repeat the step call.
+</p>
+
+<p>
+Or to just go to the next line, and not go into the functions type
+</p>
+<pre bash>
+n
+</pre>
+
+<p>
+To see where you are at in the command, you can type
+</p>
+<pre bash>
+bt
+</pre>
+<p>
+to print out the backtrace of where you are.  And it will tell you where you are by line, and by the frame indicated on the left by the # symbol.
+</p>
+
+<p>
+Also, to see things further up you can specify the frame to get more info with
+</p>
+<pre bash>
+f 1
+</pre>
+<p>
+to specify looking into frame 1
+</p>
+
+<p>
+You can also set a variable to watch, to see if it gets written to by anything and stop the program.  You can do this by typing
+</p>
+<pre bash>
+watch &amp;my_war;
+</pre>
+
+<p>
+To quit gdb, type
+</p>
+<pre bash>
+quit
+</pre>
+<p>
+or 
+</p>
+<pre bash>
+q
+</pre>
+<div id="GDB - GNU Project Debugger-To run GDB on an MPI parallel code"><h3 id="To run GDB on an MPI parallel code">To run GDB on an MPI parallel code</h3></div>
+<p>
+You can use a software called TotalView, or you can run it using GDB and terminator with the following command
+</p>
+<pre bash>
+mpirun -n 2 terminator -x gdb ./a.out
+</pre>
+<p>
+This will open up to terminator terminals of gdb, then you just hit run in each one to get both processes running at the same time.
+MPI will wait until the MPI_INIT call is run on all processes.
+</p>
+
+<div id="Valgrind - memory management"><h2 id="Valgrind - memory management">Valgrind - memory management</h2></div>
+<p>
+To run, you just type
+</p>
+<pre bash>
+valgrind ./a.out
+</pre>
+<p>
+Runs for a long time, but will list a summary at the end of the memory usage, and the leaks!
+Also lists uninitialized and can use flags such as
+</p>
+<pre bash>
+--leak-check=full
+</pre>
+<p>
+To list the full leak summary output
+Or you can use
+</p>
+<pre bash>
+--track-origins=yes
+</pre>
+<p>
+to see where the uninitialized variables were lost.
+</p>
 
 
 
