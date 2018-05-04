@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['x',['x',['../incomp_2user_8F.html#a91f27329cbc70a03207bcee33e2b42fd',1,'x():&#160;user.F'],['../incomp_2user_8F.html#a91f27329cbc70a03207bcee33e2b42fd',1,'x():&#160;user.F'],['../incomp_2user_8F.html#a91f27329cbc70a03207bcee33e2b42fd',1,'x():&#160;user.F'],['../incomp_2user_8F.html#a91f27329cbc70a03207bcee33e2b42fd',1,'x():&#160;user.F'],['../incomp_2user_8F.html#a91f27329cbc70a03207bcee33e2b42fd',1,'x():&#160;user.F'],['../tcqmrimpl_8h.html#a6c4b361d72eb3767ba424ac9a6ecf52b',1,'x():&#160;tcqmrimpl.h'],['../tfs_8h.html#a207fd5507206d307cd63f95374fcd00d',1,'X():&#160;tfs.h']]],
+  ['x0dot',['X0DOT',['../snes_2examples_2tutorials_2ex59_8c.html#ad3856cf9d4ef7910ee556da547e64d23',1,'ex59.c']]],
+  ['x1',['X1',['../dgmresimpl_8h.html#a1964818ccd90a6173ea48cecb652feeb',1,'X1():&#160;dgmresimpl.h'],['../snes_2examples_2tutorials_2ex59_8c.html#a1964818ccd90a6173ea48cecb652feeb',1,'X1():&#160;ex59.c']]],
+  ['x2',['X2',['../dgmresimpl_8h.html#a79ae03a0214cb30e57b9e8835f2a0019',1,'dgmresimpl.h']]],
+  ['x_5frange',['X_RANGE',['../include_2petsc_2finclude_2petscdmda_8h.html#a06c617ee7323ed045ddffe728a20e665',1,'petscdmda.h']]],
+  ['xg_5frange',['XG_RANGE',['../include_2petsc_2finclude_2petscdmda_8h.html#ac4feabea71f389afb3536b5e8af22ad6',1,'petscdmda.h']]],
+  ['xmu',['XMU',['../dgmresimpl_8h.html#a804894fb0fc0bc68484018f80290b75a',1,'dgmresimpl.h']]],
+  ['xmx',['XMX',['../dgmresimpl_8h.html#ad3309167db150e3c05a3e3b5f8cca74c',1,'dgmresimpl.h']]],
+  ['xn',['xn',['../incomp_2user_8F.html#a5bd263704dd406b95e190a76854eaddf',1,'xn():&#160;user.F'],['../incomp_2user_8F.html#a5bd263704dd406b95e190a76854eaddf',1,'xn():&#160;user.F'],['../incomp_2userJac_8F.html#a5bd263704dd406b95e190a76854eaddf',1,'xn():&#160;userJac.F']]],
+  ['xn_5f1',['Xn_1',['../ibcgs_8c.html#afa1b23a369c6d9172b3e6b7e19fe83e5',1,'Xn_1():&#160;ibcgs.c'],['../ibcgs_8c.html#a0b1e39e41f318dfb796db78905087ded',1,'xn_1():&#160;ibcgs.c']]],
+  ['xptrans',['XPTRANS',['../openglops_8c.html#add6563939db2fb2ce2ba69111b855f2b',1,'openglops.c']]],
+  ['xtrans',['XTRANS',['../drawimage_8c.html#aeee7fffbab3f98f2e10ef29ea23c0200',1,'XTRANS():&#160;drawimage.c'],['../openglops_8c.html#a2cf1bae811d6eb2b1919cf29e4cabf34',1,'XTRANS():&#160;openglops.c'],['../tikz_8c.html#a2cf1bae811d6eb2b1919cf29e4cabf34',1,'XTRANS():&#160;tikz.c'],['../win32draw_8c.html#af5df9d3242779a92514a2b74d594edd5',1,'XTRANS():&#160;win32draw.c'],['../xops_8c.html#accb02af628db11bad5794f3f4a8916f9',1,'XTRANS():&#160;xops.c']]],
+  ['xx',['xx',['../snes_2examples_2tests_2ex12f_8F.html#ac293efe9f98090b8f18c2355c1b5c4eb',1,'xx():&#160;ex12f.F'],['../dgmresimpl_8h.html#a7b8003af9a638915bbca18f3896c5eb7',1,'XX():&#160;dgmresimpl.h']]],
+  ['xx_5fa',['xx_a',['../vec_2vec_2examples_2tutorials_2ex4f_8F.html#accf6b5732b7b24f2fb1637bd193cb741',1,'ex4f.F']]],
+  ['xy',['XY',['../tfs_8h.html#a323358fd84497c5085b677efc3c1ab92',1,'tfs.h']]],
+  ['xz',['XZ',['../tfs_8h.html#a6736db3c0be0d143ef677e1341a7e9e6',1,'tfs.h']]]
+];
