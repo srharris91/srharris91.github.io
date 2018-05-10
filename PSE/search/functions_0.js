@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['_21formfunctiongradient',['!FormFunctionGradient',['../chwirut1f_8h.html#a3c5e88f85c2e3942aeda1eef80912d9a',1,'!FormFunctionGradient():&#160;chwirut1f.h'],['../chwirut2f_8h.html#aef6f9812b2b4c74f3783a79562da2775',1,'!FormFunctionGradient():&#160;chwirut2f.h'],['../rosenbrock1f_8h.html#a592440b0a4eb1965ebb5944c920e4eb9',1,'!FormFunctionGradient():&#160;rosenbrock1f.h']]]
+  ['ax_5fb',['Ax_b',['../namespacePSE.html#a34e5a20f5f1deeb44a0bb7b5c2ed9953',1,'PSE::Ax_b(const PetscScalar *const *Ain, Vec &amp;x, const PetscScalar bin[], const PetscInt &amp;n)'],['../namespacePSE.html#a95785703297cd3c22a8ad3035ccb0d6f',1,'PSE::Ax_b(const Mat &amp;A, Vec &amp;x, const Vec &amp;b, const PetscInt &amp;n)']]]
 ];

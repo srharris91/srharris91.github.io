@@ -44,9 +44,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li class="current"><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -97,129 +95,132 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a34e5a20f5f1deeb44a0bb7b5c2ed9953"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a34e5a20f5f1deeb44a0bb7b5c2ed9953">Ax_b</a> (const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> *const *Ain, <a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;<a class="el" href="src_2sys_2f90-mod_2petscsys_8h.html#ae460e1b9c19b65c1b6e510b35d024ee8">x</a>, const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> bin[], const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="ex7_8m.html#aeab71244afb687f16d8c4f5ee9d6ef0e">n</a>)</td></tr>
-<tr class="memdesc:a34e5a20f5f1deeb44a0bb7b5c2ed9953"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solves \(x\) in \(Ax=b\) linalg problem using <a class="el" href="namespacePETSc.html">PETSc</a> in parallel.  <a href="#a34e5a20f5f1deeb44a0bb7b5c2ed9953">More...</a><br /></td></tr>
+<tr class="memitem:a34e5a20f5f1deeb44a0bb7b5c2ed9953"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a34e5a20f5f1deeb44a0bb7b5c2ed9953">Ax_b</a> (const PetscScalar *const *Ain, Vec &amp;x, const PetscScalar bin[], const PetscInt &amp;n)</td></tr>
+<tr class="memdesc:a34e5a20f5f1deeb44a0bb7b5c2ed9953"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solves \(x\) in \(Ax=b\) linalg problem using PETSc in parallel.  <a href="#a34e5a20f5f1deeb44a0bb7b5c2ed9953">More...</a><br /></td></tr>
 <tr class="separator:a34e5a20f5f1deeb44a0bb7b5c2ed9953"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95785703297cd3c22a8ad3035ccb0d6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a95785703297cd3c22a8ad3035ccb0d6f">Ax_b</a> (const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;<a class="el" href="laplacian_8m.html#a4e6f4c9c72f94c82a12f25f6e3b1b233">A</a>, <a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;<a class="el" href="src_2sys_2f90-mod_2petscsys_8h.html#ae460e1b9c19b65c1b6e510b35d024ee8">x</a>, const <a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;<a class="el" href="ex7_8m.html#ace7252a6e83274662912bf7d145df5f6">b</a>, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="ex7_8m.html#aeab71244afb687f16d8c4f5ee9d6ef0e">n</a>)</td></tr>
-<tr class="memdesc:a95785703297cd3c22a8ad3035ccb0d6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solves \(x\) in \(Ax=b\) linalg problem using <a class="el" href="namespacePETSc.html">PETSc</a> in parallel.  <a href="#a95785703297cd3c22a8ad3035ccb0d6f">More...</a><br /></td></tr>
+<tr class="memitem:a95785703297cd3c22a8ad3035ccb0d6f"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a95785703297cd3c22a8ad3035ccb0d6f">Ax_b</a> (const Mat &amp;A, Vec &amp;x, const Vec &amp;b, const PetscInt &amp;n)</td></tr>
+<tr class="memdesc:a95785703297cd3c22a8ad3035ccb0d6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solves \(x\) in \(Ax=b\) linalg problem using PETSc in parallel.  <a href="#a95785703297cd3c22a8ad3035ccb0d6f">More...</a><br /></td></tr>
 <tr class="separator:a95785703297cd3c22a8ad3035ccb0d6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b8d60bbf36c62823c87b0d52468e074"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a7b8d60bbf36c62823c87b0d52468e074">base_flow</a> (<a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> U[], <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> Uy[], const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> <a class="el" href="include_2petscmat_8h.html#accad72f7600fc4c1f6c849a5ca0bc5a7">y</a>[], const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="ex7_8m.html#aeab71244afb687f16d8c4f5ee9d6ef0e">n</a>)</td></tr>
+<tr class="memitem:a7b8d60bbf36c62823c87b0d52468e074"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a7b8d60bbf36c62823c87b0d52468e074">base_flow</a> (PetscScalar U[], PetscScalar Uy[], const PetscScalar y[], const PetscInt &amp;n)</td></tr>
 <tr class="memdesc:a7b8d60bbf36c62823c87b0d52468e074"><td class="mdescLeft">&#160;</td><td class="mdescRight">set plane channel flow velocity variables U, U' and U''  use this once to set the vectors with the velocity of plane channel flow (max u=1)  <a href="#a7b8d60bbf36c62823c87b0d52468e074">More...</a><br /></td></tr>
 <tr class="separator:a7b8d60bbf36c62823c87b0d52468e074"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bb5e7edc1d6b2afb1f8baff278c8091"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a5bb5e7edc1d6b2afb1f8baff278c8091">base_flow</a> (<a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;U, <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;Uy, const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> <a class="el" href="include_2petscmat_8h.html#accad72f7600fc4c1f6c849a5ca0bc5a7">y</a>[], const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="ex7_8m.html#aeab71244afb687f16d8c4f5ee9d6ef0e">n</a>)</td></tr>
+<tr class="memitem:a5bb5e7edc1d6b2afb1f8baff278c8091"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a5bb5e7edc1d6b2afb1f8baff278c8091">base_flow</a> (Mat &amp;U, Mat &amp;Uy, const PetscScalar y[], const PetscInt &amp;n)</td></tr>
 <tr class="memdesc:a5bb5e7edc1d6b2afb1f8baff278c8091"><td class="mdescLeft">&#160;</td><td class="mdescRight">set plane channel flow velocity variables U, U' and U''  use this once to set the vectors with the velocity of plane channel flow (max u=1)  <a href="#a5bb5e7edc1d6b2afb1f8baff278c8091">More...</a><br /></td></tr>
 <tr class="separator:a5bb5e7edc1d6b2afb1f8baff278c8091"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac737dca1fbf2db885935de26fa2d977d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ac737dca1fbf2db885935de26fa2d977d">calc_Closure</a> (const <a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;q, <a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;qp1, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="generatePetscTestFiles_8m.html#a289ca425eb368f1d582b6be2be0d3dfc">ny</a>, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="generatePetscTestFiles_8m.html#a1d8eb7c9ec4313c8ce1257e68dc21366">nz</a>, <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;I, const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;Deltax=2)</td></tr>
-<tr class="memdesc:ac737dca1fbf2db885935de26fa2d977d"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the closure equation \( \int_{\Omega} \hat{\textbf{q}}^\dagger \hat{\textbf{q}}_x dy \) and output the result  <a href="#ac737dca1fbf2db885935de26fa2d977d">More...</a><br /></td></tr>
-<tr class="separator:ac737dca1fbf2db885935de26fa2d977d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd6d3524c36acc4ba132b8051151ca97"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#afd6d3524c36acc4ba132b8051151ca97">factorial</a> (unsigned <a class="el" href="ex7_8m.html#aeab71244afb687f16d8c4f5ee9d6ef0e">n</a>)</td></tr>
+<tr class="memitem:a07a1433a511b21a0cff22a5b3131e00a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a07a1433a511b21a0cff22a5b3131e00a">calc_Closure</a> (const Vec &amp;q, Vec &amp;qp1, const PetscInt &amp;ny, const PetscInt &amp;nz, PetscScalar &amp;I, const PetscScalar &amp;Deltay=2, const PetscScalar &amp;Deltaz=1)</td></tr>
+<tr class="memdesc:a07a1433a511b21a0cff22a5b3131e00a"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the closure equation \( \int_{\Omega} \hat{\textbf{q}}^\dagger \hat{\textbf{q}}_x dy \) and output the result  <a href="#a07a1433a511b21a0cff22a5b3131e00a">More...</a><br /></td></tr>
+<tr class="separator:a07a1433a511b21a0cff22a5b3131e00a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd6d3524c36acc4ba132b8051151ca97"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#afd6d3524c36acc4ba132b8051151ca97">factorial</a> (unsigned n)</td></tr>
 <tr class="memdesc:afd6d3524c36acc4ba132b8051151ca97"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the factorial of an integer  <a href="#afd6d3524c36acc4ba132b8051151ca97">More...</a><br /></td></tr>
 <tr class="separator:afd6d3524c36acc4ba132b8051151ca97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf121ec8492dfe6fd8cde8b6b05aaa14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aaf121ec8492dfe6fd8cde8b6b05aaa14">get_D_Coeffs</a> (const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> <a class="el" href="PetscBinaryWrite_8m.html#a49eeab63323bda1b7a7a4b59bc5595ed">s</a>[], const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="ex7_8m.html#aeab71244afb687f16d8c4f5ee9d6ef0e">n</a>, <a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;output, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="generatehtml_8m.html#a1aabac6d068eef6a7bad3fdf50a05cc8">d</a>=2)</td></tr>
+<tr class="memitem:aaf121ec8492dfe6fd8cde8b6b05aaa14"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aaf121ec8492dfe6fd8cde8b6b05aaa14">get_D_Coeffs</a> (const PetscScalar s[], const PetscInt &amp;n, Vec &amp;output, const PetscInt &amp;d=2)</td></tr>
 <tr class="memdesc:aaf121ec8492dfe6fd8cde8b6b05aaa14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve arbitrary stencil points s of length N with order of derivatives d&lt;N can be obtained from equation on MIT website <a href="http://web.media.mit.edu/~crtaylor/calculator.html">http://web.media.mit.edu/~crtaylor/calculator.html</a> where the accuracy is determined as the usual form O(h^(N-d))  <a href="#aaf121ec8492dfe6fd8cde8b6b05aaa14">More...</a><br /></td></tr>
 <tr class="separator:aaf121ec8492dfe6fd8cde8b6b05aaa14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a28bf5687be08e4dd183f9eff806487"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a6a28bf5687be08e4dd183f9eff806487">Init_Mat</a> (<a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;<a class="el" href="laplacian_8m.html#a4e6f4c9c72f94c82a12f25f6e3b1b233">A</a>, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="ex7_8m.html#aeab71244afb687f16d8c4f5ee9d6ef0e">n</a>)</td></tr>
+<tr class="memitem:a6a28bf5687be08e4dd183f9eff806487"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a6a28bf5687be08e4dd183f9eff806487">Init_Mat</a> (Mat &amp;A, const PetscInt &amp;n)</td></tr>
 <tr class="memdesc:a6a28bf5687be08e4dd183f9eff806487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a Matrix A to be of size nxn.  <a href="#a6a28bf5687be08e4dd183f9eff806487">More...</a><br /></td></tr>
 <tr class="separator:a6a28bf5687be08e4dd183f9eff806487"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc379863dab0514427427caf2889d23d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#acc379863dab0514427427caf2889d23d">Init_Mat</a> (<a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;<a class="el" href="laplacian_8m.html#a4e6f4c9c72f94c82a12f25f6e3b1b233">A</a>, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="PetscBinaryRead_8m.html#ab3cd915d758008bd19d0f2428fbb354a">m</a>, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="ex7_8m.html#aeab71244afb687f16d8c4f5ee9d6ef0e">n</a>)</td></tr>
+<tr class="memitem:acc379863dab0514427427caf2889d23d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#acc379863dab0514427427caf2889d23d">Init_Mat</a> (Mat &amp;A, const PetscInt &amp;m, const PetscInt &amp;n)</td></tr>
 <tr class="memdesc:acc379863dab0514427427caf2889d23d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a Matrix A to be of size nxn.  <a href="#acc379863dab0514427427caf2889d23d">More...</a><br /></td></tr>
 <tr class="separator:acc379863dab0514427427caf2889d23d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a929ef72234fddb31ff867fa1446a8905"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a929ef72234fddb31ff867fa1446a8905">Init_Vec</a> (<a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;<a class="el" href="src_2sys_2f90-mod_2petscsys_8h.html#ae460e1b9c19b65c1b6e510b35d024ee8">x</a>, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="ex7_8m.html#aeab71244afb687f16d8c4f5ee9d6ef0e">n</a>)</td></tr>
+<tr class="memitem:a929ef72234fddb31ff867fa1446a8905"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a929ef72234fddb31ff867fa1446a8905">Init_Vec</a> (Vec &amp;x, const PetscInt &amp;n)</td></tr>
 <tr class="memdesc:a929ef72234fddb31ff867fa1446a8905"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a vector x to be of size n.  <a href="#a929ef72234fddb31ff867fa1446a8905">More...</a><br /></td></tr>
 <tr class="separator:a929ef72234fddb31ff867fa1446a8905"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5255dc142780be9634b3e84da8cd0263"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2petscsys_8h.html#aefae79199a0dda59581d16f802913456">PetscErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a5255dc142780be9634b3e84da8cd0263">printScalar</a> (const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> <a class="el" href="src_2sys_2f90-mod_2petscsys_8h.html#ae460e1b9c19b65c1b6e510b35d024ee8">x</a>[], const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> <a class="el" href="ex7_8m.html#aeab71244afb687f16d8c4f5ee9d6ef0e">n</a>=1, char const <a class="el" href="PetscBinaryRead_8m.html#adf8076b28fdb4d871ad85197b4b0f313">name</a>[]=&quot;x&quot;, PetscViewer viewer=<a class="el" href="include_2petscviewer_8h.html#a742ddcc4cb6ae34d7c2c6d1a945f7dc7">PETSC_VIEWER_STDOUT_WORLD</a>)</td></tr>
+<tr class="memitem:a5255dc142780be9634b3e84da8cd0263"><td class="memItemLeft" align="right" valign="top">PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a5255dc142780be9634b3e84da8cd0263">printScalar</a> (const PetscScalar x[], const PetscInt n=1, char const name[]=&quot;x&quot;, PetscViewer viewer=PETSC_VIEWER_STDOUT_WORLD)</td></tr>
 <tr class="memdesc:a5255dc142780be9634b3e84da8cd0263"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print PetscScalar variable to screen.  <a href="#a5255dc142780be9634b3e84da8cd0263">More...</a><br /></td></tr>
 <tr class="separator:a5255dc142780be9634b3e84da8cd0263"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed14e439ee0a3b7fda3f733e98081363"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2petscsys_8h.html#aefae79199a0dda59581d16f802913456">PetscErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aed14e439ee0a3b7fda3f733e98081363">printVec</a> (<a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;<a class="el" href="src_2sys_2f90-mod_2petscsys_8h.html#ae460e1b9c19b65c1b6e510b35d024ee8">x</a>, <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> <a class="el" href="ex7_8m.html#aeab71244afb687f16d8c4f5ee9d6ef0e">n</a>, char const <a class="el" href="PetscBinaryRead_8m.html#adf8076b28fdb4d871ad85197b4b0f313">name</a>[]=&quot;x&quot;)</td></tr>
-<tr class="memdesc:aed14e439ee0a3b7fda3f733e98081363"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print Vec from <a class="el" href="namespacePETSc.html">PETSc</a> type variable to screen.  <a href="#aed14e439ee0a3b7fda3f733e98081363">More...</a><br /></td></tr>
+<tr class="memitem:aed14e439ee0a3b7fda3f733e98081363"><td class="memItemLeft" align="right" valign="top">PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aed14e439ee0a3b7fda3f733e98081363">printVec</a> (Vec &amp;x, PetscInt n, char const name[]=&quot;x&quot;)</td></tr>
+<tr class="memdesc:aed14e439ee0a3b7fda3f733e98081363"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print Vec from PETSc type variable to screen.  <a href="#aed14e439ee0a3b7fda3f733e98081363">More...</a><br /></td></tr>
 <tr class="separator:aed14e439ee0a3b7fda3f733e98081363"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a878fa03e2fd624a254f7800650b569b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2petscsys_8h.html#aefae79199a0dda59581d16f802913456">PetscErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a878fa03e2fd624a254f7800650b569b2">printInt</a> (<a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> <a class="el" href="src_2sys_2f90-mod_2petscsys_8h.html#ae460e1b9c19b65c1b6e510b35d024ee8">x</a>[], <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> <a class="el" href="ex7_8m.html#aeab71244afb687f16d8c4f5ee9d6ef0e">n</a>=1, char const <a class="el" href="PetscBinaryRead_8m.html#adf8076b28fdb4d871ad85197b4b0f313">name</a>[]=&quot;x&quot;)</td></tr>
+<tr class="memitem:a878fa03e2fd624a254f7800650b569b2"><td class="memItemLeft" align="right" valign="top">PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a878fa03e2fd624a254f7800650b569b2">printInt</a> (PetscInt x[], PetscInt n=1, char const name[]=&quot;x&quot;)</td></tr>
 <tr class="memdesc:a878fa03e2fd624a254f7800650b569b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print PetscInt variable to screen.  <a href="#a878fa03e2fd624a254f7800650b569b2">More...</a><br /></td></tr>
 <tr class="separator:a878fa03e2fd624a254f7800650b569b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac72fe6ab93d3156d9290bc2341a2283b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ac72fe6ab93d3156d9290bc2341a2283b">printVecView</a> (<a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;<a class="el" href="src_2sys_2f90-mod_2petscsys_8h.html#ae460e1b9c19b65c1b6e510b35d024ee8">x</a>, char const <a class="el" href="PetscBinaryRead_8m.html#adf8076b28fdb4d871ad85197b4b0f313">name</a>[]=&quot;x viewer&quot;, PetscViewerFormat format=<a class="el" href="include_2petscviewer_8h.html#ab004791550edb882dbb06df9b0d7a6c7a201a5800b1f1f11ff43e8f55d9865112">PETSC_VIEWER_DEFAULT</a>)</td></tr>
+<tr class="memitem:ac72fe6ab93d3156d9290bc2341a2283b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ac72fe6ab93d3156d9290bc2341a2283b">printVecView</a> (Vec &amp;x, char const name[]=&quot;x viewer&quot;, PetscViewerFormat format=PETSC_VIEWER_DEFAULT)</td></tr>
 <tr class="memdesc:ac72fe6ab93d3156d9290bc2341a2283b"><td class="mdescLeft">&#160;</td><td class="mdescRight">view PetscVec variable to screen Open an X-window viewer. Note that we specify the same communicator for the viewer as we used for the distributed vector (PETSC_COMM_WORLD).  <a href="#ac72fe6ab93d3156d9290bc2341a2283b">More...</a><br /></td></tr>
 <tr class="separator:ac72fe6ab93d3156d9290bc2341a2283b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4eca5e043cde66f140837461b4b533c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a4eca5e043cde66f140837461b4b533c5">printMatView</a> (const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;<a class="el" href="laplacian_8m.html#a4e6f4c9c72f94c82a12f25f6e3b1b233">A</a>, char const <a class="el" href="PetscBinaryRead_8m.html#adf8076b28fdb4d871ad85197b4b0f313">name</a>[]=&quot;A viewer&quot;, const <a class="el" href="include_2petscviewer_8h.html#ab004791550edb882dbb06df9b0d7a6c7">PetscViewerFormat</a> format=<a class="el" href="include_2petscviewer_8h.html#ab004791550edb882dbb06df9b0d7a6c7a201a5800b1f1f11ff43e8f55d9865112">PETSC_VIEWER_DEFAULT</a>)</td></tr>
+<tr class="memitem:a4eca5e043cde66f140837461b4b533c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a4eca5e043cde66f140837461b4b533c5">printMatView</a> (const Mat &amp;A, char const name[]=&quot;A viewer&quot;, const PetscViewerFormat format=PETSC_VIEWER_DEFAULT)</td></tr>
 <tr class="memdesc:a4eca5e043cde66f140837461b4b533c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">view Petsc Mat variable to screen Open an X-window viewer. Note that we specify the same communicator for the viewer as we used for the distributed vector (PETSC_COMM_WORLD).  <a href="#a4eca5e043cde66f140837461b4b533c5">More...</a><br /></td></tr>
 <tr class="separator:a4eca5e043cde66f140837461b4b533c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a805847775fb8d170ad2db3518044108b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a805847775fb8d170ad2db3518044108b">printMatASCII</a> (const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;<a class="el" href="laplacian_8m.html#a4e6f4c9c72f94c82a12f25f6e3b1b233">A</a>, char const <a class="el" href="PetscBinaryRead_8m.html#adf8076b28fdb4d871ad85197b4b0f313">name</a>[]=&quot;printMatASCII.txt&quot;, const <a class="el" href="include_2petscviewer_8h.html#ab004791550edb882dbb06df9b0d7a6c7">PetscViewerFormat</a> format=<a class="el" href="include_2petscviewer_8h.html#ab004791550edb882dbb06df9b0d7a6c7a201a5800b1f1f11ff43e8f55d9865112">PETSC_VIEWER_DEFAULT</a>)</td></tr>
+<tr class="memitem:a805847775fb8d170ad2db3518044108b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a805847775fb8d170ad2db3518044108b">printMatASCII</a> (const Mat &amp;A, char const name[]=&quot;printMatASCII.txt&quot;, const PetscViewerFormat format=PETSC_VIEWER_DEFAULT)</td></tr>
 <tr class="memdesc:a805847775fb8d170ad2db3518044108b"><td class="mdescLeft">&#160;</td><td class="mdescRight">view Petsc Mat variable to ASCII file  <a href="#a805847775fb8d170ad2db3518044108b">More...</a><br /></td></tr>
 <tr class="separator:a805847775fb8d170ad2db3518044108b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4364796301e74a3d38cbca8de4983dc6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a4364796301e74a3d38cbca8de4983dc6">printVecASCII</a> (const <a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;<a class="el" href="ex7_8m.html#ace7252a6e83274662912bf7d145df5f6">b</a>, char const <a class="el" href="PetscBinaryRead_8m.html#adf8076b28fdb4d871ad85197b4b0f313">name</a>[]=&quot;printVecASCII.txt&quot;, const <a class="el" href="include_2petscviewer_8h.html#ab004791550edb882dbb06df9b0d7a6c7">PetscViewerFormat</a> format=<a class="el" href="include_2petscviewer_8h.html#ab004791550edb882dbb06df9b0d7a6c7a201a5800b1f1f11ff43e8f55d9865112">PETSC_VIEWER_DEFAULT</a>)</td></tr>
+<tr class="memitem:a4364796301e74a3d38cbca8de4983dc6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a4364796301e74a3d38cbca8de4983dc6">printVecASCII</a> (const Vec &amp;b, char const name[]=&quot;printVecASCII.txt&quot;, const PetscViewerFormat format=PETSC_VIEWER_DEFAULT)</td></tr>
 <tr class="memdesc:a4364796301e74a3d38cbca8de4983dc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">view Petsc Vec variable to ASCII file  <a href="#a4364796301e74a3d38cbca8de4983dc6">More...</a><br /></td></tr>
 <tr class="separator:a4364796301e74a3d38cbca8de4983dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98021bb319e6bf4391df0844fda0d965"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a98021bb319e6bf4391df0844fda0d965">Read_q</a> (<a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;evec, <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> <a class="el" href="include_2petscmat_8h.html#accad72f7600fc4c1f6c849a5ca0bc5a7">y</a>[], const int <a class="el" href="generatePetscTestFiles_8m.html#a289ca425eb368f1d582b6be2be0d3dfc">ny</a>, <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> <a class="el" href="tcqmrimpl_8h.html#afb573e69f3b198fe9ca91079c4a402a9">z</a>[], const int <a class="el" href="generatePetscTestFiles_8m.html#a1d8eb7c9ec4313c8ce1257e68dc21366">nz</a>, <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;<a class="el" href="ex74fcomd_8h.html#a790fd48a98f3039a34e79cb87424a477">alpha</a>, char const buff[]=&quot;../OrrSommerfeld_and_primitive/uvwP_201&quot;)</td></tr>
+<tr class="memitem:a98021bb319e6bf4391df0844fda0d965"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a98021bb319e6bf4391df0844fda0d965">Read_q</a> (Vec &amp;evec, PetscScalar y[], const int ny, PetscScalar z[], const int nz, PetscScalar &amp;alpha, char const buff[]=&quot;../OrrSommerfeld_and_primitive/uvwP_201&quot;)</td></tr>
 <tr class="memdesc:a98021bb319e6bf4391df0844fda0d965"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read q from a tofile output from python.  <a href="#a98021bb319e6bf4391df0844fda0d965">More...</a><br /></td></tr>
 <tr class="separator:a98021bb319e6bf4391df0844fda0d965"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9fdc0a1f5ad0fec1fdfe9a9c641427e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aa9fdc0a1f5ad0fec1fdfe9a9c641427e">Read_q</a> (<a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;output, const int <a class="el" href="ex7_8m.html#aeab71244afb687f16d8c4f5ee9d6ef0e">n</a>, char const buff[]=&quot;./src/tofile.dat&quot;)</td></tr>
+<tr class="memitem:aa9fdc0a1f5ad0fec1fdfe9a9c641427e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aa9fdc0a1f5ad0fec1fdfe9a9c641427e">Read_q</a> (Vec &amp;output, const int n, char const buff[]=&quot;./src/tofile.dat&quot;)</td></tr>
 <tr class="memdesc:aa9fdc0a1f5ad0fec1fdfe9a9c641427e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read q from a tofile output from python.  <a href="#aa9fdc0a1f5ad0fec1fdfe9a9c641427e">More...</a><br /></td></tr>
 <tr class="separator:aa9fdc0a1f5ad0fec1fdfe9a9c641427e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1493d76919f4ea1d554af787837822a4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a1493d76919f4ea1d554af787837822a4">Read_q</a> (<a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> output[], const int <a class="el" href="ex7_8m.html#aeab71244afb687f16d8c4f5ee9d6ef0e">n</a>, char const buff[]=&quot;./src/tofile.dat&quot;)</td></tr>
+<tr class="memitem:a1493d76919f4ea1d554af787837822a4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a1493d76919f4ea1d554af787837822a4">Read_q</a> (PetscScalar output[], const int n, char const buff[]=&quot;./src/tofile.dat&quot;)</td></tr>
 <tr class="memdesc:a1493d76919f4ea1d554af787837822a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read y from a tofile output from python.  <a href="#a1493d76919f4ea1d554af787837822a4">More...</a><br /></td></tr>
 <tr class="separator:a1493d76919f4ea1d554af787837822a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace8f33c751131e0b7bf9359f4929088d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ace8f33c751131e0b7bf9359f4929088d">Read_q</a> (<a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;output, char const buff[]=&quot;./src/tofile.dat&quot;)</td></tr>
+<tr class="memitem:ace8f33c751131e0b7bf9359f4929088d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ace8f33c751131e0b7bf9359f4929088d">Read_q</a> (PetscScalar &amp;output, char const buff[]=&quot;./src/tofile.dat&quot;)</td></tr>
 <tr class="memdesc:ace8f33c751131e0b7bf9359f4929088d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read complex scalar from a tofile output from python.  <a href="#ace8f33c751131e0b7bf9359f4929088d">More...</a><br /></td></tr>
 <tr class="separator:ace8f33c751131e0b7bf9359f4929088d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d92743b716d8a485c63813123744fd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a9d92743b716d8a485c63813123744fd6">set_A_and_B</a> (const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> <a class="el" href="include_2petscmat_8h.html#accad72f7600fc4c1f6c849a5ca0bc5a7">y</a>[], const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="generatePetscTestFiles_8m.html#a289ca425eb368f1d582b6be2be0d3dfc">ny</a>, const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> <a class="el" href="tcqmrimpl_8h.html#afb573e69f3b198fe9ca91079c4a402a9">z</a>[], const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="generatePetscTestFiles_8m.html#a1d8eb7c9ec4313c8ce1257e68dc21366">nz</a>, <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;<a class="el" href="laplacian_8m.html#a4e6f4c9c72f94c82a12f25f6e3b1b233">A</a>, <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;<a class="el" href="ex7_8m.html#a9d3d9048db16a7eee539e93e3618cbe7">B</a>, const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;Re, const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;rho, const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;<a class="el" href="ex74fcomd_8h.html#a790fd48a98f3039a34e79cb87424a477">alpha</a>, const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;<a class="el" href="PetscBinaryRead_8m.html#ab3cd915d758008bd19d0f2428fbb354a">m</a>, const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;omega, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="GenPetscTests__summarize_8txt.html#a776e2198df8c73331a987add490312f8">order</a>=4, const <a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71">PetscBool</a> &amp;reduce_wall_order=<a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71ab38950201fb7dde402ba0ee57a05c42f">PETSC_TRUE</a>)</td></tr>
+<tr class="memitem:a9d92743b716d8a485c63813123744fd6"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a9d92743b716d8a485c63813123744fd6">set_A_and_B</a> (const PetscScalar y[], const PetscInt &amp;ny, const PetscScalar z[], const PetscInt &amp;nz, Mat &amp;A, Mat &amp;B, const PetscScalar &amp;Re, const PetscScalar &amp;rho, const PetscScalar &amp;alpha, const PetscScalar &amp;m, const PetscScalar &amp;omega, const PetscInt &amp;order=4, const PetscBool &amp;reduce_wall_order=PETSC_TRUE)</td></tr>
 <tr class="memdesc:a9d92743b716d8a485c63813123744fd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">set A and B matrix for <a class="el" href="namespacePSE.html">PSE</a> equations  <a href="#a9d92743b716d8a485c63813123744fd6">More...</a><br /></td></tr>
 <tr class="separator:a9d92743b716d8a485c63813123744fd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9019aa66acb6acbd13ec975186b5f9cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a9019aa66acb6acbd13ec975186b5f9cc">set_A_and_B_zi</a> (const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> <a class="el" href="include_2petscmat_8h.html#accad72f7600fc4c1f6c849a5ca0bc5a7">y</a>[], const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="generatePetscTestFiles_8m.html#a289ca425eb368f1d582b6be2be0d3dfc">ny</a>, const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> <a class="el" href="tcqmrimpl_8h.html#afb573e69f3b198fe9ca91079c4a402a9">z</a>[], const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="generatePetscTestFiles_8m.html#a1d8eb7c9ec4313c8ce1257e68dc21366">nz</a>, <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;<a class="el" href="laplacian_8m.html#a4e6f4c9c72f94c82a12f25f6e3b1b233">A</a>, <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;<a class="el" href="ex7_8m.html#a9d3d9048db16a7eee539e93e3618cbe7">B</a>, const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;Re, const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;rho, const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;<a class="el" href="ex74fcomd_8h.html#a790fd48a98f3039a34e79cb87424a477">alpha</a>, const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;<a class="el" href="PetscBinaryRead_8m.html#ab3cd915d758008bd19d0f2428fbb354a">m</a>, const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;omega, const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;Dy, const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;Dyy, const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;Dz, const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;Dzz, const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;I, const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;U, const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;Uy, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;zi=0, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="GenPetscTests__summarize_8txt.html#a776e2198df8c73331a987add490312f8">order</a>=4, const <a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71">PetscBool</a> &amp;reduce_wall_order=<a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71ab38950201fb7dde402ba0ee57a05c42f">PETSC_TRUE</a>)</td></tr>
+<tr class="memitem:a9019aa66acb6acbd13ec975186b5f9cc"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a9019aa66acb6acbd13ec975186b5f9cc">set_A_and_B_zi</a> (const PetscScalar y[], const PetscInt &amp;ny, const PetscScalar z[], const PetscInt &amp;nz, Mat &amp;A, Mat &amp;B, const PetscScalar &amp;Re, const PetscScalar &amp;rho, const PetscScalar &amp;alpha, const PetscScalar &amp;m, const PetscScalar &amp;omega, const Mat &amp;Dy, const Mat &amp;Dyy, const Mat &amp;Dz, const Mat &amp;Dzz, const Mat &amp;I, const Mat &amp;U, const Mat &amp;Uy, const PetscInt &amp;zi=0, const PetscInt &amp;order=4, const PetscBool &amp;reduce_wall_order=PETSC_TRUE)</td></tr>
 <tr class="memdesc:a9019aa66acb6acbd13ec975186b5f9cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">set A and B matrix for <a class="el" href="namespacePSE.html">PSE</a> equations for zi plane  <a href="#a9019aa66acb6acbd13ec975186b5f9cc">More...</a><br /></td></tr>
 <tr class="separator:a9019aa66acb6acbd13ec975186b5f9cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b2ed663ec0562dc6e5e1ac5f48e1428"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a1b2ed663ec0562dc6e5e1ac5f48e1428">set_b</a> (const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;<a class="el" href="ex7_8m.html#a9d3d9048db16a7eee539e93e3618cbe7">B</a>, const <a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;qn, <a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;<a class="el" href="ex7_8m.html#ace7252a6e83274662912bf7d145df5f6">b</a>)</td></tr>
+<tr class="memitem:a1b2ed663ec0562dc6e5e1ac5f48e1428"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a1b2ed663ec0562dc6e5e1ac5f48e1428">set_b</a> (const Mat &amp;B, const Vec &amp;qn, Vec &amp;b)</td></tr>
 <tr class="memdesc:a1b2ed663ec0562dc6e5e1ac5f48e1428"><td class="mdescLeft">&#160;</td><td class="mdescRight">set b vector from B and q as b=B*q  <a href="#a1b2ed663ec0562dc6e5e1ac5f48e1428">More...</a><br /></td></tr>
 <tr class="separator:a1b2ed663ec0562dc6e5e1ac5f48e1428"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80f94bbe2f2fcbcdafc37ed00360ad86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a80f94bbe2f2fcbcdafc37ed00360ad86">set_BCs</a> (<a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;<a class="el" href="laplacian_8m.html#a4e6f4c9c72f94c82a12f25f6e3b1b233">A</a>, <a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;<a class="el" href="ex7_8m.html#ace7252a6e83274662912bf7d145df5f6">b</a>, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="generatePetscTestFiles_8m.html#a289ca425eb368f1d582b6be2be0d3dfc">ny</a>, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="generatePetscTestFiles_8m.html#a1d8eb7c9ec4313c8ce1257e68dc21366">nz</a>)</td></tr>
+<tr class="memitem:a80f94bbe2f2fcbcdafc37ed00360ad86"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a80f94bbe2f2fcbcdafc37ed00360ad86">set_BCs</a> (Mat &amp;A, Vec &amp;b, const PetscInt &amp;ny, const PetscInt &amp;nz)</td></tr>
 <tr class="memdesc:a80f94bbe2f2fcbcdafc37ed00360ad86"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets Boundary Condition equations in Matrix A and vector b in Ax=b linear system for solving the <a class="el" href="namespacePSE.html">PSE</a> equations  <a href="#a80f94bbe2f2fcbcdafc37ed00360ad86">More...</a><br /></td></tr>
 <tr class="separator:a80f94bbe2f2fcbcdafc37ed00360ad86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05eaa365016721007dccbed624f65b62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a05eaa365016721007dccbed624f65b62">set_BCs</a> (<a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;<a class="el" href="laplacian_8m.html#a4e6f4c9c72f94c82a12f25f6e3b1b233">A</a>, <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;<a class="el" href="ex7_8m.html#a9d3d9048db16a7eee539e93e3618cbe7">B</a>, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="generatePetscTestFiles_8m.html#a289ca425eb368f1d582b6be2be0d3dfc">ny</a>, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="generatePetscTestFiles_8m.html#a1d8eb7c9ec4313c8ce1257e68dc21366">nz</a>)</td></tr>
+<tr class="memitem:a05eaa365016721007dccbed624f65b62"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a05eaa365016721007dccbed624f65b62">set_BCs</a> (Mat &amp;A, Mat &amp;B, const PetscInt &amp;ny, const PetscInt &amp;nz)</td></tr>
 <tr class="memdesc:a05eaa365016721007dccbed624f65b62"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets Boundary Condition equations in Matrix A and Matrix B in A+ B*dqdx=0 linear system for solving the <a class="el" href="namespacePSE.html">PSE</a> equations  <a href="#a05eaa365016721007dccbed624f65b62">More...</a><br /></td></tr>
 <tr class="separator:a05eaa365016721007dccbed624f65b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac75191fb2d711f7d1d8e2b90d0cc7ad9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ac75191fb2d711f7d1d8e2b90d0cc7ad9">set_D</a> (const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> <a class="el" href="include_2petscmat_8h.html#accad72f7600fc4c1f6c849a5ca0bc5a7">y</a>[], const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="ex7_8m.html#aeab71244afb687f16d8c4f5ee9d6ef0e">n</a>, <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;output, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="GenPetscTests__summarize_8txt.html#a776e2198df8c73331a987add490312f8">order</a>=2, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="generatehtml_8m.html#a1aabac6d068eef6a7bad3fdf50a05cc8">d</a>=2, const <a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71">PetscBool</a> &amp;periodic=<a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71a42681487018bed1a5af6523ec33d386f">PETSC_FALSE</a>, const <a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71">PetscBool</a> &amp;reduce_wall_order=<a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71ab38950201fb7dde402ba0ee57a05c42f">PETSC_TRUE</a>)</td></tr>
+<tr class="memitem:ac75191fb2d711f7d1d8e2b90d0cc7ad9"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ac75191fb2d711f7d1d8e2b90d0cc7ad9">set_D</a> (const PetscScalar y[], const PetscInt &amp;n, Mat &amp;output, const PetscInt &amp;order=2, const PetscInt &amp;d=2, const PetscBool &amp;periodic=PETSC_FALSE, const PetscBool &amp;reduce_wall_order=PETSC_TRUE)</td></tr>
 <tr class="memdesc:ac75191fb2d711f7d1d8e2b90d0cc7ad9"><td class="mdescLeft">&#160;</td><td class="mdescRight">set D matrix operator for specified order and derivative  <a href="#ac75191fb2d711f7d1d8e2b90d0cc7ad9">More...</a><br /></td></tr>
 <tr class="separator:ac75191fb2d711f7d1d8e2b90d0cc7ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fa7463fb62fd319d4b545923eed13fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a9fa7463fb62fd319d4b545923eed13fd">set_Euler_Advance</a> (const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;hx, <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;<a class="el" href="laplacian_8m.html#a4e6f4c9c72f94c82a12f25f6e3b1b233">A</a>, <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;<a class="el" href="ex7_8m.html#a9d3d9048db16a7eee539e93e3618cbe7">B</a>)</td></tr>
+<tr class="memitem:a9fa7463fb62fd319d4b545923eed13fd"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a9fa7463fb62fd319d4b545923eed13fd">set_Euler_Advance</a> (const PetscScalar &amp;hx, Mat &amp;A, Mat &amp;B)</td></tr>
 <tr class="memdesc:a9fa7463fb62fd319d4b545923eed13fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">matrix multiplication for Euler stepping, A+= 1/hx * B and B*=1/hx  <a href="#a9fa7463fb62fd319d4b545923eed13fd">More...</a><br /></td></tr>
 <tr class="separator:a9fa7463fb62fd319d4b545923eed13fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadb460f33e3b6822bce281047b3f92df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aadb460f33e3b6822bce281047b3f92df">set_Mat</a> (const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> *const *Ain, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="ex7_8m.html#aeab71244afb687f16d8c4f5ee9d6ef0e">n</a>, <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;<a class="el" href="laplacian_8m.html#a4e6f4c9c72f94c82a12f25f6e3b1b233">A</a>, const <a class="el" href="include_2petscsys_8h.html#ad615d8c8bb531a66905d9ca91a13a447">InsertMode</a> &amp;addv=<a class="el" href="include_2petscsys_8h.html#ad615d8c8bb531a66905d9ca91a13a447a61218e83540b16884445ae8b02c4de3f">ADD_VALUES</a>)</td></tr>
-<tr class="memdesc:aadb460f33e3b6822bce281047b3f92df"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a matrix from PetscScalar 2D matrix to <a class="el" href="namespacePETSc.html">PETSc</a> Mat type in parallel  <a href="#aadb460f33e3b6822bce281047b3f92df">More...</a><br /></td></tr>
+<tr class="memitem:aadb460f33e3b6822bce281047b3f92df"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aadb460f33e3b6822bce281047b3f92df">set_Mat</a> (const PetscScalar *const *Ain, const PetscInt &amp;n, Mat &amp;A, const InsertMode &amp;addv=ADD_VALUES)</td></tr>
+<tr class="memdesc:aadb460f33e3b6822bce281047b3f92df"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a matrix from PetscScalar 2D matrix to PETSc Mat type in parallel  <a href="#aadb460f33e3b6822bce281047b3f92df">More...</a><br /></td></tr>
 <tr class="separator:aadb460f33e3b6822bce281047b3f92df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a6a03d71013c1832acb354e08eb4fa0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a5a6a03d71013c1832acb354e08eb4fa0">set_Mat</a> (const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;diag, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="ex7_8m.html#aeab71244afb687f16d8c4f5ee9d6ef0e">n</a>, <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;<a class="el" href="laplacian_8m.html#a4e6f4c9c72f94c82a12f25f6e3b1b233">A</a>, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="PetscBinaryRead_8m.html#a1c73327b2882639bc9f5e416bb3cc7ac">k</a>=0, const <a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71">PetscBool</a> &amp;parallel=<a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71ab38950201fb7dde402ba0ee57a05c42f">PETSC_TRUE</a>, const <a class="el" href="include_2petscsys_8h.html#ad615d8c8bb531a66905d9ca91a13a447">InsertMode</a> &amp;addv=<a class="el" href="include_2petscsys_8h.html#ad615d8c8bb531a66905d9ca91a13a447a61218e83540b16884445ae8b02c4de3f">ADD_VALUES</a>)</td></tr>
+<tr class="memitem:a5a6a03d71013c1832acb354e08eb4fa0"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a5a6a03d71013c1832acb354e08eb4fa0">set_Mat</a> (const PetscScalar &amp;diag, const PetscInt &amp;n, Mat &amp;A, const PetscInt &amp;k=0, const PetscBool &amp;parallel=PETSC_TRUE, const InsertMode &amp;addv=ADD_VALUES)</td></tr>
 <tr class="memdesc:a5a6a03d71013c1832acb354e08eb4fa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a diagonal of a matrix from scalar  <a href="#a5a6a03d71013c1832acb354e08eb4fa0">More...</a><br /></td></tr>
 <tr class="separator:a5a6a03d71013c1832acb354e08eb4fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40a665211c867a946e6c2c97fac8261f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a40a665211c867a946e6c2c97fac8261f">set_Mat</a> (<a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;<a class="el" href="laplacian_8m.html#a4e6f4c9c72f94c82a12f25f6e3b1b233">A</a>)</td></tr>
+<tr class="memitem:a40a665211c867a946e6c2c97fac8261f"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a40a665211c867a946e6c2c97fac8261f">set_Mat</a> (Mat &amp;A)</td></tr>
 <tr class="memdesc:a40a665211c867a946e6c2c97fac8261f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assemble matrix.  <a href="#a40a665211c867a946e6c2c97fac8261f">More...</a><br /></td></tr>
 <tr class="separator:a40a665211c867a946e6c2c97fac8261f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b30d081fb841dec74e4dae61b5e32bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a4b30d081fb841dec74e4dae61b5e32bc">set_Mat</a> (const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;value, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="PetscBinaryWrite_8m.html#a10f51303e8c84038ee721134af8a7da2">row</a>, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;col, <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;<a class="el" href="laplacian_8m.html#a4e6f4c9c72f94c82a12f25f6e3b1b233">A</a>, const <a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71">PetscBool</a> &amp;parallel=<a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71ab38950201fb7dde402ba0ee57a05c42f">PETSC_TRUE</a>, const <a class="el" href="include_2petscsys_8h.html#ad615d8c8bb531a66905d9ca91a13a447">InsertMode</a> &amp;addv=<a class="el" href="include_2petscsys_8h.html#ad615d8c8bb531a66905d9ca91a13a447a61218e83540b16884445ae8b02c4de3f">ADD_VALUES</a>)</td></tr>
+<tr class="memitem:a4b30d081fb841dec74e4dae61b5e32bc"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a4b30d081fb841dec74e4dae61b5e32bc">set_Mat</a> (const PetscScalar &amp;value, const PetscInt &amp;row, const PetscInt &amp;col, Mat &amp;A, const PetscBool &amp;parallel=PETSC_TRUE, const InsertMode &amp;addv=ADD_VALUES)</td></tr>
 <tr class="memdesc:a4b30d081fb841dec74e4dae61b5e32bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a single value in matrix at row,col  <a href="#a4b30d081fb841dec74e4dae61b5e32bc">More...</a><br /></td></tr>
 <tr class="separator:a4b30d081fb841dec74e4dae61b5e32bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9459290168f207d9839bcde63e5a56a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a9459290168f207d9839bcde63e5a56a0">set_Mat</a> (const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;<a class="el" href="ex7_8m.html#a2ffdbad9ea59541e59cbd2b938e0770c">a</a>, const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;Asub, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;nsub, <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;<a class="el" href="laplacian_8m.html#a4e6f4c9c72f94c82a12f25f6e3b1b233">A</a>, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="ex7_8m.html#aeab71244afb687f16d8c4f5ee9d6ef0e">n</a>, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;rowoffset=0, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;coloffset=0, const <a class="el" href="include_2petscsys_8h.html#ad615d8c8bb531a66905d9ca91a13a447">InsertMode</a> &amp;addv=<a class="el" href="include_2petscsys_8h.html#ad615d8c8bb531a66905d9ca91a13a447a61218e83540b16884445ae8b02c4de3f">ADD_VALUES</a>)</td></tr>
+<tr class="memitem:a9459290168f207d9839bcde63e5a56a0"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a9459290168f207d9839bcde63e5a56a0">set_Mat</a> (const PetscScalar &amp;a, const Mat &amp;Asub, const PetscInt &amp;nsub, Mat &amp;A, const PetscInt &amp;n, const PetscInt &amp;rowoffset=0, const PetscInt &amp;coloffset=0, const InsertMode &amp;addv=ADD_VALUES)</td></tr>
 <tr class="memdesc:a9459290168f207d9839bcde63e5a56a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a submatrix Asub in a matrix A  <a href="#a9459290168f207d9839bcde63e5a56a0">More...</a><br /></td></tr>
 <tr class="separator:a9459290168f207d9839bcde63e5a56a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac507f97367f3c93c65edf8f0131552bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ac507f97367f3c93c65edf8f0131552bb">set_Mat</a> (const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> *Ain, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="PetscBinaryWrite_8m.html#a10f51303e8c84038ee721134af8a7da2">row</a>, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="tabular_8c.html#a7c4b990ebe8d2c098f3974f6ffe0c9b4">ncols</a>, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> cols[], <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;<a class="el" href="laplacian_8m.html#a4e6f4c9c72f94c82a12f25f6e3b1b233">A</a>, const <a class="el" href="include_2petscsys_8h.html#ad615d8c8bb531a66905d9ca91a13a447">InsertMode</a> &amp;addv=<a class="el" href="include_2petscsys_8h.html#ad615d8c8bb531a66905d9ca91a13a447a61218e83540b16884445ae8b02c4de3f">ADD_VALUES</a>)</td></tr>
-<tr class="memdesc:ac507f97367f3c93c65edf8f0131552bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a row of PetscScalar to a matrix to <a class="el" href="namespacePETSc.html">PETSc</a> Mat  <a href="#ac507f97367f3c93c65edf8f0131552bb">More...</a><br /></td></tr>
+<tr class="memitem:ac507f97367f3c93c65edf8f0131552bb"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ac507f97367f3c93c65edf8f0131552bb">set_Mat</a> (const PetscScalar *Ain, const PetscInt &amp;row, const PetscInt &amp;ncols, const PetscInt cols[], Mat &amp;A, const InsertMode &amp;addv=ADD_VALUES)</td></tr>
+<tr class="memdesc:ac507f97367f3c93c65edf8f0131552bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a row of PetscScalar to a matrix to PETSc Mat  <a href="#ac507f97367f3c93c65edf8f0131552bb">More...</a><br /></td></tr>
 <tr class="separator:ac507f97367f3c93c65edf8f0131552bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d79528f491c382f7a911667a1733b68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a7d79528f491c382f7a911667a1733b68">set_Mat</a> (const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;<a class="el" href="ex7_8m.html#a2ffdbad9ea59541e59cbd2b938e0770c">a</a>, const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;Dz, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="generatePetscTestFiles_8m.html#a1d8eb7c9ec4313c8ce1257e68dc21366">nz</a>, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="generatePetscTestFiles_8m.html#a289ca425eb368f1d582b6be2be0d3dfc">ny</a>, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;zi, <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;<a class="el" href="laplacian_8m.html#a4e6f4c9c72f94c82a12f25f6e3b1b233">A</a>, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="ex7_8m.html#aeab71244afb687f16d8c4f5ee9d6ef0e">n</a>, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;rowoffset=0, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;coloffset=0, const <a class="el" href="include_2petscsys_8h.html#ad615d8c8bb531a66905d9ca91a13a447">InsertMode</a> &amp;addv=<a class="el" href="include_2petscsys_8h.html#ad615d8c8bb531a66905d9ca91a13a447a61218e83540b16884445ae8b02c4de3f">ADD_VALUES</a>)</td></tr>
+<tr class="memitem:a7d79528f491c382f7a911667a1733b68"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a7d79528f491c382f7a911667a1733b68">set_Mat</a> (const PetscScalar &amp;a, const Mat &amp;Dz, const PetscInt &amp;nz, const PetscInt &amp;ny, const PetscInt &amp;zi, Mat &amp;A, const PetscInt &amp;n, const PetscInt &amp;rowoffset=0, const PetscInt &amp;coloffset=0, const InsertMode &amp;addv=ADD_VALUES)</td></tr>
 <tr class="memdesc:a7d79528f491c382f7a911667a1733b68"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a Dz submatrix into A  <a href="#a7d79528f491c382f7a911667a1733b68">More...</a><br /></td></tr>
 <tr class="separator:a7d79528f491c382f7a911667a1733b68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6401d0b66259dc17e248b11ba8994c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aa6401d0b66259dc17e248b11ba8994c2">set_Vec</a> (const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> *bin, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="ex7_8m.html#aeab71244afb687f16d8c4f5ee9d6ef0e">n</a>, <a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;<a class="el" href="ex7_8m.html#ace7252a6e83274662912bf7d145df5f6">b</a>, const <a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71">PetscBool</a> &amp;parallel=<a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71ab38950201fb7dde402ba0ee57a05c42f">PETSC_TRUE</a>)</td></tr>
-<tr class="memdesc:aa6401d0b66259dc17e248b11ba8994c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a vector from PetscScalar 1D vector to <a class="el" href="namespacePETSc.html">PETSc</a> Vec type in parallel  <a href="#aa6401d0b66259dc17e248b11ba8994c2">More...</a><br /></td></tr>
+<tr class="memitem:aa6401d0b66259dc17e248b11ba8994c2"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aa6401d0b66259dc17e248b11ba8994c2">set_Vec</a> (const PetscScalar *bin, const PetscInt &amp;n, Vec &amp;b, const PetscBool &amp;parallel=PETSC_TRUE)</td></tr>
+<tr class="memdesc:aa6401d0b66259dc17e248b11ba8994c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a vector from PetscScalar 1D vector to PETSc Vec type in parallel  <a href="#aa6401d0b66259dc17e248b11ba8994c2">More...</a><br /></td></tr>
 <tr class="separator:aa6401d0b66259dc17e248b11ba8994c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21cf4be41ee60bc04f43dca61f15e0bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a21cf4be41ee60bc04f43dca61f15e0bf">set_Vec</a> (<a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;<a class="el" href="ex7_8m.html#ace7252a6e83274662912bf7d145df5f6">b</a>)</td></tr>
+<tr class="memitem:a21cf4be41ee60bc04f43dca61f15e0bf"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a21cf4be41ee60bc04f43dca61f15e0bf">set_Vec</a> (Vec &amp;b)</td></tr>
 <tr class="memdesc:a21cf4be41ee60bc04f43dca61f15e0bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assemble b vector.  <a href="#a21cf4be41ee60bc04f43dca61f15e0bf">More...</a><br /></td></tr>
 <tr class="separator:a21cf4be41ee60bc04f43dca61f15e0bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67d517f522b7038fb21aded9c8113d49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a67d517f522b7038fb21aded9c8113d49">set_Vec</a> (const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;bin, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="ex7_8m.html#aeab71244afb687f16d8c4f5ee9d6ef0e">n</a>, <a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;<a class="el" href="ex7_8m.html#ace7252a6e83274662912bf7d145df5f6">b</a>)</td></tr>
-<tr class="memdesc:a67d517f522b7038fb21aded9c8113d49"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a vector from PetscScalar to <a class="el" href="namespacePETSc.html">PETSc</a> Vec in location n  <a href="#a67d517f522b7038fb21aded9c8113d49">More...</a><br /></td></tr>
+<tr class="memitem:a67d517f522b7038fb21aded9c8113d49"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a67d517f522b7038fb21aded9c8113d49">set_Vec</a> (const PetscScalar &amp;bin, const PetscInt &amp;n, Vec &amp;b)</td></tr>
+<tr class="memdesc:a67d517f522b7038fb21aded9c8113d49"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a vector from PetscScalar to PETSc Vec in location n  <a href="#a67d517f522b7038fb21aded9c8113d49">More...</a><br /></td></tr>
 <tr class="separator:a67d517f522b7038fb21aded9c8113d49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadbaa2fa2002e60d96e1019140975e98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aadbaa2fa2002e60d96e1019140975e98">set_Vec</a> (const <a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;inVec, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;low, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;hi, <a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;<a class="el" href="ex7_8m.html#ace7252a6e83274662912bf7d145df5f6">b</a>)</td></tr>
+<tr class="memitem:aadbaa2fa2002e60d96e1019140975e98"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aadbaa2fa2002e60d96e1019140975e98">set_Vec</a> (const Vec &amp;inVec, const PetscInt &amp;low, const PetscInt &amp;hi, Vec &amp;b)</td></tr>
 <tr class="memdesc:aadbaa2fa2002e60d96e1019140975e98"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a subvector from larger vector from low to hi indices  <a href="#aadbaa2fa2002e60d96e1019140975e98">More...</a><br /></td></tr>
 <tr class="separator:aadbaa2fa2002e60d96e1019140975e98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab51d50c27caa5dda043dd101d7397dfe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ab51d50c27caa5dda043dd101d7397dfe">trapz</a> (<a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;q, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="ex7_8m.html#aeab71244afb687f16d8c4f5ee9d6ef0e">n</a>, <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;I, const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;Deltax=1.)</td></tr>
-<tr class="memdesc:ab51d50c27caa5dda043dd101d7397dfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">trapezoidal rule on Vec  <a href="#ab51d50c27caa5dda043dd101d7397dfe">More...</a><br /></td></tr>
-<tr class="separator:ab51d50c27caa5dda043dd101d7397dfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb2977ae27eb2662ac6f1067d3c55638"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#adb2977ae27eb2662ac6f1067d3c55638">update_Closure</a> (const <a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;q, <a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;qp1, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="generatePetscTestFiles_8m.html#a289ca425eb368f1d582b6be2be0d3dfc">ny</a>, const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;<a class="el" href="generatePetscTestFiles_8m.html#a1d8eb7c9ec4313c8ce1257e68dc21366">nz</a>, const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;<a class="el" href="ex74fcomd_8h.html#a1fba2e9658db45fbf632a27289ce0cab">dx</a>, <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;Ialpha, <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;<a class="el" href="ex74fcomd_8h.html#a790fd48a98f3039a34e79cb87424a477">alpha</a>, const <a class="el" href="include_2petscts_8h.html#ae94bfb55391bd18fd0211cb6e728f45a">PetscReal</a> &amp;tol=1e-6, const PetscScalar &amp;Deltax=2)</td></tr>
-<tr class="memdesc:adb2977ae27eb2662ac6f1067d3c55638"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the closure equation \( \int_\Omega \hat{\textbf{q}}^\dagger \hat{\textbf{q}}_x dy \) and output the result This is part of the solution procedure shown in the bottom half of this diagram  <a href="#adb2977ae27eb2662ac6f1067d3c55638">More...</a><br /></td></tr>
-<tr class="separator:adb2977ae27eb2662ac6f1067d3c55638"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2702d43973d8a39cc147629c3d9221a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ad2702d43973d8a39cc147629c3d9221a">trapz</a> (Vec &amp;q, const PetscInt &amp;n, PetscScalar &amp;I, const PetscScalar &amp;Deltay=1.)</td></tr>
+<tr class="memdesc:ad2702d43973d8a39cc147629c3d9221a"><td class="mdescLeft">&#160;</td><td class="mdescRight">trapezoidal rule on Vec with ny values  <a href="#ad2702d43973d8a39cc147629c3d9221a">More...</a><br /></td></tr>
+<tr class="separator:ad2702d43973d8a39cc147629c3d9221a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a819bf1c19cd4c79c56d13f49b4c88165"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a819bf1c19cd4c79c56d13f49b4c88165">trapz</a> (Vec &amp;q, const PetscInt &amp;ny, const PetscInt &amp;nz, PetscScalar &amp;I, const PetscScalar &amp;Deltay=1., const PetscScalar &amp;Deltaz=1.)</td></tr>
+<tr class="memdesc:a819bf1c19cd4c79c56d13f49b4c88165"><td class="mdescLeft">&#160;</td><td class="mdescRight">trapezoidal rule on Vec with ny,nz values  <a href="#a819bf1c19cd4c79c56d13f49b4c88165">More...</a><br /></td></tr>
+<tr class="separator:a819bf1c19cd4c79c56d13f49b4c88165"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04768e5dc9ac57289b3e378e4ec0f675"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a04768e5dc9ac57289b3e378e4ec0f675">update_Closure</a> (const Vec &amp;q, Vec &amp;qp1, const PetscInt &amp;ny, const PetscInt &amp;nz, const PetscScalar &amp;dx, PetscScalar &amp;Ialpha, PetscScalar &amp;alpha, const PetscReal &amp;tol=1e-7, const PetscScalar &amp;Deltay=2, const PetscScalar &amp;Deltaz=1)</td></tr>
+<tr class="memdesc:a04768e5dc9ac57289b3e378e4ec0f675"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the closure equation \( \int_\Omega \hat{\textbf{q}}^\dagger \hat{\textbf{q}}_x dy \) and output the result This is part of the solution procedure shown in the bottom half of this diagram  <a href="#a04768e5dc9ac57289b3e378e4ec0f675">More...</a><br /></td></tr>
+<tr class="separator:a04768e5dc9ac57289b3e378e4ec0f675"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a34e5a20f5f1deeb44a0bb7b5c2ed9953"></a>
@@ -227,27 +228,27 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> PSE::Ax_b </td>
+          <td class="memname">PetscInt PSE::Ax_b </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> *const *&#160;</td>
+          <td class="paramtype">const PetscScalar *const *&#160;</td>
           <td class="paramname"><em>Ain</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;&#160;</td>
+          <td class="paramtype">Vec &amp;&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a>&#160;</td>
+          <td class="paramtype">const PetscScalar&#160;</td>
           <td class="paramname"><em>bin</em>[], </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>n</em>&#160;</td>
         </tr>
         <tr>
@@ -258,7 +259,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Solves \(x\) in \(Ax=b\) linalg problem using <a class="el" href="namespacePETSc.html">PETSc</a> in parallel. </p>
+<p>Solves \(x\) in \(Ax=b\) linalg problem using PETSc in parallel. </p>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -277,27 +278,27 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> PSE::Ax_b </td>
+          <td class="memname">PetscInt PSE::Ax_b </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">const Mat &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;&#160;</td>
+          <td class="paramtype">Vec &amp;&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;&#160;</td>
+          <td class="paramtype">const Vec &amp;&#160;</td>
           <td class="paramname"><em>b</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>n</em>&#160;</td>
         </tr>
         <tr>
@@ -308,7 +309,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Solves \(x\) in \(Ax=b\) linalg problem using <a class="el" href="namespacePETSc.html">PETSc</a> in parallel. </p>
+<p>Solves \(x\) in \(Ax=b\) linalg problem using PETSc in parallel. </p>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -329,25 +330,25 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int PSE::base_flow </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a>&#160;</td>
+          <td class="paramtype">PetscScalar&#160;</td>
           <td class="paramname"><em>U</em>[], </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a>&#160;</td>
+          <td class="paramtype">PetscScalar&#160;</td>
           <td class="paramname"><em>Uy</em>[], </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a>&#160;</td>
+          <td class="paramtype">const PetscScalar&#160;</td>
           <td class="paramname"><em>y</em>[], </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>n</em>&#160;</td>
         </tr>
         <tr>
@@ -379,25 +380,25 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int PSE::base_flow </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">Mat &amp;&#160;</td>
           <td class="paramname"><em>U</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">Mat &amp;&#160;</td>
           <td class="paramname"><em>Uy</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a>&#160;</td>
+          <td class="paramtype">const PetscScalar&#160;</td>
           <td class="paramname"><em>y</em>[], </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>n</em>&#160;</td>
         </tr>
         <tr>
@@ -422,45 +423,51 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac737dca1fbf2db885935de26fa2d977d"></a>
+<a class="anchor" id="a07a1433a511b21a0cff22a5b3131e00a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">int PSE::calc_Closure </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;&#160;</td>
+          <td class="paramtype">const Vec &amp;&#160;</td>
           <td class="paramname"><em>q</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;&#160;</td>
+          <td class="paramtype">Vec &amp;&#160;</td>
           <td class="paramname"><em>qp1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>ny</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>nz</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
+          <td class="paramtype">PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>I</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
-          <td class="paramname"><em>Deltax</em> = <code>2</code>&#160;</td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
+          <td class="paramname"><em>Deltay</em> = <code>2</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
+          <td class="paramname"><em>Deltaz</em> = <code>1</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -479,7 +486,8 @@ Functions</h2></td></tr>
     <tr><td class="paramname">ny</td><td>size of arrays in y dimension </td></tr>
     <tr><td class="paramname">nz</td><td>size of arrays in z dimension </td></tr>
     <tr><td class="paramname">I</td><td>output integral value </td></tr>
-    <tr><td class="paramname">Deltax</td><td>height of channel (default to 2) </td></tr>
+    <tr><td class="paramname">Deltay</td><td>height of channel in y(default to 2) </td></tr>
+    <tr><td class="paramname">Deltaz</td><td>width of channel in z(default to 1) </td></tr>
   </table>
   </dd>
 </dl>
@@ -515,27 +523,27 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> PSE::get_D_Coeffs </td>
+          <td class="memname">PetscInt PSE::get_D_Coeffs </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a>&#160;</td>
+          <td class="paramtype">const PetscScalar&#160;</td>
           <td class="paramname"><em>s</em>[], </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>n</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;&#160;</td>
+          <td class="paramtype">Vec &amp;&#160;</td>
           <td class="paramname"><em>output</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>d</em> = <code>2</code>&#160;</td>
         </tr>
         <tr>
@@ -567,13 +575,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int PSE::Init_Mat </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">Mat &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>n</em>&#160;</td>
         </tr>
         <tr>
@@ -603,19 +611,19 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int PSE::Init_Mat </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">Mat &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>m</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>n</em>&#160;</td>
         </tr>
         <tr>
@@ -646,13 +654,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int PSE::Init_Vec </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;&#160;</td>
+          <td class="paramtype">Vec &amp;&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>n</em>&#160;</td>
         </tr>
         <tr>
@@ -680,15 +688,15 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2petscsys_8h.html#aefae79199a0dda59581d16f802913456">PetscErrorCode</a> PSE::printInt </td>
+          <td class="memname">PetscErrorCode PSE::printInt </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td>
+          <td class="paramtype">PetscInt&#160;</td>
           <td class="paramname"><em>x</em>[], </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td>
+          <td class="paramtype">PetscInt&#160;</td>
           <td class="paramname"><em>n</em> = <code>1</code>, </td>
         </tr>
         <tr>
@@ -725,7 +733,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void PSE::printMatASCII </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">const Mat &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
@@ -737,8 +745,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscviewer_8h.html#ab004791550edb882dbb06df9b0d7a6c7">PetscViewerFormat</a>&#160;</td>
-          <td class="paramname"><em>format</em> = <code><a class="el" href="include_2petscviewer_8h.html#ab004791550edb882dbb06df9b0d7a6c7a201a5800b1f1f11ff43e8f55d9865112">PETSC_VIEWER_DEFAULT</a></code>&#160;</td>
+          <td class="paramtype">const PetscViewerFormat&#160;</td>
+          <td class="paramname"><em>format</em> = <code>PETSC_VIEWER_DEFAULT</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -752,7 +760,7 @@ Functions</h2></td></tr>
 <ul>
 <li>Helpful runtime option:</li>
 </ul>
-<p>-draw_pause &lt;pause&gt; : sets time (in seconds) that the program pauses after <a class="el" href="include_2petscdraw_8h.html#a933916541bf63df52fa37214b551e256">PetscDrawPause()</a> has been called (0 is default, -1 implies until user input). </p>
+<p>-draw_pause &lt;pause&gt; : sets time (in seconds) that the program pauses after PetscDrawPause() has been called (0 is default, -1 implies until user input). </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">A</td><td>Petsc Mat nxn matrix to print to screen </td></tr>
@@ -771,7 +779,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void PSE::printMatView </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">const Mat &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
@@ -783,8 +791,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscviewer_8h.html#ab004791550edb882dbb06df9b0d7a6c7">PetscViewerFormat</a>&#160;</td>
-          <td class="paramname"><em>format</em> = <code><a class="el" href="include_2petscviewer_8h.html#ab004791550edb882dbb06df9b0d7a6c7a201a5800b1f1f11ff43e8f55d9865112">PETSC_VIEWER_DEFAULT</a></code>&#160;</td>
+          <td class="paramtype">const PetscViewerFormat&#160;</td>
+          <td class="paramname"><em>format</em> = <code>PETSC_VIEWER_DEFAULT</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -798,7 +806,7 @@ Functions</h2></td></tr>
 <ul>
 <li>Helpful runtime option:</li>
 </ul>
-<p>-draw_pause &lt;pause&gt; : sets time (in seconds) that the program pauses after <a class="el" href="include_2petscdraw_8h.html#a933916541bf63df52fa37214b551e256">PetscDrawPause()</a> has been called (0 is default, -1 implies until user input). </p>
+<p>-draw_pause &lt;pause&gt; : sets time (in seconds) that the program pauses after PetscDrawPause() has been called (0 is default, -1 implies until user input). </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">A</td><td>Petsc Mat nxn matrix to print to screen </td></tr>
@@ -815,15 +823,15 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2petscsys_8h.html#aefae79199a0dda59581d16f802913456">PetscErrorCode</a> PSE::printScalar </td>
+          <td class="memname">PetscErrorCode PSE::printScalar </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a>&#160;</td>
+          <td class="paramtype">const PetscScalar&#160;</td>
           <td class="paramname"><em>x</em>[], </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td>
+          <td class="paramtype">const PetscInt&#160;</td>
           <td class="paramname"><em>n</em> = <code>1</code>, </td>
         </tr>
         <tr>
@@ -835,8 +843,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="petscviewertypes_8h.html#adb1a08327bc14c73b96468251023b0f6">PetscViewer</a>&#160;</td>
-          <td class="paramname"><em>viewer</em> = <code><a class="el" href="include_2petscviewer_8h.html#a742ddcc4cb6ae34d7c2c6d1a945f7dc7">PETSC_VIEWER_STDOUT_WORLD</a></code>&#160;</td>
+          <td class="paramtype">PetscViewer&#160;</td>
+          <td class="paramname"><em>viewer</em> = <code>PETSC_VIEWER_STDOUT_WORLD</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -865,15 +873,15 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2petscsys_8h.html#aefae79199a0dda59581d16f802913456">PetscErrorCode</a> PSE::printVec </td>
+          <td class="memname">PetscErrorCode PSE::printVec </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;&#160;</td>
+          <td class="paramtype">Vec &amp;&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td>
+          <td class="paramtype">PetscInt&#160;</td>
           <td class="paramname"><em>n</em>, </td>
         </tr>
         <tr>
@@ -890,7 +898,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Print Vec from <a class="el" href="namespacePETSc.html">PETSc</a> type variable to screen. </p>
+<p>Print Vec from PETSc type variable to screen. </p>
 <dl class="section return"><dt>Returns</dt><dd>ierr from PetscErrorCode of PetscPrintf </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -910,7 +918,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void PSE::printVecASCII </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;&#160;</td>
+          <td class="paramtype">const Vec &amp;&#160;</td>
           <td class="paramname"><em>b</em>, </td>
         </tr>
         <tr>
@@ -922,8 +930,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscviewer_8h.html#ab004791550edb882dbb06df9b0d7a6c7">PetscViewerFormat</a>&#160;</td>
-          <td class="paramname"><em>format</em> = <code><a class="el" href="include_2petscviewer_8h.html#ab004791550edb882dbb06df9b0d7a6c7a201a5800b1f1f11ff43e8f55d9865112">PETSC_VIEWER_DEFAULT</a></code>&#160;</td>
+          <td class="paramtype">const PetscViewerFormat&#160;</td>
+          <td class="paramname"><em>format</em> = <code>PETSC_VIEWER_DEFAULT</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -937,7 +945,7 @@ Functions</h2></td></tr>
 <ul>
 <li>Helpful runtime option:</li>
 </ul>
-<p>-draw_pause &lt;pause&gt; : sets time (in seconds) that the program pauses after <a class="el" href="include_2petscdraw_8h.html#a933916541bf63df52fa37214b551e256">PetscDrawPause()</a> has been called (0 is default, -1 implies until user input). </p>
+<p>-draw_pause &lt;pause&gt; : sets time (in seconds) that the program pauses after PetscDrawPause() has been called (0 is default, -1 implies until user input). </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">b</td><td>Petsc Vec 1xn vector to print to screen </td></tr>
@@ -956,7 +964,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void PSE::printVecView </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;&#160;</td>
+          <td class="paramtype">Vec &amp;&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
@@ -968,8 +976,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscviewer_8h.html#ab004791550edb882dbb06df9b0d7a6c7">PetscViewerFormat</a>&#160;</td>
-          <td class="paramname"><em>format</em> = <code><a class="el" href="include_2petscviewer_8h.html#ab004791550edb882dbb06df9b0d7a6c7a201a5800b1f1f11ff43e8f55d9865112">PETSC_VIEWER_DEFAULT</a></code>&#160;</td>
+          <td class="paramtype">PetscViewerFormat&#160;</td>
+          <td class="paramname"><em>format</em> = <code>PETSC_VIEWER_DEFAULT</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -983,7 +991,7 @@ Functions</h2></td></tr>
 <ul>
 <li>Helpful runtime option:</li>
 </ul>
-<p>-draw_pause &lt;pause&gt; : sets time (in seconds) that the program pauses after <a class="el" href="include_2petscdraw_8h.html#a933916541bf63df52fa37214b551e256">PetscDrawPause()</a> has been called (0 is default, -1 implies until user input). </p>
+<p>-draw_pause &lt;pause&gt; : sets time (in seconds) that the program pauses after PetscDrawPause() has been called (0 is default, -1 implies until user input). </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">x</td><td>PetscScalar array to print to screen </td></tr>
@@ -1002,13 +1010,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int PSE::Read_q </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;&#160;</td>
+          <td class="paramtype">Vec &amp;&#160;</td>
           <td class="paramname"><em>evec</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a>&#160;</td>
+          <td class="paramtype">PetscScalar&#160;</td>
           <td class="paramname"><em>y</em>[], </td>
         </tr>
         <tr>
@@ -1020,7 +1028,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a>&#160;</td>
+          <td class="paramtype">PetscScalar&#160;</td>
           <td class="paramname"><em>z</em>[], </td>
         </tr>
         <tr>
@@ -1032,7 +1040,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
+          <td class="paramtype">PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>alpha</em>, </td>
         </tr>
         <tr>
@@ -1073,7 +1081,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int PSE::Read_q </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;&#160;</td>
+          <td class="paramtype">Vec &amp;&#160;</td>
           <td class="paramname"><em>output</em>, </td>
         </tr>
         <tr>
@@ -1116,7 +1124,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int PSE::Read_q </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a>&#160;</td>
+          <td class="paramtype">PetscScalar&#160;</td>
           <td class="paramname"><em>output</em>[], </td>
         </tr>
         <tr>
@@ -1159,7 +1167,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int PSE::Read_q </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
+          <td class="paramtype">PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>output</em>, </td>
         </tr>
         <tr>
@@ -1193,82 +1201,82 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> PSE::set_A_and_B </td>
+          <td class="memname">PetscInt PSE::set_A_and_B </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a>&#160;</td>
+          <td class="paramtype">const PetscScalar&#160;</td>
           <td class="paramname"><em>y</em>[], </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>ny</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a>&#160;</td>
+          <td class="paramtype">const PetscScalar&#160;</td>
           <td class="paramname"><em>z</em>[], </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>nz</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">Mat &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">Mat &amp;&#160;</td>
           <td class="paramname"><em>B</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>Re</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>rho</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>alpha</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>m</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>omega</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>order</em> = <code>4</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71">PetscBool</a> &amp;&#160;</td>
-          <td class="paramname"><em>reduce_wall_order</em> = <code><a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71ab38950201fb7dde402ba0ee57a05c42f">PETSC_TRUE</a></code>&#160;</td>
+          <td class="paramtype">const PetscBool &amp;&#160;</td>
+          <td class="paramname"><em>reduce_wall_order</em> = <code>PETSC_TRUE</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1306,130 +1314,130 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> PSE::set_A_and_B_zi </td>
+          <td class="memname">PetscInt PSE::set_A_and_B_zi </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a>&#160;</td>
+          <td class="paramtype">const PetscScalar&#160;</td>
           <td class="paramname"><em>y</em>[], </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>ny</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a>&#160;</td>
+          <td class="paramtype">const PetscScalar&#160;</td>
           <td class="paramname"><em>z</em>[], </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>nz</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">Mat &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">Mat &amp;&#160;</td>
           <td class="paramname"><em>B</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>Re</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>rho</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>alpha</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>m</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>omega</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">const Mat &amp;&#160;</td>
           <td class="paramname"><em>Dy</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">const Mat &amp;&#160;</td>
           <td class="paramname"><em>Dyy</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">const Mat &amp;&#160;</td>
           <td class="paramname"><em>Dz</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">const Mat &amp;&#160;</td>
           <td class="paramname"><em>Dzz</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">const Mat &amp;&#160;</td>
           <td class="paramname"><em>I</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">const Mat &amp;&#160;</td>
           <td class="paramname"><em>U</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">const Mat &amp;&#160;</td>
           <td class="paramname"><em>Uy</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>zi</em> = <code>0</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>order</em> = <code>4</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71">PetscBool</a> &amp;&#160;</td>
-          <td class="paramname"><em>reduce_wall_order</em> = <code><a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71ab38950201fb7dde402ba0ee57a05c42f">PETSC_TRUE</a></code>&#160;</td>
+          <td class="paramtype">const PetscBool &amp;&#160;</td>
+          <td class="paramname"><em>reduce_wall_order</em> = <code>PETSC_TRUE</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1475,21 +1483,21 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> PSE::set_b </td>
+          <td class="memname">PetscInt PSE::set_b </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">const Mat &amp;&#160;</td>
           <td class="paramname"><em>B</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;&#160;</td>
+          <td class="paramtype">const Vec &amp;&#160;</td>
           <td class="paramname"><em>qn</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;&#160;</td>
+          <td class="paramtype">Vec &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -1518,27 +1526,27 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> PSE::set_BCs </td>
+          <td class="memname">PetscInt PSE::set_BCs </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">Mat &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;&#160;</td>
+          <td class="paramtype">Vec &amp;&#160;</td>
           <td class="paramname"><em>b</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>ny</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>nz</em>&#160;</td>
         </tr>
         <tr>
@@ -1568,27 +1576,27 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> PSE::set_BCs </td>
+          <td class="memname">PetscInt PSE::set_BCs </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">Mat &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">Mat &amp;&#160;</td>
           <td class="paramname"><em>B</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>ny</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>nz</em>&#160;</td>
         </tr>
         <tr>
@@ -1618,46 +1626,46 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> PSE::set_D </td>
+          <td class="memname">PetscInt PSE::set_D </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a>&#160;</td>
+          <td class="paramtype">const PetscScalar&#160;</td>
           <td class="paramname"><em>y</em>[], </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>n</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">Mat &amp;&#160;</td>
           <td class="paramname"><em>output</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>order</em> = <code>2</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>d</em> = <code>2</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71">PetscBool</a> &amp;&#160;</td>
-          <td class="paramname"><em>periodic</em> = <code><a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71a42681487018bed1a5af6523ec33d386f">PETSC_FALSE</a></code>, </td>
+          <td class="paramtype">const PetscBool &amp;&#160;</td>
+          <td class="paramname"><em>periodic</em> = <code>PETSC_FALSE</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71">PetscBool</a> &amp;&#160;</td>
-          <td class="paramname"><em>reduce_wall_order</em> = <code><a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71ab38950201fb7dde402ba0ee57a05c42f">PETSC_TRUE</a></code>&#160;</td>
+          <td class="paramtype">const PetscBool &amp;&#160;</td>
+          <td class="paramname"><em>reduce_wall_order</em> = <code>PETSC_TRUE</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1689,21 +1697,21 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> PSE::set_Euler_Advance </td>
+          <td class="memname">PetscInt PSE::set_Euler_Advance </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>hx</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">Mat &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">Mat &amp;&#160;</td>
           <td class="paramname"><em>B</em>&#160;</td>
         </tr>
         <tr>
@@ -1732,28 +1740,28 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> PSE::set_Mat </td>
+          <td class="memname">PetscInt PSE::set_Mat </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> *const *&#160;</td>
+          <td class="paramtype">const PetscScalar *const *&#160;</td>
           <td class="paramname"><em>Ain</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>n</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">Mat &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#ad615d8c8bb531a66905d9ca91a13a447">InsertMode</a> &amp;&#160;</td>
-          <td class="paramname"><em>addv</em> = <code><a class="el" href="include_2petscsys_8h.html#ad615d8c8bb531a66905d9ca91a13a447a61218e83540b16884445ae8b02c4de3f">ADD_VALUES</a></code>&#160;</td>
+          <td class="paramtype">const InsertMode &amp;&#160;</td>
+          <td class="paramname"><em>addv</em> = <code>ADD_VALUES</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1763,7 +1771,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>set a matrix from PetscScalar 2D matrix to <a class="el" href="namespacePETSc.html">PETSc</a> Mat type in parallel </p>
+<p>set a matrix from PetscScalar 2D matrix to PETSc Mat type in parallel </p>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1782,40 +1790,40 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> PSE::set_Mat </td>
+          <td class="memname">PetscInt PSE::set_Mat </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>diag</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>n</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">Mat &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>k</em> = <code>0</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71">PetscBool</a> &amp;&#160;</td>
-          <td class="paramname"><em>parallel</em> = <code><a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71ab38950201fb7dde402ba0ee57a05c42f">PETSC_TRUE</a></code>, </td>
+          <td class="paramtype">const PetscBool &amp;&#160;</td>
+          <td class="paramname"><em>parallel</em> = <code>PETSC_TRUE</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#ad615d8c8bb531a66905d9ca91a13a447">InsertMode</a> &amp;&#160;</td>
-          <td class="paramname"><em>addv</em> = <code><a class="el" href="include_2petscsys_8h.html#ad615d8c8bb531a66905d9ca91a13a447a61218e83540b16884445ae8b02c4de3f">ADD_VALUES</a></code>&#160;</td>
+          <td class="paramtype">const InsertMode &amp;&#160;</td>
+          <td class="paramname"><em>addv</em> = <code>ADD_VALUES</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1846,9 +1854,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> PSE::set_Mat </td>
+          <td class="memname">PetscInt PSE::set_Mat </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">Mat &amp;&#160;</td>
           <td class="paramname"><em>A</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1871,40 +1879,40 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> PSE::set_Mat </td>
+          <td class="memname">PetscInt PSE::set_Mat </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>value</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>row</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>col</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">Mat &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71">PetscBool</a> &amp;&#160;</td>
-          <td class="paramname"><em>parallel</em> = <code><a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71ab38950201fb7dde402ba0ee57a05c42f">PETSC_TRUE</a></code>, </td>
+          <td class="paramtype">const PetscBool &amp;&#160;</td>
+          <td class="paramname"><em>parallel</em> = <code>PETSC_TRUE</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#ad615d8c8bb531a66905d9ca91a13a447">InsertMode</a> &amp;&#160;</td>
-          <td class="paramname"><em>addv</em> = <code><a class="el" href="include_2petscsys_8h.html#ad615d8c8bb531a66905d9ca91a13a447a61218e83540b16884445ae8b02c4de3f">ADD_VALUES</a></code>&#160;</td>
+          <td class="paramtype">const InsertMode &amp;&#160;</td>
+          <td class="paramname"><em>addv</em> = <code>ADD_VALUES</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1935,52 +1943,52 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> PSE::set_Mat </td>
+          <td class="memname">PetscInt PSE::set_Mat </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">const Mat &amp;&#160;</td>
           <td class="paramname"><em>Asub</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>nsub</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">Mat &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>n</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>rowoffset</em> = <code>0</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>coloffset</em> = <code>0</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#ad615d8c8bb531a66905d9ca91a13a447">InsertMode</a> &amp;&#160;</td>
-          <td class="paramname"><em>addv</em> = <code><a class="el" href="include_2petscsys_8h.html#ad615d8c8bb531a66905d9ca91a13a447a61218e83540b16884445ae8b02c4de3f">ADD_VALUES</a></code>&#160;</td>
+          <td class="paramtype">const InsertMode &amp;&#160;</td>
+          <td class="paramname"><em>addv</em> = <code>ADD_VALUES</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2013,40 +2021,40 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> PSE::set_Mat </td>
+          <td class="memname">PetscInt PSE::set_Mat </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> *&#160;</td>
+          <td class="paramtype">const PetscScalar *&#160;</td>
           <td class="paramname"><em>Ain</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>row</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>ncols</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a>&#160;</td>
+          <td class="paramtype">const PetscInt&#160;</td>
           <td class="paramname"><em>cols</em>[], </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">Mat &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#ad615d8c8bb531a66905d9ca91a13a447">InsertMode</a> &amp;&#160;</td>
-          <td class="paramname"><em>addv</em> = <code><a class="el" href="include_2petscsys_8h.html#ad615d8c8bb531a66905d9ca91a13a447a61218e83540b16884445ae8b02c4de3f">ADD_VALUES</a></code>&#160;</td>
+          <td class="paramtype">const InsertMode &amp;&#160;</td>
+          <td class="paramname"><em>addv</em> = <code>ADD_VALUES</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2056,7 +2064,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>set a row of PetscScalar to a matrix to <a class="el" href="namespacePETSc.html">PETSc</a> Mat </p>
+<p>set a row of PetscScalar to a matrix to PETSc Mat </p>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -2077,64 +2085,64 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> PSE::set_Mat </td>
+          <td class="memname">PetscInt PSE::set_Mat </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">const Mat &amp;&#160;</td>
           <td class="paramname"><em>Dz</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>nz</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>ny</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>zi</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscmat_8h.html#a28b1c75999a6b1553eb6f83787eb8695">Mat</a> &amp;&#160;</td>
+          <td class="paramtype">Mat &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>n</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>rowoffset</em> = <code>0</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>coloffset</em> = <code>0</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#ad615d8c8bb531a66905d9ca91a13a447">InsertMode</a> &amp;&#160;</td>
-          <td class="paramname"><em>addv</em> = <code><a class="el" href="include_2petscsys_8h.html#ad615d8c8bb531a66905d9ca91a13a447a61218e83540b16884445ae8b02c4de3f">ADD_VALUES</a></code>&#160;</td>
+          <td class="paramtype">const InsertMode &amp;&#160;</td>
+          <td class="paramname"><em>addv</em> = <code>ADD_VALUES</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2169,28 +2177,28 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> PSE::set_Vec </td>
+          <td class="memname">PetscInt PSE::set_Vec </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> *&#160;</td>
+          <td class="paramtype">const PetscScalar *&#160;</td>
           <td class="paramname"><em>bin</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>n</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;&#160;</td>
+          <td class="paramtype">Vec &amp;&#160;</td>
           <td class="paramname"><em>b</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71">PetscBool</a> &amp;&#160;</td>
-          <td class="paramname"><em>parallel</em> = <code><a class="el" href="include_2petscsys_8h.html#a648f92c62c4e2e931ba58385a4accf71ab38950201fb7dde402ba0ee57a05c42f">PETSC_TRUE</a></code>&#160;</td>
+          <td class="paramtype">const PetscBool &amp;&#160;</td>
+          <td class="paramname"><em>parallel</em> = <code>PETSC_TRUE</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2200,7 +2208,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>set a vector from PetscScalar 1D vector to <a class="el" href="namespacePETSc.html">PETSc</a> Vec type in parallel </p>
+<p>set a vector from PetscScalar 1D vector to PETSc Vec type in parallel </p>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -2219,9 +2227,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> PSE::set_Vec </td>
+          <td class="memname">PetscInt PSE::set_Vec </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;&#160;</td>
+          <td class="paramtype">Vec &amp;&#160;</td>
           <td class="paramname"><em>b</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2244,21 +2252,21 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> PSE::set_Vec </td>
+          <td class="memname">PetscInt PSE::set_Vec </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>bin</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>n</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;&#160;</td>
+          <td class="paramtype">Vec &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -2269,7 +2277,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>set a vector from PetscScalar to <a class="el" href="namespacePETSc.html">PETSc</a> Vec in location n </p>
+<p>set a vector from PetscScalar to PETSc Vec in location n </p>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -2287,27 +2295,27 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> PSE::set_Vec </td>
+          <td class="memname">PetscInt PSE::set_Vec </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;&#160;</td>
+          <td class="paramtype">const Vec &amp;&#160;</td>
           <td class="paramname"><em>inVec</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>low</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>hi</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;&#160;</td>
+          <td class="paramtype">Vec &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -2332,33 +2340,33 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab51d50c27caa5dda043dd101d7397dfe"></a>
+<a class="anchor" id="ad2702d43973d8a39cc147629c3d9221a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">int PSE::trapz </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;&#160;</td>
+          <td class="paramtype">Vec &amp;&#160;</td>
           <td class="paramname"><em>q</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>n</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
+          <td class="paramtype">PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>I</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
-          <td class="paramname"><em>Deltax</em> = <code>1.</code>&#160;</td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
+          <td class="paramname"><em>Deltay</em> = <code>1.</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2368,77 +2376,147 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>trapezoidal rule on Vec </p>
+<p>trapezoidal rule on Vec with ny values </p>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">q</td><td>Vector to integrate </td></tr>
     <tr><td class="paramname">n</td><td>size of vector </td></tr>
     <tr><td class="paramname">I</td><td>output value of integration </td></tr>
-    <tr><td class="paramname">Deltax</td><td>Domain size (b-a) in \( I = \int_a^b f(x) dx\) </td></tr>
+    <tr><td class="paramname">Deltay</td><td>Domain size (b-a) in \( I = \int_a^b f(x) dx\) </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a class="anchor" id="adb2977ae27eb2662ac6f1067d3c55638"></a>
+<a class="anchor" id="a819bf1c19cd4c79c56d13f49b4c88165"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int PSE::trapz </td>
+          <td>(</td>
+          <td class="paramtype">Vec &amp;&#160;</td>
+          <td class="paramname"><em>q</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
+          <td class="paramname"><em>ny</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
+          <td class="paramname"><em>nz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PetscScalar &amp;&#160;</td>
+          <td class="paramname"><em>I</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
+          <td class="paramname"><em>Deltay</em> = <code>1.</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
+          <td class="paramname"><em>Deltaz</em> = <code>1.</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>trapezoidal rule on Vec with ny,nz values </p>
+<dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">q</td><td>Vector to integrate </td></tr>
+    <tr><td class="paramname">ny</td><td>size of vector in ny (length(q) = 4*ny*nz) </td></tr>
+    <tr><td class="paramname">nz</td><td>size of vector in nz (length(q) = 4*ny*nz) </td></tr>
+    <tr><td class="paramname">I</td><td>output value of integration </td></tr>
+    <tr><td class="paramname">Deltay</td><td>Domain size (b-a) in y-direction </td></tr>
+    <tr><td class="paramname">Deltaz</td><td>Domain size (b-z) in z-direction </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a04768e5dc9ac57289b3e378e4ec0f675"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">int PSE::update_Closure </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;&#160;</td>
+          <td class="paramtype">const Vec &amp;&#160;</td>
           <td class="paramname"><em>q</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="include_2petscvec_8h.html#af0f813347b3f949e0248ebfe5d43f375">Vec</a> &amp;&#160;</td>
+          <td class="paramtype">Vec &amp;&#160;</td>
           <td class="paramname"><em>qp1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>ny</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscsys_8h.html#a515706180f960b30595b607f2d734d14">PetscInt</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
           <td class="paramname"><em>nz</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>dx</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
+          <td class="paramtype">PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>Ialpha</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
+          <td class="paramtype">PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>alpha</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="include_2petscts_8h.html#ae94bfb55391bd18fd0211cb6e728f45a">PetscReal</a> &amp;&#160;</td>
-          <td class="paramname"><em>tol</em> = <code>1e-6</code>, </td>
+          <td class="paramtype">const PetscReal &amp;&#160;</td>
+          <td class="paramname"><em>tol</em> = <code>1e-7</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="petscmath_8h.html#a72b0d00b506cfbbf4086659a4bf3108a">PetscScalar</a> &amp;&#160;</td>
-          <td class="paramname"><em>Deltax</em> = <code>2</code>&#160;</td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
+          <td class="paramname"><em>Deltay</em> = <code>2</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
+          <td class="paramname"><em>Deltaz</em> = <code>1</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2464,7 +2542,8 @@ Solution Procedure</div></div>
     <tr><td class="paramname">Ialpha</td><td>integral value from previous step \( \int_0^{x_i} \alpha(\xi) d\xi \) </td></tr>
     <tr><td class="paramname">alpha</td><td>initial alpha value of eigenfunction (constant from last step initially) </td></tr>
     <tr><td class="paramname">tol</td><td>tolerance on norm equation </td></tr>
-    <tr><td class="paramname">Deltax</td><td>height of channel (default to 2) </td></tr>
+    <tr><td class="paramname">Deltay</td><td>height of channel in y (default to 2) </td></tr>
+    <tr><td class="paramname">Deltaz</td><td>width of channel in z(default to 1) </td></tr>
   </table>
   </dd>
 </dl>

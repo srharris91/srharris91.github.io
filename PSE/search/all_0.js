@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['_21bmx',['!bmx',['../plate2f_8h.html#a3d245a7df2063b31f4bf7d5739dfe2dc',1,'plate2f.h']]],
-  ['_21formfunctiongradient',['!FormFunctionGradient',['../chwirut1f_8h.html#a3c5e88f85c2e3942aeda1eef80912d9a',1,'!FormFunctionGradient():&#160;chwirut1f.h'],['../chwirut2f_8h.html#aef6f9812b2b4c74f3783a79562da2775',1,'!FormFunctionGradient():&#160;chwirut2f.h'],['../rosenbrock1f_8h.html#a592440b0a4eb1965ebb5944c920e4eb9',1,'!FormFunctionGradient():&#160;rosenbrock1f.h']]],
-  ['_21hx',['!hx',['../plate2f_8h.html#a1094c7a2538442e3b93e0450db02a243',1,'plate2f.h']]],
-  ['_21note',['!Note',['../include_2petsc_2finclude_2petscsys_8h.html#afc297081a1ff35bee93c166845a81753',1,'petscsys.h']]],
-  ['_21nx',['!Nx',['../plate2f_8h.html#ac1ce2c7c00ad65a4b9b4839b425c9eda',1,'plate2f.h']]],
-  ['_21xs',['!xs',['../ex5f_8h.html#ad4926baccbd9aa9ebf61e30f0685c23c',1,'ex5f.h']]]
+  ['ansi_5fcolor_5fcyan',['ANSI_COLOR_CYAN',['../print_8cpp.html#a8d0b0043e152438bb39b918a1f98c65f',1,'print.cpp']]],
+  ['ansi_5fcolor_5fgreen',['ANSI_COLOR_GREEN',['../Read__q_8cpp.html#a966c72d8d733c7734c6c784753d894c7',1,'Read_q.cpp']]],
+  ['ansi_5fcolor_5freset',['ANSI_COLOR_RESET',['../print_8cpp.html#a92a364c2b863dde1a024a77eac2a5b3b',1,'ANSI_COLOR_RESET():&#160;print.cpp'],['../Read__q_8cpp.html#a92a364c2b863dde1a024a77eac2a5b3b',1,'ANSI_COLOR_RESET():&#160;Read_q.cpp']]],
+  ['ax_5fb',['Ax_b',['../namespacePSE.html#a34e5a20f5f1deeb44a0bb7b5c2ed9953',1,'PSE::Ax_b(const PetscScalar *const *Ain, Vec &amp;x, const PetscScalar bin[], const PetscInt &amp;n)'],['../namespacePSE.html#a95785703297cd3c22a8ad3035ccb0d6f',1,'PSE::Ax_b(const Mat &amp;A, Vec &amp;x, const Vec &amp;b, const PetscInt &amp;n)']]],
+  ['ax_5fb_2ecpp',['Ax_b.cpp',['../Ax__b_8cpp.html',1,'']]],
+  ['ax_5fb_2ehpp',['Ax_b.hpp',['../Ax__b_8hpp.html',1,'']]]
 ];
