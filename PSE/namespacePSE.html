@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li class="current"><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -87,12 +88,19 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">PSE Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html">PSE</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to contain various variables for <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> solution.  <a href="classPSE_1_1PSE.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a34e5a20f5f1deeb44a0bb7b5c2ed9953"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a34e5a20f5f1deeb44a0bb7b5c2ed9953">Ax_b</a> (const PetscScalar *const *Ain, Vec &amp;x, const PetscScalar bin[], const PetscInt &amp;n)</td></tr>
@@ -120,23 +128,23 @@ Functions</h2></td></tr>
 <tr class="memdesc:a6a28bf5687be08e4dd183f9eff806487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a Matrix A to be of size nxn.  <a href="#a6a28bf5687be08e4dd183f9eff806487">More...</a><br /></td></tr>
 <tr class="separator:a6a28bf5687be08e4dd183f9eff806487"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc379863dab0514427427caf2889d23d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#acc379863dab0514427427caf2889d23d">Init_Mat</a> (Mat &amp;A, const PetscInt &amp;m, const PetscInt &amp;n)</td></tr>
-<tr class="memdesc:acc379863dab0514427427caf2889d23d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a Matrix A to be of size nxn.  <a href="#acc379863dab0514427427caf2889d23d">More...</a><br /></td></tr>
+<tr class="memdesc:acc379863dab0514427427caf2889d23d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a Matrix A to be of size mxn.  <a href="#acc379863dab0514427427caf2889d23d">More...</a><br /></td></tr>
 <tr class="separator:acc379863dab0514427427caf2889d23d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a929ef72234fddb31ff867fa1446a8905"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a929ef72234fddb31ff867fa1446a8905">Init_Vec</a> (Vec &amp;x, const PetscInt &amp;n)</td></tr>
 <tr class="memdesc:a929ef72234fddb31ff867fa1446a8905"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a vector x to be of size n.  <a href="#a929ef72234fddb31ff867fa1446a8905">More...</a><br /></td></tr>
 <tr class="separator:a929ef72234fddb31ff867fa1446a8905"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5255dc142780be9634b3e84da8cd0263"><td class="memItemLeft" align="right" valign="top">PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a5255dc142780be9634b3e84da8cd0263">printScalar</a> (const PetscScalar x[], const PetscInt n=1, char const name[]=&quot;x&quot;, PetscViewer viewer=PETSC_VIEWER_STDOUT_WORLD)</td></tr>
-<tr class="memdesc:a5255dc142780be9634b3e84da8cd0263"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print PetscScalar variable to screen.  <a href="#a5255dc142780be9634b3e84da8cd0263">More...</a><br /></td></tr>
-<tr class="separator:a5255dc142780be9634b3e84da8cd0263"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed14e439ee0a3b7fda3f733e98081363"><td class="memItemLeft" align="right" valign="top">PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aed14e439ee0a3b7fda3f733e98081363">printVec</a> (Vec &amp;x, PetscInt n, char const name[]=&quot;x&quot;)</td></tr>
-<tr class="memdesc:aed14e439ee0a3b7fda3f733e98081363"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print Vec from PETSc type variable to screen.  <a href="#aed14e439ee0a3b7fda3f733e98081363">More...</a><br /></td></tr>
-<tr class="separator:aed14e439ee0a3b7fda3f733e98081363"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a878fa03e2fd624a254f7800650b569b2"><td class="memItemLeft" align="right" valign="top">PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a878fa03e2fd624a254f7800650b569b2">printInt</a> (PetscInt x[], PetscInt n=1, char const name[]=&quot;x&quot;)</td></tr>
-<tr class="memdesc:a878fa03e2fd624a254f7800650b569b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print PetscInt variable to screen.  <a href="#a878fa03e2fd624a254f7800650b569b2">More...</a><br /></td></tr>
-<tr class="separator:a878fa03e2fd624a254f7800650b569b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac72fe6ab93d3156d9290bc2341a2283b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ac72fe6ab93d3156d9290bc2341a2283b">printVecView</a> (Vec &amp;x, char const name[]=&quot;x viewer&quot;, PetscViewerFormat format=PETSC_VIEWER_DEFAULT)</td></tr>
-<tr class="memdesc:ac72fe6ab93d3156d9290bc2341a2283b"><td class="mdescLeft">&#160;</td><td class="mdescRight">view PetscVec variable to screen Open an X-window viewer. Note that we specify the same communicator for the viewer as we used for the distributed vector (PETSC_COMM_WORLD).  <a href="#ac72fe6ab93d3156d9290bc2341a2283b">More...</a><br /></td></tr>
-<tr class="separator:ac72fe6ab93d3156d9290bc2341a2283b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac456c4c880624b7a6b907995a05e9b48"><td class="memItemLeft" align="right" valign="top">PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ac456c4c880624b7a6b907995a05e9b48">printScalar</a> (const PetscScalar x[], const PetscInt n=1, char const name[]=&quot;x&quot;, const PetscViewer viewer=PETSC_VIEWER_STDOUT_WORLD)</td></tr>
+<tr class="memdesc:ac456c4c880624b7a6b907995a05e9b48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print PetscScalar variable to screen.  <a href="#ac456c4c880624b7a6b907995a05e9b48">More...</a><br /></td></tr>
+<tr class="separator:ac456c4c880624b7a6b907995a05e9b48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a728ecf3fee73eeb301802d577abd31dc"><td class="memItemLeft" align="right" valign="top">PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a728ecf3fee73eeb301802d577abd31dc">printVec</a> (const Vec &amp;x, const PetscInt n, char const name[]=&quot;x&quot;)</td></tr>
+<tr class="memdesc:a728ecf3fee73eeb301802d577abd31dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print Vec from PETSc type variable to screen.  <a href="#a728ecf3fee73eeb301802d577abd31dc">More...</a><br /></td></tr>
+<tr class="separator:a728ecf3fee73eeb301802d577abd31dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3da6b6642caa8372bbb1d60cac8d300d"><td class="memItemLeft" align="right" valign="top">PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a3da6b6642caa8372bbb1d60cac8d300d">printInt</a> (const PetscInt x[], const PetscInt n=1, char const name[]=&quot;x&quot;)</td></tr>
+<tr class="memdesc:a3da6b6642caa8372bbb1d60cac8d300d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print PetscInt variable to screen.  <a href="#a3da6b6642caa8372bbb1d60cac8d300d">More...</a><br /></td></tr>
+<tr class="separator:a3da6b6642caa8372bbb1d60cac8d300d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcd72375bfd6c3e459eec96fcc9fb25b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#adcd72375bfd6c3e459eec96fcc9fb25b">printVecView</a> (const Vec &amp;x, char const name[]=&quot;x viewer&quot;, const PetscViewerFormat format=PETSC_VIEWER_DEFAULT)</td></tr>
+<tr class="memdesc:adcd72375bfd6c3e459eec96fcc9fb25b"><td class="mdescLeft">&#160;</td><td class="mdescRight">view PetscVec variable to screen Open an X-window viewer. Note that we specify the same communicator for the viewer as we used for the distributed vector (PETSC_COMM_WORLD).  <a href="#adcd72375bfd6c3e459eec96fcc9fb25b">More...</a><br /></td></tr>
+<tr class="separator:adcd72375bfd6c3e459eec96fcc9fb25b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4eca5e043cde66f140837461b4b533c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a4eca5e043cde66f140837461b4b533c5">printMatView</a> (const Mat &amp;A, char const name[]=&quot;A viewer&quot;, const PetscViewerFormat format=PETSC_VIEWER_DEFAULT)</td></tr>
 <tr class="memdesc:a4eca5e043cde66f140837461b4b533c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">view Petsc Mat variable to screen Open an X-window viewer. Note that we specify the same communicator for the viewer as we used for the distributed vector (PETSC_COMM_WORLD).  <a href="#a4eca5e043cde66f140837461b4b533c5">More...</a><br /></td></tr>
 <tr class="separator:a4eca5e043cde66f140837461b4b533c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -212,12 +220,12 @@ Functions</h2></td></tr>
 <tr class="memitem:aadbaa2fa2002e60d96e1019140975e98"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aadbaa2fa2002e60d96e1019140975e98">set_Vec</a> (const Vec &amp;inVec, const PetscInt &amp;low, const PetscInt &amp;hi, Vec &amp;b)</td></tr>
 <tr class="memdesc:aadbaa2fa2002e60d96e1019140975e98"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a subvector from larger vector from low to hi indices  <a href="#aadbaa2fa2002e60d96e1019140975e98">More...</a><br /></td></tr>
 <tr class="separator:aadbaa2fa2002e60d96e1019140975e98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2702d43973d8a39cc147629c3d9221a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ad2702d43973d8a39cc147629c3d9221a">trapz</a> (Vec &amp;q, const PetscInt &amp;n, PetscScalar &amp;I, const PetscScalar &amp;Deltay=1.)</td></tr>
-<tr class="memdesc:ad2702d43973d8a39cc147629c3d9221a"><td class="mdescLeft">&#160;</td><td class="mdescRight">trapezoidal rule on Vec with ny values  <a href="#ad2702d43973d8a39cc147629c3d9221a">More...</a><br /></td></tr>
-<tr class="separator:ad2702d43973d8a39cc147629c3d9221a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a819bf1c19cd4c79c56d13f49b4c88165"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a819bf1c19cd4c79c56d13f49b4c88165">trapz</a> (Vec &amp;q, const PetscInt &amp;ny, const PetscInt &amp;nz, PetscScalar &amp;I, const PetscScalar &amp;Deltay=1., const PetscScalar &amp;Deltaz=1.)</td></tr>
-<tr class="memdesc:a819bf1c19cd4c79c56d13f49b4c88165"><td class="mdescLeft">&#160;</td><td class="mdescRight">trapezoidal rule on Vec with ny,nz values  <a href="#a819bf1c19cd4c79c56d13f49b4c88165">More...</a><br /></td></tr>
-<tr class="separator:a819bf1c19cd4c79c56d13f49b4c88165"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb03d267a962b22a1594adf72a2ba448"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#acb03d267a962b22a1594adf72a2ba448">trapz</a> (const Vec &amp;q, const PetscInt &amp;n, PetscScalar &amp;I, const PetscScalar &amp;Deltay=1.)</td></tr>
+<tr class="memdesc:acb03d267a962b22a1594adf72a2ba448"><td class="mdescLeft">&#160;</td><td class="mdescRight">trapezoidal rule on Vec with ny values  <a href="#acb03d267a962b22a1594adf72a2ba448">More...</a><br /></td></tr>
+<tr class="separator:acb03d267a962b22a1594adf72a2ba448"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17a9e9f1c60c79073775eddf83822482"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a17a9e9f1c60c79073775eddf83822482">trapz</a> (const Vec &amp;q, const PetscInt &amp;ny, const PetscInt &amp;nz, PetscScalar &amp;I, const PetscScalar &amp;Deltay=1., const PetscScalar &amp;Deltaz=1.)</td></tr>
+<tr class="memdesc:a17a9e9f1c60c79073775eddf83822482"><td class="mdescLeft">&#160;</td><td class="mdescRight">trapezoidal rule on Vec with ny,nz values  <a href="#a17a9e9f1c60c79073775eddf83822482">More...</a><br /></td></tr>
+<tr class="separator:a17a9e9f1c60c79073775eddf83822482"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04768e5dc9ac57289b3e378e4ec0f675"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a04768e5dc9ac57289b3e378e4ec0f675">update_Closure</a> (const Vec &amp;q, Vec &amp;qp1, const PetscInt &amp;ny, const PetscInt &amp;nz, const PetscScalar &amp;dx, PetscScalar &amp;Ialpha, PetscScalar &amp;alpha, const PetscReal &amp;tol=1e-7, const PetscScalar &amp;Deltay=2, const PetscScalar &amp;Deltaz=1)</td></tr>
 <tr class="memdesc:a04768e5dc9ac57289b3e378e4ec0f675"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the closure equation \( \int_\Omega \hat{\textbf{q}}^\dagger \hat{\textbf{q}}_x dy \) and output the result This is part of the solution procedure shown in the bottom half of this diagram  <a href="#a04768e5dc9ac57289b3e378e4ec0f675">More...</a><br /></td></tr>
 <tr class="separator:a04768e5dc9ac57289b3e378e4ec0f675"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -263,10 +271,10 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Ain</td><td>input of 2D \(A\) matrix in \(Ax=b\) (must be dynamic pointer to pointer) </td></tr>
-    <tr><td class="paramname">x</td><td>vector of \(x\) in \(Ax=b\) </td></tr>
-    <tr><td class="paramname">bin</td><td>vector of \(b\) in \(Ax=b\) </td></tr>
-    <tr><td class="paramname">n</td><td>n size of vectors or nxn matrix \(A\) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Ain</td><td>input of 2D \(A\) matrix in \(Ax=b\) (must be dynamic pointer to pointer) </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">x</td><td>vector of \(x\) in \(Ax=b\) (already initialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bin</td><td>vector of \(b\) in \(Ax=b\) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>n size of vectors or nxn matrix \(A\) </td></tr>
   </table>
   </dd>
 </dl>
@@ -313,10 +321,10 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">A</td><td>input of A matrix in \(Ax=b\) </td></tr>
-    <tr><td class="paramname">x</td><td>vector of \(x\) in \(Ax=b\) </td></tr>
-    <tr><td class="paramname">b</td><td>vector of \(b\) in \(Ax=b\) </td></tr>
-    <tr><td class="paramname">n</td><td>n size of vectors or nxn matrix \(A\) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">A</td><td>input of A matrix in \(Ax=b\) </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">x</td><td>vector of \(x\) in \(Ax=b\) (already initialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>vector of \(b\) in \(Ax=b\) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>n size of vectors or nxn matrix \(A\) </td></tr>
   </table>
   </dd>
 </dl>
@@ -363,10 +371,10 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">U</td><td>velocity along channel axis </td></tr>
-    <tr><td class="paramname">Uy</td><td>first derivative of velocity </td></tr>
-    <tr><td class="paramname">y</td><td>input y vector (usually linspace(-1,1,n) </td></tr>
-    <tr><td class="paramname">n</td><td>size of vectors </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">U</td><td>velocity along channel axis </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">Uy</td><td>first derivative of velocity </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>input y vector (usually linspace(-1,1,n) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>size of vectors </td></tr>
   </table>
   </dd>
 </dl>
@@ -413,10 +421,10 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">U</td><td>velocity along channel axis </td></tr>
-    <tr><td class="paramname">Uy</td><td>first derivative of velocity </td></tr>
-    <tr><td class="paramname">y</td><td>input y vector (usually linspace(-1,1,n) </td></tr>
-    <tr><td class="paramname">n</td><td>size of vectors </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">U</td><td>velocity along channel axis (uninitialized) </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">Uy</td><td>first derivative of velocity (uninitialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>input y vector (usually linspace(-1,1,n) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>size of vectors </td></tr>
   </table>
   </dd>
 </dl>
@@ -481,13 +489,13 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">q</td><td>input array from previous iteration \( \hat{\textbf{q}}_i \) </td></tr>
-    <tr><td class="paramname">qp1</td><td>input array from previous iteration \( \hat{\textbf{q}}_{i+1} \) </td></tr>
-    <tr><td class="paramname">ny</td><td>size of arrays in y dimension </td></tr>
-    <tr><td class="paramname">nz</td><td>size of arrays in z dimension </td></tr>
-    <tr><td class="paramname">I</td><td>output integral value </td></tr>
-    <tr><td class="paramname">Deltay</td><td>height of channel in y(default to 2) </td></tr>
-    <tr><td class="paramname">Deltaz</td><td>width of channel in z(default to 1) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>input array from previous iteration \( \hat{\textbf{q}}_i \) </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">qp1</td><td>input array from previous iteration \( \hat{\textbf{q}}_{i+1} \) (already initialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ny</td><td>size of arrays in y dimension </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nz</td><td>size of arrays in z dimension </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">I</td><td>output integral value </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Deltay</td><td>height of channel in y(default to 2) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Deltaz</td><td>width of channel in z(default to 1) </td></tr>
   </table>
   </dd>
 </dl>
@@ -509,9 +517,10 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>calculate the factorial of an integer </p>
+<dl class="section return"><dt>Returns</dt><dd>n! </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">n</td><td>input integer to perform factorial on </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">n</td><td>input integer to perform factorial on </td></tr>
   </table>
   </dd>
 </dl>
@@ -558,10 +567,10 @@ Functions</h2></td></tr>
 <p>ierr from Ax=b solver </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">s</td><td>array of stencil points e.g. [-3,-2,-1,0,1] </td></tr>
-    <tr><td class="paramname">n</td><td>size of stencil </td></tr>
-    <tr><td class="paramname">output</td><td>output of coefficient values for the given stencil </td></tr>
-    <tr><td class="paramname">d</td><td>order of desired derivative (default=2) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">s</td><td>array of stencil points e.g. [-3,-2,-1,0,1] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>size of stencil </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">output</td><td>output of coefficient values for the given stencil (uninitialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">d</td><td>order of desired derivative (default=2) </td></tr>
   </table>
   </dd>
 </dl>
@@ -596,8 +605,8 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">A</td><td>A matrix to initialize in MPI </td></tr>
-    <tr><td class="paramname">n</td><td>number of global rows and columns </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">A</td><td>A matrix to initialize in MPI (uninitialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>number of global rows and columns </td></tr>
   </table>
   </dd>
 </dl>
@@ -634,13 +643,13 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Initialize a Matrix A to be of size nxn. </p>
+<p>Initialize a Matrix A to be of size mxn. </p>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">A</td><td>A matrix to initialize in MPI </td></tr>
-    <tr><td class="paramname">m</td><td>number of global rows </td></tr>
-    <tr><td class="paramname">n</td><td>number of global columns </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">A</td><td>A matrix to initialize in MPI (uninitialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">m</td><td>number of global rows </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>number of global columns </td></tr>
   </table>
   </dd>
 </dl>
@@ -675,28 +684,28 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">x</td><td>x vector to initialize in MPI </td></tr>
-    <tr><td class="paramname">n</td><td>size of vector </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">x</td><td>x vector to initialize in MPI (uninitialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>size of vector </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a class="anchor" id="a878fa03e2fd624a254f7800650b569b2"></a>
+<a class="anchor" id="a3da6b6642caa8372bbb1d60cac8d300d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">PetscErrorCode PSE::printInt </td>
           <td>(</td>
-          <td class="paramtype">PetscInt&#160;</td>
+          <td class="paramtype">const PetscInt&#160;</td>
           <td class="paramname"><em>x</em>[], </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">PetscInt&#160;</td>
+          <td class="paramtype">const PetscInt&#160;</td>
           <td class="paramname"><em>n</em> = <code>1</code>, </td>
         </tr>
         <tr>
@@ -717,9 +726,9 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>ierr from PetscErrorCode of PetscPrintf </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">x</td><td>PetscScalar array to print to screen </td></tr>
-    <tr><td class="paramname">n</td><td>size of scalar array to print </td></tr>
-    <tr><td class="paramname">name</td><td>name of variable to output default to 'x' </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>PetscScalar array to print to screen </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>size of scalar array to print </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>name of variable to output default to 'x' </td></tr>
   </table>
   </dd>
 </dl>
@@ -763,9 +772,9 @@ Functions</h2></td></tr>
 <p>-draw_pause &lt;pause&gt; : sets time (in seconds) that the program pauses after PetscDrawPause() has been called (0 is default, -1 implies until user input). </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">A</td><td>Petsc Mat nxn matrix to print to screen </td></tr>
-    <tr><td class="paramname">name</td><td>filename to write to </td></tr>
-    <tr><td class="paramname">format</td><td>format for viewer </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">A</td><td>Petsc Mat nxn matrix to print to screen </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>filename to write to </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">format</td><td>format for viewer </td></tr>
   </table>
   </dd>
 </dl>
@@ -809,16 +818,16 @@ Functions</h2></td></tr>
 <p>-draw_pause &lt;pause&gt; : sets time (in seconds) that the program pauses after PetscDrawPause() has been called (0 is default, -1 implies until user input). </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">A</td><td>Petsc Mat nxn matrix to print to screen </td></tr>
-    <tr><td class="paramname">name</td><td>name of variable to output default to 'A' </td></tr>
-    <tr><td class="paramname">format</td><td>format for viewer </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">A</td><td>Petsc Mat nxn matrix to print to screen </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>name of variable to output default to 'A' </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">format</td><td>format for viewer </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a class="anchor" id="a5255dc142780be9634b3e84da8cd0263"></a>
+<a class="anchor" id="ac456c4c880624b7a6b907995a05e9b48"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -843,7 +852,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">PetscViewer&#160;</td>
+          <td class="paramtype">const PetscViewer&#160;</td>
           <td class="paramname"><em>viewer</em> = <code>PETSC_VIEWER_STDOUT_WORLD</code>&#160;</td>
         </tr>
         <tr>
@@ -858,30 +867,30 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>ierr from PetscErrorCode of PetscPrintf </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">x</td><td>PetscScalar array to print to screen </td></tr>
-    <tr><td class="paramname">n</td><td>size of scalar array to print </td></tr>
-    <tr><td class="paramname">name</td><td>name of variable to output default to 'x' </td></tr>
-    <tr><td class="paramname">viewer</td><td>format for viewer </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>PetscScalar array to print to screen </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>size of scalar array to print </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>name of variable to output default to 'x' </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">viewer</td><td>format for viewer </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a class="anchor" id="aed14e439ee0a3b7fda3f733e98081363"></a>
+<a class="anchor" id="a728ecf3fee73eeb301802d577abd31dc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">PetscErrorCode PSE::printVec </td>
           <td>(</td>
-          <td class="paramtype">Vec &amp;&#160;</td>
+          <td class="paramtype">const Vec &amp;&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">PetscInt&#160;</td>
+          <td class="paramtype">const PetscInt&#160;</td>
           <td class="paramname"><em>n</em>, </td>
         </tr>
         <tr>
@@ -902,9 +911,9 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>ierr from PetscErrorCode of PetscPrintf </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">x</td><td>Vec array to print to screen </td></tr>
-    <tr><td class="paramname">n</td><td>size of scalar array to print </td></tr>
-    <tr><td class="paramname">name</td><td>name of variable to output default to 'x' </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>Vec array to print to screen </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>size of scalar array to print </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>name of variable to output default to 'x' </td></tr>
   </table>
   </dd>
 </dl>
@@ -948,23 +957,23 @@ Functions</h2></td></tr>
 <p>-draw_pause &lt;pause&gt; : sets time (in seconds) that the program pauses after PetscDrawPause() has been called (0 is default, -1 implies until user input). </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">b</td><td>Petsc Vec 1xn vector to print to screen </td></tr>
-    <tr><td class="paramname">name</td><td>filename to write to </td></tr>
-    <tr><td class="paramname">format</td><td>format for viewer </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>Petsc Vec 1xn vector to print to screen </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>filename to write to </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">format</td><td>format for viewer </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a class="anchor" id="ac72fe6ab93d3156d9290bc2341a2283b"></a>
+<a class="anchor" id="adcd72375bfd6c3e459eec96fcc9fb25b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void PSE::printVecView </td>
           <td>(</td>
-          <td class="paramtype">Vec &amp;&#160;</td>
+          <td class="paramtype">const Vec &amp;&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
@@ -976,7 +985,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">PetscViewerFormat&#160;</td>
+          <td class="paramtype">const PetscViewerFormat&#160;</td>
           <td class="paramname"><em>format</em> = <code>PETSC_VIEWER_DEFAULT</code>&#160;</td>
         </tr>
         <tr>
@@ -994,9 +1003,9 @@ Functions</h2></td></tr>
 <p>-draw_pause &lt;pause&gt; : sets time (in seconds) that the program pauses after PetscDrawPause() has been called (0 is default, -1 implies until user input). </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">x</td><td>PetscScalar array to print to screen </td></tr>
-    <tr><td class="paramname">name</td><td>name of variable to output default to 'x' </td></tr>
-    <tr><td class="paramname">format</td><td>format for viewer </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>PetscScalar array to print to screen </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>name of variable to output default to 'x' </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">format</td><td>format for viewer </td></tr>
   </table>
   </dd>
 </dl>
@@ -1061,13 +1070,13 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">evec</td><td>eigen vector to return after reading file </td></tr>
-    <tr><td class="paramname">y</td><td>y values to return after reading </td></tr>
-    <tr><td class="paramname">ny</td><td>length of y </td></tr>
-    <tr><td class="paramname">z</td><td>z values to return after reading </td></tr>
-    <tr><td class="paramname">nz</td><td>size of vector z vector </td></tr>
-    <tr><td class="paramname">alpha</td><td>eigen value alpha to read </td></tr>
-    <tr><td class="paramname">buff</td><td>filename of binary to read (output of python script </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">evec</td><td>eigen vector to return after reading file (already initialized) </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">y</td><td>y values to return after reading </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ny</td><td>length of y </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">z</td><td>z values to return after reading </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nz</td><td>size of vector z vector </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">alpha</td><td>eigen value alpha to read </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">buff</td><td>filename of binary to read (output of python script </td></tr>
   </table>
   </dd>
 </dl>
@@ -1108,9 +1117,9 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">output</td><td>vector to return after reading file </td></tr>
-    <tr><td class="paramname">n</td><td>int size of vector </td></tr>
-    <tr><td class="paramname">buff</td><td>filename of binary to read (output of python script </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">output</td><td>vector to return after reading file (already initialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>int size of vector </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">buff</td><td>filename of binary to read (output of python script </td></tr>
   </table>
   </dd>
 </dl>
@@ -1151,9 +1160,9 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">output</td><td>vector to return after reading file </td></tr>
-    <tr><td class="paramname">n</td><td>int size of vector </td></tr>
-    <tr><td class="paramname">buff</td><td>filename of binary to read (output of python script </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">output</td><td>vector to return after reading file </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>int size of vector </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">buff</td><td>filename of binary to read (output of python script </td></tr>
   </table>
   </dd>
 </dl>
@@ -1188,8 +1197,8 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">output</td><td>complex scalar to return after reading file </td></tr>
-    <tr><td class="paramname">buff</td><td>filename of binary to read (output of python script </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">output</td><td>complex scalar to return after reading file </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">buff</td><td>filename of binary to read (output of python script </td></tr>
   </table>
   </dd>
 </dl>
@@ -1290,19 +1299,19 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">y</td><td>y array </td></tr>
-    <tr><td class="paramname">ny</td><td>size of y array </td></tr>
-    <tr><td class="paramname">z</td><td>z array </td></tr>
-    <tr><td class="paramname">nz</td><td>size of z array </td></tr>
-    <tr><td class="paramname">A</td><td>A matrix (uninitialized) </td></tr>
-    <tr><td class="paramname">B</td><td>B matrix (uninitialized) </td></tr>
-    <tr><td class="paramname">Re</td><td>Reynolds number </td></tr>
-    <tr><td class="paramname">rho</td><td>rho density </td></tr>
-    <tr><td class="paramname">alpha</td><td>alpha </td></tr>
-    <tr><td class="paramname">m</td><td>m for omega </td></tr>
-    <tr><td class="paramname">omega</td><td>omega value </td></tr>
-    <tr><td class="paramname">order</td><td>order of accuracy of derivatives in finite difference </td></tr>
-    <tr><td class="paramname">reduce_wall_order</td><td>reduce order of derivatives at the wall if true </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>y array </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ny</td><td>size of y array </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">z</td><td>z array </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nz</td><td>size of z array </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">A</td><td>A matrix (uninitialized) </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">B</td><td>B matrix (uninitialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Re</td><td>Reynolds number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">rho</td><td>rho density </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">alpha</td><td>alpha </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">m</td><td>m for omega </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">omega</td><td>omega value </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">order</td><td>order of accuracy of derivatives in finite difference </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">reduce_wall_order</td><td>reduce order of derivatives at the wall if true </td></tr>
   </table>
   </dd>
 </dl>
@@ -1451,27 +1460,27 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">y</td><td>y array </td></tr>
-    <tr><td class="paramname">ny</td><td>size of y array </td></tr>
-    <tr><td class="paramname">z</td><td>z array </td></tr>
-    <tr><td class="paramname">nz</td><td>size of z array </td></tr>
-    <tr><td class="paramname">A</td><td>A matrix (uninitialized) </td></tr>
-    <tr><td class="paramname">B</td><td>B matrix (uninitialized) </td></tr>
-    <tr><td class="paramname">Re</td><td>Reynolds number </td></tr>
-    <tr><td class="paramname">rho</td><td>rho density </td></tr>
-    <tr><td class="paramname">alpha</td><td>alpha </td></tr>
-    <tr><td class="paramname">m</td><td>m for omega </td></tr>
-    <tr><td class="paramname">omega</td><td>omega value </td></tr>
-    <tr><td class="paramname">Dy</td><td>Dy matrix </td></tr>
-    <tr><td class="paramname">Dyy</td><td>Dyy matrix </td></tr>
-    <tr><td class="paramname">Dz</td><td>Dz matrix </td></tr>
-    <tr><td class="paramname">Dzz</td><td>Dzz matrix </td></tr>
-    <tr><td class="paramname">I</td><td>I identity matrix </td></tr>
-    <tr><td class="paramname">U</td><td>U base flow matrix </td></tr>
-    <tr><td class="paramname">Uy</td><td>Uy base flow matrix </td></tr>
-    <tr><td class="paramname">zi</td><td>zi plane of matrix </td></tr>
-    <tr><td class="paramname">order</td><td>order of accuracy of derivatives in finite difference </td></tr>
-    <tr><td class="paramname">reduce_wall_order</td><td>reduce order of derivatives at the wall if true </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>y array </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ny</td><td>size of y array </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">z</td><td>z array </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nz</td><td>size of z array </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">A</td><td>A matrix (uninitialized) </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">B</td><td>B matrix (uninitialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Re</td><td>Reynolds number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">rho</td><td>rho density </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">alpha</td><td>alpha </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">m</td><td>m for omega </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">omega</td><td>omega value </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Dy</td><td>Dy matrix </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Dyy</td><td>Dyy matrix </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Dz</td><td>Dz matrix </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Dzz</td><td>Dzz matrix </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">I</td><td>I identity matrix </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">U</td><td>U base flow matrix </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Uy</td><td>Uy base flow matrix </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">zi</td><td>zi plane of matrix </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">order</td><td>order of accuracy of derivatives in finite difference </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">reduce_wall_order</td><td>reduce order of derivatives at the wall if true </td></tr>
   </table>
   </dd>
 </dl>
@@ -1512,9 +1521,9 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">B</td><td>B matrix </td></tr>
-    <tr><td class="paramname">qn</td><td>qn vector to multiply </td></tr>
-    <tr><td class="paramname">b</td><td>b Vec (initialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">B</td><td>B matrix </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">qn</td><td>qn vector to multiply </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">b</td><td>b Vec (already initialized) </td></tr>
   </table>
   </dd>
 </dl>
@@ -1561,10 +1570,10 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">A</td><td>A matrix </td></tr>
-    <tr><td class="paramname">b</td><td>b Vec </td></tr>
-    <tr><td class="paramname">ny</td><td>size of y array </td></tr>
-    <tr><td class="paramname">nz</td><td>size of z array </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">A</td><td>A matrix (already initialized) </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">b</td><td>b Vec (already initialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ny</td><td>size of y array </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nz</td><td>size of z array </td></tr>
   </table>
   </dd>
 </dl>
@@ -1611,10 +1620,10 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">A</td><td>A matrix </td></tr>
-    <tr><td class="paramname">B</td><td>B Matrix </td></tr>
-    <tr><td class="paramname">ny</td><td>size of y array </td></tr>
-    <tr><td class="paramname">nz</td><td>size of z array </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">A</td><td>A matrix (already initialized) </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">B</td><td>B Matrix (already initialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ny</td><td>size of y array </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nz</td><td>size of z array </td></tr>
   </table>
   </dd>
 </dl>
@@ -1679,13 +1688,13 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">y</td><td>array of y values of channel </td></tr>
-    <tr><td class="paramname">n</td><td>length of y values </td></tr>
-    <tr><td class="paramname">output</td><td>output matrix(n-2 by n) dth derivative of order O(h^order) assuming uniform y spacing </td></tr>
-    <tr><td class="paramname">order</td><td>order of accuracy desired (assuming even e.g. 2,4,6,...) </td></tr>
-    <tr><td class="paramname">d</td><td>dth derivative </td></tr>
-    <tr><td class="paramname">periodic</td><td>periodic boundary </td></tr>
-    <tr><td class="paramname">reduce_wall_order</td><td>reduce the order of accuracy at the wall? </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>array of y values of channel </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>length of y values </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">output</td><td>matrix(n-2 by n) dth derivative of order O(h^order) assuming uniform y spacing (uninitialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">order</td><td>order of accuracy desired (assuming even e.g. 2,4,6,...) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">d</td><td>dth derivative </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">periodic</td><td>periodic boundary </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">reduce_wall_order</td><td>reduce the order of accuracy at the wall? </td></tr>
   </table>
   </dd>
 </dl>
@@ -1726,9 +1735,9 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">hx</td><td>delta x distance </td></tr>
-    <tr><td class="paramname">A</td><td>A matrix set from set_A_and_B </td></tr>
-    <tr><td class="paramname">B</td><td>B matrix set from set_A_and_B </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">hx</td><td>delta x distance </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">A</td><td>A matrix set from set_A_and_B (already initialized) </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">B</td><td>B matrix set from set_A_and_B (already initialized) </td></tr>
   </table>
   </dd>
 </dl>
@@ -1775,10 +1784,10 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Ain</td><td>Matrix set on all processors as 2D array </td></tr>
-    <tr><td class="paramname">n</td><td>size of nxn matrix </td></tr>
-    <tr><td class="paramname">A</td><td>Mat to SetValues and output in parallel </td></tr>
-    <tr><td class="paramname">addv</td><td>insert values or add values to matrix A </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Ain</td><td>Matrix set on all processors as 2D array </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>size of nxn matrix </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">A</td><td>Mat to SetValues and output in parallel (uninitialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">addv</td><td>insert values or add values to matrix A </td></tr>
   </table>
   </dd>
 </dl>
@@ -1837,12 +1846,12 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">diag</td><td>scalar value to set as diagonal in matrix </td></tr>
-    <tr><td class="paramname">n</td><td>size of nxn matrix </td></tr>
-    <tr><td class="paramname">A</td><td>Mat to SetValues and output in parallel </td></tr>
-    <tr><td class="paramname">k</td><td>diagonal offset in matrix (k=0 is main diagonal, k&gt;0 is above main diagonal, k&lt;0 is below main diagonal) default is 0 </td></tr>
-    <tr><td class="paramname">parallel</td><td>set the matrix using Istart and Iend </td></tr>
-    <tr><td class="paramname">addv</td><td>insert values or add values to matrix A </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">diag</td><td>scalar value to set as diagonal in matrix </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>size of nxn matrix </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">A</td><td>Mat to SetValues and output in parallel (already initialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">k</td><td>diagonal offset in matrix (k=0 is main diagonal, k&gt;0 is above main diagonal, k&lt;0 is below main diagonal) default is 0 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">parallel</td><td>set the matrix using Istart and Iend </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">addv</td><td>insert values or add values to matrix A </td></tr>
   </table>
   </dd>
 </dl>
@@ -1867,7 +1876,7 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">A</td><td>Mat to assemble </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">A</td><td>Mat to assemble (already initialized) </td></tr>
   </table>
   </dd>
 </dl>
@@ -1926,12 +1935,12 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">value</td><td>value to set in Mat A </td></tr>
-    <tr><td class="paramname">row</td><td>specified global row in Mat A </td></tr>
-    <tr><td class="paramname">col</td><td>specified global col in Mat A </td></tr>
-    <tr><td class="paramname">A</td><td>Matrix A to set value </td></tr>
-    <tr><td class="paramname">parallel</td><td>do this in parallel? </td></tr>
-    <tr><td class="paramname">addv</td><td>insert values or add values to matrix A </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>value to set in Mat A </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">row</td><td>specified global row in Mat A </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">col</td><td>specified global col in Mat A </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">A</td><td>Matrix A to set value (already initialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">parallel</td><td>do this in parallel? </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">addv</td><td>insert values or add values to matrix A </td></tr>
   </table>
   </dd>
 </dl>
@@ -2002,14 +2011,14 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">a</td><td>premultple to Asub </td></tr>
-    <tr><td class="paramname">Asub</td><td>sub matrix to set into mat </td></tr>
-    <tr><td class="paramname">nsub</td><td>nxn size of square sub matrix Asub </td></tr>
-    <tr><td class="paramname">A</td><td>Matrix A to set value </td></tr>
-    <tr><td class="paramname">n</td><td>size of square Matrix A </td></tr>
-    <tr><td class="paramname">rowoffset</td><td>start inserting Asub in A starting at rowoffset row </td></tr>
-    <tr><td class="paramname">coloffset</td><td>start inserting Asub in A starting at coloffset column </td></tr>
-    <tr><td class="paramname">addv</td><td>insert values or add values to matrix A </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>premultple to Asub </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Asub</td><td>sub matrix to set into mat </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nsub</td><td>nxn size of square sub matrix Asub </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">A</td><td>Matrix A to set value (already initialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>size of square Matrix A </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">rowoffset</td><td>start inserting Asub in A starting at rowoffset row </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">coloffset</td><td>start inserting Asub in A starting at coloffset column </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">addv</td><td>insert values or add values to matrix A </td></tr>
   </table>
   </dd>
 </dl>
@@ -2068,12 +2077,12 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Ain</td><td>array to set in row of matrix </td></tr>
-    <tr><td class="paramname">row</td><td>row to set in matrix </td></tr>
-    <tr><td class="paramname">ncols</td><td>ncols of array </td></tr>
-    <tr><td class="paramname">cols</td><td>cols to set in matrix </td></tr>
-    <tr><td class="paramname">A</td><td>Mat to SetValues and output in parallel </td></tr>
-    <tr><td class="paramname">addv</td><td>insert values or add values to matrix A </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Ain</td><td>array to set in row of matrix </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">row</td><td>row to set in matrix </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ncols</td><td>ncols of array </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cols</td><td>cols to set in matrix </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">A</td><td>Mat to SetValues and output in parallel (already initialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">addv</td><td>insert values or add values to matrix A </td></tr>
   </table>
   </dd>
 </dl>
@@ -2156,16 +2165,16 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">a</td><td>premultple to Dz </td></tr>
-    <tr><td class="paramname">Dz</td><td>sub matrix to set into mat in z direction </td></tr>
-    <tr><td class="paramname">nz</td><td>nzxnz size of square sub matrix Dz </td></tr>
-    <tr><td class="paramname">ny</td><td>length of y array </td></tr>
-    <tr><td class="paramname">zi</td><td>which z plane you are looking at </td></tr>
-    <tr><td class="paramname">A</td><td>Matrix A to set value </td></tr>
-    <tr><td class="paramname">n</td><td>size of square Matrix A </td></tr>
-    <tr><td class="paramname">rowoffset</td><td>start inserting Asub in A starting at rowoffset row </td></tr>
-    <tr><td class="paramname">coloffset</td><td>start inserting Asub in A starting at coloffset column </td></tr>
-    <tr><td class="paramname">addv</td><td>insert values or add values to matrix A </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>premultple to Dz </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Dz</td><td>sub matrix to set into mat in z direction </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nz</td><td>nzxnz size of square sub matrix Dz </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ny</td><td>length of y array </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">zi</td><td>which z plane you are looking at </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">A</td><td>Matrix A to set value (already initialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>size of square Matrix A </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">rowoffset</td><td>start inserting Asub in A starting at rowoffset row </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">coloffset</td><td>start inserting Asub in A starting at coloffset column </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">addv</td><td>insert values or add values to matrix A </td></tr>
   </table>
   </dd>
 </dl>
@@ -2212,10 +2221,10 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">bin</td><td>array set on all processors as 1D array </td></tr>
-    <tr><td class="paramname">n</td><td>size of n array </td></tr>
-    <tr><td class="paramname">b</td><td>Vec to SetValues and output in parallel </td></tr>
-    <tr><td class="paramname">parallel</td><td>set in parallel </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bin</td><td>array set on all processors as 1D array </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>size of n array </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">b</td><td>Vec to SetValues and output in parallel (already initialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">parallel</td><td>set in parallel </td></tr>
   </table>
   </dd>
 </dl>
@@ -2240,7 +2249,7 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">b</td><td>array to assemble on all processors </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">b</td><td>array to assemble on all processors </td></tr>
   </table>
   </dd>
 </dl>
@@ -2281,9 +2290,9 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">bin</td><td>scalar to set into Vec </td></tr>
-    <tr><td class="paramname">n</td><td>location to put into Vec </td></tr>
-    <tr><td class="paramname">b</td><td>Vec to SetValues </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bin</td><td>scalar to set into Vec </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>location to put into Vec </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">b</td><td>Vec to SetValues (already initialized) </td></tr>
   </table>
   </dd>
 </dl>
@@ -2330,24 +2339,24 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">inVec</td><td>larger vec to copy values from </td></tr>
-    <tr><td class="paramname">low</td><td>lower bound </td></tr>
-    <tr><td class="paramname">hi</td><td>upper bound </td></tr>
-    <tr><td class="paramname">b</td><td>Vec to SetValues and output </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">inVec</td><td>larger vec to copy values from </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">low</td><td>lower bound </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">hi</td><td>upper bound </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">b</td><td>Vec to SetValues and output (already initialized) </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a class="anchor" id="ad2702d43973d8a39cc147629c3d9221a"></a>
+<a class="anchor" id="acb03d267a962b22a1594adf72a2ba448"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">int PSE::trapz </td>
           <td>(</td>
-          <td class="paramtype">Vec &amp;&#160;</td>
+          <td class="paramtype">const Vec &amp;&#160;</td>
           <td class="paramname"><em>q</em>, </td>
         </tr>
         <tr>
@@ -2380,24 +2389,24 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">q</td><td>Vector to integrate </td></tr>
-    <tr><td class="paramname">n</td><td>size of vector </td></tr>
-    <tr><td class="paramname">I</td><td>output value of integration </td></tr>
-    <tr><td class="paramname">Deltay</td><td>Domain size (b-a) in \( I = \int_a^b f(x) dx\) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>Vector to integrate </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>size of vector </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">I</td><td>output value of integration </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Deltay</td><td>Domain size (b-a) in \( I = \int_a^b f(x) dx\) </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a class="anchor" id="a819bf1c19cd4c79c56d13f49b4c88165"></a>
+<a class="anchor" id="a17a9e9f1c60c79073775eddf83822482"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">int PSE::trapz </td>
           <td>(</td>
-          <td class="paramtype">Vec &amp;&#160;</td>
+          <td class="paramtype">const Vec &amp;&#160;</td>
           <td class="paramname"><em>q</em>, </td>
         </tr>
         <tr>
@@ -2442,12 +2451,12 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">q</td><td>Vector to integrate </td></tr>
-    <tr><td class="paramname">ny</td><td>size of vector in ny (length(q) = 4*ny*nz) </td></tr>
-    <tr><td class="paramname">nz</td><td>size of vector in nz (length(q) = 4*ny*nz) </td></tr>
-    <tr><td class="paramname">I</td><td>output value of integration </td></tr>
-    <tr><td class="paramname">Deltay</td><td>Domain size (b-a) in y-direction </td></tr>
-    <tr><td class="paramname">Deltaz</td><td>Domain size (b-z) in z-direction </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>Vector to integrate </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ny</td><td>size of vector in ny (length(q) = 4*ny*nz) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nz</td><td>size of vector in nz (length(q) = 4*ny*nz) </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">I</td><td>value of integration </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Deltay</td><td>Domain size (b-a) in y-direction </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Deltaz</td><td>Domain size (b-z) in z-direction </td></tr>
   </table>
   </dd>
 </dl>
@@ -2534,16 +2543,16 @@ Solution Procedure</div></div>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">q</td><td>input array from previous iteration \( \hat{\textbf{q}}_i \) </td></tr>
-    <tr><td class="paramname">qp1</td><td>input array from previous iteration \( \hat{\textbf{q}}_{i+1} \) </td></tr>
-    <tr><td class="paramname">ny</td><td>size of arrays in y dimension </td></tr>
-    <tr><td class="paramname">nz</td><td>size of arrays in z dimension </td></tr>
-    <tr><td class="paramname">dx</td><td>x marching step distance </td></tr>
-    <tr><td class="paramname">Ialpha</td><td>integral value from previous step \( \int_0^{x_i} \alpha(\xi) d\xi \) </td></tr>
-    <tr><td class="paramname">alpha</td><td>initial alpha value of eigenfunction (constant from last step initially) </td></tr>
-    <tr><td class="paramname">tol</td><td>tolerance on norm equation </td></tr>
-    <tr><td class="paramname">Deltay</td><td>height of channel in y (default to 2) </td></tr>
-    <tr><td class="paramname">Deltaz</td><td>width of channel in z(default to 1) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>array from previous iteration \( \hat{\textbf{q}}_i \) </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">qp1</td><td>array from current iteration \( \hat{\textbf{q}}_{i+1} \) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ny</td><td>size of arrays in y dimension </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nz</td><td>size of arrays in z dimension </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dx</td><td>x marching step distance </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">Ialpha</td><td>integral value from previous step \( \int_0^{x_i} \alpha(\xi) d\xi \) </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">alpha</td><td>initial alpha value of eigenfunction (constant from last step initially) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">tol</td><td>tolerance on norm equation </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Deltay</td><td>height of channel in y (default to 2) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Deltaz</td><td>width of channel in z(default to 1) </td></tr>
   </table>
   </dd>
 </dl>

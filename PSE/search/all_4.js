@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['get_5fd_5fcoeffs',['get_D_Coeffs',['../namespacePSE.html#aaf121ec8492dfe6fd8cde8b6b05aaa14',1,'PSE']]],
-  ['get_5fd_5fcoeffs_2ecpp',['get_D_Coeffs.cpp',['../get__D__Coeffs_8cpp.html',1,'']]],
-  ['get_5fd_5fcoeffs_2ehpp',['get_D_Coeffs.hpp',['../get__D__Coeffs_8hpp.html',1,'']]]
+  ['factorial',['factorial',['../namespacePSE.html#afd6d3524c36acc4ba132b8051151ca97',1,'PSE']]],
+  ['factorial_2ecpp',['factorial.cpp',['../factorial_8cpp.html',1,'']]],
+  ['factorial_2ehpp',['factorial.hpp',['../factorial_8hpp.html',1,'']]]
 ];

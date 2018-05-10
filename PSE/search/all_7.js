@@ -1,31 +1,4 @@
 var searchData=
 [
-  ['pse_20solver',['PSE Solver',['../index.html',1,'']]],
-  ['print_2ecpp',['print.cpp',['../print_8cpp.html',1,'']]],
-  ['print_2ehpp',['print.hpp',['../print_8hpp.html',1,'']]],
-  ['printint',['printInt',['../namespacePSE.html#a878fa03e2fd624a254f7800650b569b2',1,'PSE']]],
-  ['printmatascii',['printMatASCII',['../namespacePSE.html#a805847775fb8d170ad2db3518044108b',1,'PSE']]],
-  ['printmatview',['printMatView',['../namespacePSE.html#a4eca5e043cde66f140837461b4b533c5',1,'PSE']]],
-  ['printscalar',['printScalar',['../namespacePSE.html#a5255dc142780be9634b3e84da8cd0263',1,'PSE']]],
-  ['printvec',['printVec',['../namespacePSE.html#aed14e439ee0a3b7fda3f733e98081363',1,'PSE']]],
-  ['printvecascii',['printVecASCII',['../namespacePSE.html#a4364796301e74a3d38cbca8de4983dc6',1,'PSE']]],
-  ['printvecq0_2etxt',['printVecq0.txt',['../printVecq0_8txt.html',1,'']]],
-  ['printvecq1_2etxt',['printVecq1.txt',['../printVecq1_8txt.html',1,'']]],
-  ['printvecq10_2etxt',['printVecq10.txt',['../printVecq10_8txt.html',1,'']]],
-  ['printvecq11_2etxt',['printVecq11.txt',['../printVecq11_8txt.html',1,'']]],
-  ['printvecq12_2etxt',['printVecq12.txt',['../printVecq12_8txt.html',1,'']]],
-  ['printvecq13_2etxt',['printVecq13.txt',['../printVecq13_8txt.html',1,'']]],
-  ['printvecq14_2etxt',['printVecq14.txt',['../printVecq14_8txt.html',1,'']]],
-  ['printvecq2_2etxt',['printVecq2.txt',['../printVecq2_8txt.html',1,'']]],
-  ['printvecq3_2etxt',['printVecq3.txt',['../printVecq3_8txt.html',1,'']]],
-  ['printvecq4_2etxt',['printVecq4.txt',['../printVecq4_8txt.html',1,'']]],
-  ['printvecq5_2etxt',['printVecq5.txt',['../printVecq5_8txt.html',1,'']]],
-  ['printvecq6_2etxt',['printVecq6.txt',['../printVecq6_8txt.html',1,'']]],
-  ['printvecq7_2etxt',['printVecq7.txt',['../printVecq7_8txt.html',1,'']]],
-  ['printvecq8_2etxt',['printVecq8.txt',['../printVecq8_8txt.html',1,'']]],
-  ['printvecq9_2etxt',['printVecq9.txt',['../printVecq9_8txt.html',1,'']]],
-  ['printvecview',['printVecView',['../namespacePSE.html#ac72fe6ab93d3156d9290bc2341a2283b',1,'PSE']]],
-  ['pse',['PSE',['../namespacePSE.html',1,'']]],
-  ['pse_2ecpp',['PSE.cpp',['../PSE_8cpp.html',1,'']]],
-  ['pse_2ehpp',['PSE.hpp',['../PSE_8hpp.html',1,'']]]
+  ['main',['main',['../PSE_8cpp.html#a7a29781a20c5dd4153c3c1cecf0ff328',1,'PSE.cpp']]]
 ];

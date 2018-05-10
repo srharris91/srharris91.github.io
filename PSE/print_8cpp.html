@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -114,18 +115,18 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a5255dc142780be9634b3e84da8cd0263"><td class="memItemLeft" align="right" valign="top">PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a5255dc142780be9634b3e84da8cd0263">PSE::printScalar</a> (const PetscScalar x[], const PetscInt n=1, char const name[]=&quot;x&quot;, PetscViewer viewer=PETSC_VIEWER_STDOUT_WORLD)</td></tr>
-<tr class="memdesc:a5255dc142780be9634b3e84da8cd0263"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print PetscScalar variable to screen.  <a href="namespacePSE.html#a5255dc142780be9634b3e84da8cd0263">More...</a><br /></td></tr>
-<tr class="separator:a5255dc142780be9634b3e84da8cd0263"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed14e439ee0a3b7fda3f733e98081363"><td class="memItemLeft" align="right" valign="top">PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aed14e439ee0a3b7fda3f733e98081363">PSE::printVec</a> (Vec &amp;x, PetscInt n, char const name[]=&quot;x&quot;)</td></tr>
-<tr class="memdesc:aed14e439ee0a3b7fda3f733e98081363"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print Vec from PETSc type variable to screen.  <a href="namespacePSE.html#aed14e439ee0a3b7fda3f733e98081363">More...</a><br /></td></tr>
-<tr class="separator:aed14e439ee0a3b7fda3f733e98081363"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a878fa03e2fd624a254f7800650b569b2"><td class="memItemLeft" align="right" valign="top">PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a878fa03e2fd624a254f7800650b569b2">PSE::printInt</a> (PetscInt x[], PetscInt n=1, char const name[]=&quot;x&quot;)</td></tr>
-<tr class="memdesc:a878fa03e2fd624a254f7800650b569b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print PetscInt variable to screen.  <a href="namespacePSE.html#a878fa03e2fd624a254f7800650b569b2">More...</a><br /></td></tr>
-<tr class="separator:a878fa03e2fd624a254f7800650b569b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac72fe6ab93d3156d9290bc2341a2283b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ac72fe6ab93d3156d9290bc2341a2283b">PSE::printVecView</a> (Vec &amp;x, char const name[]=&quot;x viewer&quot;, PetscViewerFormat format=PETSC_VIEWER_DEFAULT)</td></tr>
-<tr class="memdesc:ac72fe6ab93d3156d9290bc2341a2283b"><td class="mdescLeft">&#160;</td><td class="mdescRight">view PetscVec variable to screen Open an X-window viewer. Note that we specify the same communicator for the viewer as we used for the distributed vector (PETSC_COMM_WORLD).  <a href="namespacePSE.html#ac72fe6ab93d3156d9290bc2341a2283b">More...</a><br /></td></tr>
-<tr class="separator:ac72fe6ab93d3156d9290bc2341a2283b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac456c4c880624b7a6b907995a05e9b48"><td class="memItemLeft" align="right" valign="top">PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ac456c4c880624b7a6b907995a05e9b48">PSE::printScalar</a> (const PetscScalar x[], const PetscInt n=1, char const name[]=&quot;x&quot;, const PetscViewer viewer=PETSC_VIEWER_STDOUT_WORLD)</td></tr>
+<tr class="memdesc:ac456c4c880624b7a6b907995a05e9b48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print PetscScalar variable to screen.  <a href="namespacePSE.html#ac456c4c880624b7a6b907995a05e9b48">More...</a><br /></td></tr>
+<tr class="separator:ac456c4c880624b7a6b907995a05e9b48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a728ecf3fee73eeb301802d577abd31dc"><td class="memItemLeft" align="right" valign="top">PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a728ecf3fee73eeb301802d577abd31dc">PSE::printVec</a> (const Vec &amp;x, const PetscInt n, char const name[]=&quot;x&quot;)</td></tr>
+<tr class="memdesc:a728ecf3fee73eeb301802d577abd31dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print Vec from PETSc type variable to screen.  <a href="namespacePSE.html#a728ecf3fee73eeb301802d577abd31dc">More...</a><br /></td></tr>
+<tr class="separator:a728ecf3fee73eeb301802d577abd31dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3da6b6642caa8372bbb1d60cac8d300d"><td class="memItemLeft" align="right" valign="top">PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a3da6b6642caa8372bbb1d60cac8d300d">PSE::printInt</a> (const PetscInt x[], const PetscInt n=1, char const name[]=&quot;x&quot;)</td></tr>
+<tr class="memdesc:a3da6b6642caa8372bbb1d60cac8d300d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print PetscInt variable to screen.  <a href="namespacePSE.html#a3da6b6642caa8372bbb1d60cac8d300d">More...</a><br /></td></tr>
+<tr class="separator:a3da6b6642caa8372bbb1d60cac8d300d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcd72375bfd6c3e459eec96fcc9fb25b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#adcd72375bfd6c3e459eec96fcc9fb25b">PSE::printVecView</a> (const Vec &amp;x, char const name[]=&quot;x viewer&quot;, const PetscViewerFormat format=PETSC_VIEWER_DEFAULT)</td></tr>
+<tr class="memdesc:adcd72375bfd6c3e459eec96fcc9fb25b"><td class="mdescLeft">&#160;</td><td class="mdescRight">view PetscVec variable to screen Open an X-window viewer. Note that we specify the same communicator for the viewer as we used for the distributed vector (PETSC_COMM_WORLD).  <a href="namespacePSE.html#adcd72375bfd6c3e459eec96fcc9fb25b">More...</a><br /></td></tr>
+<tr class="separator:adcd72375bfd6c3e459eec96fcc9fb25b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4eca5e043cde66f140837461b4b533c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a4eca5e043cde66f140837461b4b533c5">PSE::printMatView</a> (const Mat &amp;A, char const name[]=&quot;A viewer&quot;, const PetscViewerFormat format=PETSC_VIEWER_DEFAULT)</td></tr>
 <tr class="memdesc:a4eca5e043cde66f140837461b4b533c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">view Petsc Mat variable to screen Open an X-window viewer. Note that we specify the same communicator for the viewer as we used for the distributed vector (PETSC_COMM_WORLD).  <a href="namespacePSE.html#a4eca5e043cde66f140837461b4b533c5">More...</a><br /></td></tr>
 <tr class="separator:a4eca5e043cde66f140837461b4b533c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
