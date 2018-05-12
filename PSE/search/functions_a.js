@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['set_5fa_5fand_5fb',['set_A_and_B',['../namespacePSE.html#a9d92743b716d8a485c63813123744fd6',1,'PSE']]],
+  ['set_5fa_5fand_5fb',['set_A_and_B',['../namespacePSE.html#a4b5cd98e89da895591df9ccd077c2d50',1,'PSE']]],
   ['set_5fa_5fand_5fb_5fzi',['set_A_and_B_zi',['../namespacePSE.html#a9019aa66acb6acbd13ec975186b5f9cc',1,'PSE']]],
   ['set_5fb',['set_b',['../namespacePSE.html#a1b2ed663ec0562dc6e5e1ac5f48e1428',1,'PSE']]],
   ['set_5fbcs',['set_BCs',['../namespacePSE.html#a80f94bbe2f2fcbcdafc37ed00360ad86',1,'PSE::set_BCs(Mat &amp;A, Vec &amp;b, const PetscInt &amp;ny, const PetscInt &amp;nz)'],['../namespacePSE.html#a05eaa365016721007dccbed624f65b62',1,'PSE::set_BCs(Mat &amp;A, Mat &amp;B, const PetscInt &amp;ny, const PetscInt &amp;nz)']]],
