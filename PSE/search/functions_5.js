@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['get_5fd_5fcoeffs',['get_D_Coeffs',['../namespacePSE.html#aaf121ec8492dfe6fd8cde8b6b05aaa14',1,'PSE']]]
+  ['factorial',['factorial',['../namespacePSE.html#afd6d3524c36acc4ba132b8051151ca97',1,'PSE']]]
 ];

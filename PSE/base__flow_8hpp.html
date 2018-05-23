@@ -99,6 +99,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;petscksp.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="class_8hpp_source.html">class.hpp</a>&quot;</code><br />
 </div>
 <p><a href="base__flow_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -109,12 +110,15 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7b8d60bbf36c62823c87b0d52468e074"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a7b8d60bbf36c62823c87b0d52468e074">PSE::base_flow</a> (PetscScalar U[], PetscScalar Uy[], const PetscScalar y[], const PetscInt &amp;n)</td></tr>
-<tr class="memdesc:a7b8d60bbf36c62823c87b0d52468e074"><td class="mdescLeft">&#160;</td><td class="mdescRight">set plane channel flow velocity variables U, U' and U''  use this once to set the vectors with the velocity of plane channel flow (max u=1)  <a href="namespacePSE.html#a7b8d60bbf36c62823c87b0d52468e074">More...</a><br /></td></tr>
-<tr class="separator:a7b8d60bbf36c62823c87b0d52468e074"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bb5e7edc1d6b2afb1f8baff278c8091"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a5bb5e7edc1d6b2afb1f8baff278c8091">PSE::base_flow</a> (Mat &amp;U, Mat &amp;Uy, const PetscScalar y[], const PetscInt &amp;n)</td></tr>
-<tr class="memdesc:a5bb5e7edc1d6b2afb1f8baff278c8091"><td class="mdescLeft">&#160;</td><td class="mdescRight">set plane channel flow velocity variables U, U' and U''  use this once to set the vectors with the velocity of plane channel flow (max u=1)  <a href="namespacePSE.html#a5bb5e7edc1d6b2afb1f8baff278c8091">More...</a><br /></td></tr>
-<tr class="separator:a5bb5e7edc1d6b2afb1f8baff278c8091"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7aefd0b610d54fee980cd1cd96daa41"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ae7aefd0b610d54fee980cd1cd96daa41">PSE::base_flow</a> (PSE &amp;data)</td></tr>
+<tr class="memdesc:ae7aefd0b610d54fee980cd1cd96daa41"><td class="mdescLeft">&#160;</td><td class="mdescRight">set plane channel flow velocity variables \(U, U_x, U_y,\) and etc  use this once to set the vectors with the velocity of plane channel flow (max u=1)  <a href="namespacePSE.html#ae7aefd0b610d54fee980cd1cd96daa41">More...</a><br /></td></tr>
+<tr class="separator:ae7aefd0b610d54fee980cd1cd96daa41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8518bbf640f7df9a882d0f9d4f92d27"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ad8518bbf640f7df9a882d0f9d4f92d27">PSE::_bblf</a> (const PetscScalar input[3], PetscScalar output[3])</td></tr>
+<tr class="memdesc:ad8518bbf640f7df9a882d0f9d4f92d27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Blasius boundary layer function to integrate. Similarity Blasius ODE broken into three coupled equations </p><p class="formulaDsp">
+\[ \begin{aligned} f&#39;&#39; &amp;= \int -ff&#39;&#39; d\eta\\ f&#39; &amp;= \int f&#39;&#39; d\eta\\ f &amp;= \int f&#39; d\eta\\ \end{aligned} \]
+</p>
+<p>.  <a href="namespacePSE.html#ad8518bbf640f7df9a882d0f9d4f92d27">More...</a><br /></td></tr>
+<tr class="separator:ad8518bbf640f7df9a882d0f9d4f92d27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

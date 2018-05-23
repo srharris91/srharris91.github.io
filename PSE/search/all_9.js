@@ -1,7 +1,12 @@
 var searchData=
 [
-  ['read_5fq',['Read_q',['../namespacePSE.html#a98021bb319e6bf4391df0844fda0d965',1,'PSE::Read_q(Vec &amp;evec, PetscScalar y[], const int ny, PetscScalar z[], const int nz, PetscScalar &amp;alpha, char const buff[]=&quot;../OrrSommerfeld_and_primitive/uvwP_201&quot;)'],['../namespacePSE.html#aa9fdc0a1f5ad0fec1fdfe9a9c641427e',1,'PSE::Read_q(Vec &amp;output, const int n, char const buff[]=&quot;./src/tofile.dat&quot;)'],['../namespacePSE.html#a1493d76919f4ea1d554af787837822a4',1,'PSE::Read_q(PetscScalar output[], const int n, char const buff[]=&quot;./src/tofile.dat&quot;)'],['../namespacePSE.html#ace8f33c751131e0b7bf9359f4929088d',1,'PSE::Read_q(PetscScalar &amp;output, char const buff[]=&quot;./src/tofile.dat&quot;)']]],
-  ['read_5fq_2ecpp',['Read_q.cpp',['../Read__q_8cpp.html',1,'']]],
-  ['read_5fq_2ehpp',['Read_q.hpp',['../Read__q_8hpp.html',1,'']]],
-  ['rhs_5ftrue',['RHS_True',['../namespacetest__tofile.html#aead4d116334dcf7a37a827138cce2ed3',1,'test_tofile']]]
+  ['i',['I',['../classPSE_1_1PSE.html#a742a852b1bcc2636e8a93acd67161798',1,'PSE::PSE']]],
+  ['ierr',['ierr',['../classPSE_1_1PSE.html#a3aa4e548f6b0882a09985e96e43013b9',1,'PSE::PSE']]],
+  ['init',['init',['../classPSE_1_1PSE.html#aff5cad11a8b32a3115f5ff31d7e6d254',1,'PSE::PSE']]],
+  ['init_5fmat',['Init_Mat',['../namespacePSE.html#a6a28bf5687be08e4dd183f9eff806487',1,'PSE::Init_Mat(Mat &amp;A, const PetscInt &amp;n)'],['../namespacePSE.html#acc379863dab0514427427caf2889d23d',1,'PSE::Init_Mat(Mat &amp;A, const PetscInt &amp;m, const PetscInt &amp;n)']]],
+  ['init_5fmat_2ecpp',['Init_Mat.cpp',['../Init__Mat_8cpp.html',1,'']]],
+  ['init_5fmat_2ehpp',['Init_Mat.hpp',['../Init__Mat_8hpp.html',1,'']]],
+  ['init_5fvec',['Init_Vec',['../namespacePSE.html#a929ef72234fddb31ff867fa1446a8905',1,'PSE']]],
+  ['init_5fvec_2ecpp',['Init_Vec.cpp',['../Init__Vec_8cpp.html',1,'']]],
+  ['init_5fvec_2ehpp',['Init_Vec.hpp',['../Init__Vec_8hpp.html',1,'']]]
 ];

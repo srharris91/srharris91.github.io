@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['calc_5fclosure',['calc_Closure',['../namespacePSE.html#a07a1433a511b21a0cff22a5b3131e00a',1,'PSE']]],
-  ['calc_5fclosure_2ecpp',['calc_Closure.cpp',['../calc__Closure_8cpp.html',1,'']]],
-  ['calc_5fclosure_2ehpp',['calc_Closure.hpp',['../calc__Closure_8hpp.html',1,'']]],
-  ['class_2ehpp',['class.hpp',['../class_8hpp.html',1,'']]]
+  ['b',['b',['../classPSE_1_1PSE.html#a6af39ab6b0b716b31e23767380b779b0',1,'PSE::PSE::b()'],['../classPSE_1_1PSE.html#a76e7cba4421927f8cc33633d45405fe3',1,'PSE::PSE::B()']]],
+  ['base_5fflow',['base_flow',['../namespacePSE.html#ae7aefd0b610d54fee980cd1cd96daa41',1,'PSE']]],
+  ['base_5fflow_2ecpp',['base_flow.cpp',['../base__flow_8cpp.html',1,'']]],
+  ['base_5fflow_2ehpp',['base_flow.hpp',['../base__flow_8hpp.html',1,'']]]
 ];

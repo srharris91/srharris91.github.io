@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['destroy',['destroy',['../classPSE_1_1PSE.html#a68f8d715362246bd01516f19c82e08d1',1,'PSE::PSE']]]
+  ['calc_5fclosure',['calc_Closure',['../namespacePSE.html#ae6b3cf1ddae425e811cf278753d2440e',1,'PSE']]]
 ];

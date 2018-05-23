@@ -1,11 +1,12 @@
 var searchData=
 [
-  ['i',['I',['../classPSE_1_1PSE.html#a742a852b1bcc2636e8a93acd67161798',1,'PSE::PSE']]],
-  ['init',['init',['../classPSE_1_1PSE.html#ac2a835eceff88fcfba5fc42f23ce80e4',1,'PSE::PSE']]],
-  ['init_5fmat',['Init_Mat',['../namespacePSE.html#a6a28bf5687be08e4dd183f9eff806487',1,'PSE::Init_Mat(Mat &amp;A, const PetscInt &amp;n)'],['../namespacePSE.html#acc379863dab0514427427caf2889d23d',1,'PSE::Init_Mat(Mat &amp;A, const PetscInt &amp;m, const PetscInt &amp;n)']]],
-  ['init_5fmat_2ecpp',['Init_Mat.cpp',['../Init__Mat_8cpp.html',1,'']]],
-  ['init_5fmat_2ehpp',['Init_Mat.hpp',['../Init__Mat_8hpp.html',1,'']]],
-  ['init_5fvec',['Init_Vec',['../namespacePSE.html#a929ef72234fddb31ff867fa1446a8905',1,'PSE']]],
-  ['init_5fvec_2ecpp',['Init_Vec.cpp',['../Init__Vec_8cpp.html',1,'']]],
-  ['init_5fvec_2ehpp',['Init_Vec.hpp',['../Init__Vec_8hpp.html',1,'']]]
+  ['factorial',['factorial',['../namespacePSE.html#afd6d3524c36acc4ba132b8051151ca97',1,'PSE']]],
+  ['factorial_2ecpp',['factorial.cpp',['../factorial_8cpp.html',1,'']]],
+  ['factorial_2ehpp',['factorial.hpp',['../factorial_8hpp.html',1,'']]],
+  ['flag_5fbase_5fflow',['flag_base_flow',['../classPSE_1_1PSE.html#ab0727f4e870aa12e134223dd061ce850',1,'PSE::PSE']]],
+  ['flag_5finit',['flag_init',['../classPSE_1_1PSE.html#a894e24170d59069c5cb0bbda6c71b48b',1,'PSE::PSE']]],
+  ['flag_5fset_5fd',['flag_set_D',['../classPSE_1_1PSE.html#ab32523165f07bbc72a567200b9ab1782',1,'PSE::PSE']]],
+  ['flag_5fset_5fi',['flag_set_I',['../classPSE_1_1PSE.html#a57234a3b07d5837b95f4034e6cfaa82a',1,'PSE::PSE']]],
+  ['flag_5ftrapzy',['flag_trapzy',['../classPSE_1_1PSE.html#a16c76a365822d917e5963aeb777c43a2',1,'PSE::PSE']]],
+  ['flag_5ftrapzz',['flag_trapzz',['../classPSE_1_1PSE.html#a880285480701341abd0368d30bae5e7c',1,'PSE::PSE']]]
 ];

@@ -109,15 +109,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a95785703297cd3c22a8ad3035ccb0d6f"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a95785703297cd3c22a8ad3035ccb0d6f">Ax_b</a> (const Mat &amp;A, Vec &amp;x, const Vec &amp;b, const PetscInt &amp;n)</td></tr>
 <tr class="memdesc:a95785703297cd3c22a8ad3035ccb0d6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solves \(x\) in \(Ax=b\) linalg problem using PETSc in parallel.  <a href="#a95785703297cd3c22a8ad3035ccb0d6f">More...</a><br /></td></tr>
 <tr class="separator:a95785703297cd3c22a8ad3035ccb0d6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b8d60bbf36c62823c87b0d52468e074"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a7b8d60bbf36c62823c87b0d52468e074">base_flow</a> (PetscScalar U[], PetscScalar Uy[], const PetscScalar y[], const PetscInt &amp;n)</td></tr>
-<tr class="memdesc:a7b8d60bbf36c62823c87b0d52468e074"><td class="mdescLeft">&#160;</td><td class="mdescRight">set plane channel flow velocity variables U, U' and U''  use this once to set the vectors with the velocity of plane channel flow (max u=1)  <a href="#a7b8d60bbf36c62823c87b0d52468e074">More...</a><br /></td></tr>
-<tr class="separator:a7b8d60bbf36c62823c87b0d52468e074"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bb5e7edc1d6b2afb1f8baff278c8091"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a5bb5e7edc1d6b2afb1f8baff278c8091">base_flow</a> (Mat &amp;U, Mat &amp;Uy, const PetscScalar y[], const PetscInt &amp;n)</td></tr>
-<tr class="memdesc:a5bb5e7edc1d6b2afb1f8baff278c8091"><td class="mdescLeft">&#160;</td><td class="mdescRight">set plane channel flow velocity variables U, U' and U''  use this once to set the vectors with the velocity of plane channel flow (max u=1)  <a href="#a5bb5e7edc1d6b2afb1f8baff278c8091">More...</a><br /></td></tr>
-<tr class="separator:a5bb5e7edc1d6b2afb1f8baff278c8091"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07a1433a511b21a0cff22a5b3131e00a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a07a1433a511b21a0cff22a5b3131e00a">calc_Closure</a> (const Vec &amp;q, Vec &amp;qp1, const PetscInt &amp;ny, const PetscInt &amp;nz, PetscScalar &amp;I, const PetscScalar &amp;Deltay=2, const PetscScalar &amp;Deltaz=1)</td></tr>
-<tr class="memdesc:a07a1433a511b21a0cff22a5b3131e00a"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the closure equation \( \int_{\Omega} \hat{\textbf{q}}^\dagger \hat{\textbf{q}}_x dy \) and output the result  <a href="#a07a1433a511b21a0cff22a5b3131e00a">More...</a><br /></td></tr>
-<tr class="separator:a07a1433a511b21a0cff22a5b3131e00a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7aefd0b610d54fee980cd1cd96daa41"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ae7aefd0b610d54fee980cd1cd96daa41">base_flow</a> (<a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data)</td></tr>
+<tr class="memdesc:ae7aefd0b610d54fee980cd1cd96daa41"><td class="mdescLeft">&#160;</td><td class="mdescRight">set plane channel flow velocity variables \(U, U_x, U_y,\) and etc  use this once to set the vectors with the velocity of plane channel flow (max u=1)  <a href="#ae7aefd0b610d54fee980cd1cd96daa41">More...</a><br /></td></tr>
+<tr class="separator:ae7aefd0b610d54fee980cd1cd96daa41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8518bbf640f7df9a882d0f9d4f92d27"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ad8518bbf640f7df9a882d0f9d4f92d27">_bblf</a> (const PetscScalar input[3], PetscScalar output[3])</td></tr>
+<tr class="memdesc:ad8518bbf640f7df9a882d0f9d4f92d27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Blasius boundary layer function to integrate. Similarity Blasius ODE broken into three coupled equations </p><p class="formulaDsp">
+\[ \begin{aligned} f&#39;&#39; &amp;= \int -ff&#39;&#39; d\eta\\ f&#39; &amp;= \int f&#39;&#39; d\eta\\ f &amp;= \int f&#39; d\eta\\ \end{aligned} \]
+</p>
+<p>.  <a href="#ad8518bbf640f7df9a882d0f9d4f92d27">More...</a><br /></td></tr>
+<tr class="separator:ad8518bbf640f7df9a882d0f9d4f92d27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6b3cf1ddae425e811cf278753d2440e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ae6b3cf1ddae425e811cf278753d2440e">calc_Closure</a> (PetscScalar &amp;I, <a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data)</td></tr>
+<tr class="memdesc:ae6b3cf1ddae425e811cf278753d2440e"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the closure equation \( \int_{\Omega} \hat{\textbf{q}}^\dagger \hat{\textbf{q}}_x dy \) and output the result  <a href="#ae6b3cf1ddae425e811cf278753d2440e">More...</a><br /></td></tr>
+<tr class="separator:ae6b3cf1ddae425e811cf278753d2440e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd6d3524c36acc4ba132b8051151ca97"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#afd6d3524c36acc4ba132b8051151ca97">factorial</a> (unsigned n)</td></tr>
 <tr class="memdesc:afd6d3524c36acc4ba132b8051151ca97"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the factorial of an integer  <a href="#afd6d3524c36acc4ba132b8051151ca97">More...</a><br /></td></tr>
 <tr class="separator:afd6d3524c36acc4ba132b8051151ca97"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,12 +169,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ace8f33c751131e0b7bf9359f4929088d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ace8f33c751131e0b7bf9359f4929088d">Read_q</a> (PetscScalar &amp;output, char const buff[]=&quot;./src/tofile.dat&quot;)</td></tr>
 <tr class="memdesc:ace8f33c751131e0b7bf9359f4929088d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read complex scalar from a tofile output from python.  <a href="#ace8f33c751131e0b7bf9359f4929088d">More...</a><br /></td></tr>
 <tr class="separator:ace8f33c751131e0b7bf9359f4929088d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d92743b716d8a485c63813123744fd6"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a9d92743b716d8a485c63813123744fd6">set_A_and_B</a> (const PetscScalar y[], const PetscInt &amp;ny, const PetscScalar z[], const PetscInt &amp;nz, Mat &amp;A, Mat &amp;B, const PetscScalar &amp;Re, const PetscScalar &amp;rho, const PetscScalar &amp;alpha, const PetscScalar &amp;m, const PetscScalar &amp;omega, const PetscInt &amp;order=4, const PetscBool &amp;reduce_wall_order=PETSC_TRUE)</td></tr>
-<tr class="memdesc:a9d92743b716d8a485c63813123744fd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">set A and B matrix for <a class="el" href="namespacePSE.html">PSE</a> equations  <a href="#a9d92743b716d8a485c63813123744fd6">More...</a><br /></td></tr>
-<tr class="separator:a9d92743b716d8a485c63813123744fd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9019aa66acb6acbd13ec975186b5f9cc"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a9019aa66acb6acbd13ec975186b5f9cc">set_A_and_B_zi</a> (const PetscScalar y[], const PetscInt &amp;ny, const PetscScalar z[], const PetscInt &amp;nz, Mat &amp;A, Mat &amp;B, const PetscScalar &amp;Re, const PetscScalar &amp;rho, const PetscScalar &amp;alpha, const PetscScalar &amp;m, const PetscScalar &amp;omega, const Mat &amp;Dy, const Mat &amp;Dyy, const Mat &amp;Dz, const Mat &amp;Dzz, const Mat &amp;I, const Mat &amp;U, const Mat &amp;Uy, const PetscInt &amp;zi=0, const PetscInt &amp;order=4, const PetscBool &amp;reduce_wall_order=PETSC_TRUE)</td></tr>
-<tr class="memdesc:a9019aa66acb6acbd13ec975186b5f9cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">set A and B matrix for <a class="el" href="namespacePSE.html">PSE</a> equations for zi plane  <a href="#a9019aa66acb6acbd13ec975186b5f9cc">More...</a><br /></td></tr>
-<tr class="separator:a9019aa66acb6acbd13ec975186b5f9cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b5cd98e89da895591df9ccd077c2d50"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a4b5cd98e89da895591df9ccd077c2d50">set_A_and_B</a> (<a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data)</td></tr>
+<tr class="memdesc:a4b5cd98e89da895591df9ccd077c2d50"><td class="mdescLeft">&#160;</td><td class="mdescRight">set A and B matrix for <a class="el" href="namespacePSE.html">PSE</a> equations  <a href="#a4b5cd98e89da895591df9ccd077c2d50">More...</a><br /></td></tr>
+<tr class="separator:a4b5cd98e89da895591df9ccd077c2d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58e2d434c6cb2771fa23c67f18f6d29f"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a58e2d434c6cb2771fa23c67f18f6d29f">set_A_and_B_zi</a> (<a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data, const PetscInt &amp;zi=0)</td></tr>
+<tr class="memdesc:a58e2d434c6cb2771fa23c67f18f6d29f"><td class="mdescLeft">&#160;</td><td class="mdescRight">set A and B matrix for <a class="el" href="namespacePSE.html">PSE</a> equations for zi plane  <a href="#a58e2d434c6cb2771fa23c67f18f6d29f">More...</a><br /></td></tr>
+<tr class="separator:a58e2d434c6cb2771fa23c67f18f6d29f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b2ed663ec0562dc6e5e1ac5f48e1428"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a1b2ed663ec0562dc6e5e1ac5f48e1428">set_b</a> (const Mat &amp;B, const Vec &amp;qn, Vec &amp;b)</td></tr>
 <tr class="memdesc:a1b2ed663ec0562dc6e5e1ac5f48e1428"><td class="mdescLeft">&#160;</td><td class="mdescRight">set b vector from B and q as b=B*q  <a href="#a1b2ed663ec0562dc6e5e1ac5f48e1428">More...</a><br /></td></tr>
 <tr class="separator:a1b2ed663ec0562dc6e5e1ac5f48e1428"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -220,17 +223,52 @@ Functions</h2></td></tr>
 <tr class="memitem:aadbaa2fa2002e60d96e1019140975e98"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aadbaa2fa2002e60d96e1019140975e98">set_Vec</a> (const Vec &amp;inVec, const PetscInt &amp;low, const PetscInt &amp;hi, Vec &amp;b)</td></tr>
 <tr class="memdesc:aadbaa2fa2002e60d96e1019140975e98"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a subvector from larger vector from low to hi indices  <a href="#aadbaa2fa2002e60d96e1019140975e98">More...</a><br /></td></tr>
 <tr class="separator:aadbaa2fa2002e60d96e1019140975e98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb03d267a962b22a1594adf72a2ba448"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#acb03d267a962b22a1594adf72a2ba448">trapz</a> (const Vec &amp;q, const PetscInt &amp;n, PetscScalar &amp;I, const PetscScalar &amp;Deltay=1.)</td></tr>
-<tr class="memdesc:acb03d267a962b22a1594adf72a2ba448"><td class="mdescLeft">&#160;</td><td class="mdescRight">trapezoidal rule on Vec with ny values  <a href="#acb03d267a962b22a1594adf72a2ba448">More...</a><br /></td></tr>
-<tr class="separator:acb03d267a962b22a1594adf72a2ba448"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17a9e9f1c60c79073775eddf83822482"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a17a9e9f1c60c79073775eddf83822482">trapz</a> (const Vec &amp;q, const PetscInt &amp;ny, const PetscInt &amp;nz, PetscScalar &amp;I, const PetscScalar &amp;Deltay=1., const PetscScalar &amp;Deltaz=1.)</td></tr>
-<tr class="memdesc:a17a9e9f1c60c79073775eddf83822482"><td class="mdescLeft">&#160;</td><td class="mdescRight">trapezoidal rule on Vec with ny,nz values  <a href="#a17a9e9f1c60c79073775eddf83822482">More...</a><br /></td></tr>
-<tr class="separator:a17a9e9f1c60c79073775eddf83822482"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04768e5dc9ac57289b3e378e4ec0f675"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a04768e5dc9ac57289b3e378e4ec0f675">update_Closure</a> (const Vec &amp;q, Vec &amp;qp1, const PetscInt &amp;ny, const PetscInt &amp;nz, const PetscScalar &amp;dx, PetscScalar &amp;Ialpha, PetscScalar &amp;alpha, const PetscReal &amp;tol=1e-7, const PetscScalar &amp;Deltay=2, const PetscScalar &amp;Deltaz=1)</td></tr>
-<tr class="memdesc:a04768e5dc9ac57289b3e378e4ec0f675"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the closure equation \( \int_\Omega \hat{\textbf{q}}^\dagger \hat{\textbf{q}}_x dy \) and output the result This is part of the solution procedure shown in the bottom half of this diagram  <a href="#a04768e5dc9ac57289b3e378e4ec0f675">More...</a><br /></td></tr>
-<tr class="separator:a04768e5dc9ac57289b3e378e4ec0f675"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a830c6be6ce992c9db886bc9afa8321d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a830c6be6ce992c9db886bc9afa8321d4">trapz</a> (const Vec &amp;q, PetscScalar &amp;I, <a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data)</td></tr>
+<tr class="memdesc:a830c6be6ce992c9db886bc9afa8321d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">trapezoidal rule on Vec with ny,nz values  <a href="#a830c6be6ce992c9db886bc9afa8321d4">More...</a><br /></td></tr>
+<tr class="separator:a830c6be6ce992c9db886bc9afa8321d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aceae6e3edc414d471c480b1c3a1c9479"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aceae6e3edc414d471c480b1c3a1c9479">update_Closure</a> (PetscScalar &amp;Ialpha, PetscScalar &amp;alpha, <a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data, const PetscReal &amp;tol=1e-15)</td></tr>
+<tr class="memdesc:aceae6e3edc414d471c480b1c3a1c9479"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the closure equation \( \int_\Omega \hat{\textbf{q}}^\dagger \hat{\textbf{q}}_x dy \) and output the result This is part of the solution procedure shown in the bottom half of this diagram  <a href="#aceae6e3edc414d471c480b1c3a1c9479">More...</a><br /></td></tr>
+<tr class="separator:aceae6e3edc414d471c480b1c3a1c9479"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ad8518bbf640f7df9a882d0f9d4f92d27"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int PSE::_bblf </td>
+          <td>(</td>
+          <td class="paramtype">const PetscScalar&#160;</td>
+          <td class="paramname"><em>input</em>[3], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PetscScalar&#160;</td>
+          <td class="paramname"><em>output</em>[3]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Blasius boundary layer function to integrate. Similarity Blasius ODE broken into three coupled equations </p><p class="formulaDsp">
+\[ \begin{aligned} f&#39;&#39; &amp;= \int -ff&#39;&#39; d\eta\\ f&#39; &amp;= \int f&#39;&#39; d\eta\\ f &amp;= \int f&#39; d\eta\\ \end{aligned} \]
+</p>
+<p>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">input</td><td>input = [f'', f', f] state at \( \eta_i \) </td></tr>
+    <tr><td class="paramname">output</td><td>output = [f'', f', f] state at \(\eta_{i+1} \) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="a34e5a20f5f1deeb44a0bb7b5c2ed9953"></a>
 <div class="memitem">
 <div class="memproto">
@@ -331,151 +369,46 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7b8d60bbf36c62823c87b0d52468e074"></a>
+<a class="anchor" id="ae7aefd0b610d54fee980cd1cd96daa41"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">int PSE::base_flow </td>
           <td>(</td>
-          <td class="paramtype">PetscScalar&#160;</td>
-          <td class="paramname"><em>U</em>[], </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">PetscScalar&#160;</td>
-          <td class="paramname"><em>Uy</em>[], </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscScalar&#160;</td>
-          <td class="paramname"><em>y</em>[], </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscInt &amp;&#160;</td>
-          <td class="paramname"><em>n</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>set plane channel flow velocity variables U, U' and U''  use this once to set the vectors with the velocity of plane channel flow (max u=1) </p>
+<p>set plane channel flow velocity variables \(U, U_x, U_y,\) and etc  use this once to set the vectors with the velocity of plane channel flow (max u=1) </p>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">U</td><td>velocity along channel axis </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">Uy</td><td>first derivative of velocity </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>input y vector (usually linspace(-1,1,n) </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>size of vectors </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>data from class passed in and out </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a class="anchor" id="a5bb5e7edc1d6b2afb1f8baff278c8091"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int PSE::base_flow </td>
-          <td>(</td>
-          <td class="paramtype">Mat &amp;&#160;</td>
-          <td class="paramname"><em>U</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Mat &amp;&#160;</td>
-          <td class="paramname"><em>Uy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscScalar&#160;</td>
-          <td class="paramname"><em>y</em>[], </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscInt &amp;&#160;</td>
-          <td class="paramname"><em>n</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>set plane channel flow velocity variables U, U' and U''  use this once to set the vectors with the velocity of plane channel flow (max u=1) </p>
-<dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">U</td><td>velocity along channel axis (uninitialized) </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">Uy</td><td>first derivative of velocity (uninitialized) </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>input y vector (usually linspace(-1,1,n) </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>size of vectors </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a07a1433a511b21a0cff22a5b3131e00a"></a>
+<a class="anchor" id="ae6b3cf1ddae425e811cf278753d2440e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">int PSE::calc_Closure </td>
           <td>(</td>
-          <td class="paramtype">const Vec &amp;&#160;</td>
-          <td class="paramname"><em>q</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Vec &amp;&#160;</td>
-          <td class="paramname"><em>qp1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscInt &amp;&#160;</td>
-          <td class="paramname"><em>ny</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscInt &amp;&#160;</td>
-          <td class="paramname"><em>nz</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>I</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const PetscScalar &amp;&#160;</td>
-          <td class="paramname"><em>Deltay</em> = <code>2</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscScalar &amp;&#160;</td>
-          <td class="paramname"><em>Deltaz</em> = <code>1</code>&#160;</td>
+          <td class="paramtype"><a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -489,13 +422,8 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>input array from previous iteration \( \hat{\textbf{q}}_i \) </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">qp1</td><td>input array from previous iteration \( \hat{\textbf{q}}_{i+1} \) (already initialized) </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">ny</td><td>size of arrays in y dimension </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">nz</td><td>size of arrays in z dimension </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">I</td><td>output integral value </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">Deltay</td><td>height of channel in y(default to 2) </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">Deltaz</td><td>width of channel in z(default to 1) </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>data class to store values </td></tr>
   </table>
   </dd>
 </dl>
@@ -1205,92 +1133,16 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9d92743b716d8a485c63813123744fd6"></a>
+<a class="anchor" id="a4b5cd98e89da895591df9ccd077c2d50"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">PetscInt PSE::set_A_and_B </td>
           <td>(</td>
-          <td class="paramtype">const PetscScalar&#160;</td>
-          <td class="paramname"><em>y</em>[], </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">const PetscInt &amp;&#160;</td>
-          <td class="paramname"><em>ny</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscScalar&#160;</td>
-          <td class="paramname"><em>z</em>[], </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscInt &amp;&#160;</td>
-          <td class="paramname"><em>nz</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Mat &amp;&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Mat &amp;&#160;</td>
-          <td class="paramname"><em>B</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscScalar &amp;&#160;</td>
-          <td class="paramname"><em>Re</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscScalar &amp;&#160;</td>
-          <td class="paramname"><em>rho</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscScalar &amp;&#160;</td>
-          <td class="paramname"><em>alpha</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscScalar &amp;&#160;</td>
-          <td class="paramname"><em>m</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscScalar &amp;&#160;</td>
-          <td class="paramname"><em>omega</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscInt &amp;&#160;</td>
-          <td class="paramname"><em>order</em> = <code>4</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscBool &amp;&#160;</td>
-          <td class="paramname"><em>reduce_wall_order</em> = <code>PETSC_TRUE</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1299,154 +1151,28 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>y array </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">ny</td><td>size of y array </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">z</td><td>z array </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">nz</td><td>size of z array </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">A</td><td>A matrix (uninitialized) </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">B</td><td>B matrix (uninitialized) </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">Re</td><td>Reynolds number </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">rho</td><td>rho density </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">alpha</td><td>alpha </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">m</td><td>m for omega </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">omega</td><td>omega value </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">order</td><td>order of accuracy of derivatives in finite difference </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">reduce_wall_order</td><td>reduce order of derivatives at the wall if true </td></tr>
+    <tr><td class="paramname">data</td><td>data class containing all matrices, vectors, scalars, and problem size </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a class="anchor" id="a9019aa66acb6acbd13ec975186b5f9cc"></a>
+<a class="anchor" id="a58e2d434c6cb2771fa23c67f18f6d29f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">PetscInt PSE::set_A_and_B_zi </td>
           <td>(</td>
-          <td class="paramtype">const PetscScalar&#160;</td>
-          <td class="paramname"><em>y</em>[], </td>
+          <td class="paramtype"><a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const PetscInt &amp;&#160;</td>
-          <td class="paramname"><em>ny</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscScalar&#160;</td>
-          <td class="paramname"><em>z</em>[], </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscInt &amp;&#160;</td>
-          <td class="paramname"><em>nz</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Mat &amp;&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Mat &amp;&#160;</td>
-          <td class="paramname"><em>B</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscScalar &amp;&#160;</td>
-          <td class="paramname"><em>Re</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscScalar &amp;&#160;</td>
-          <td class="paramname"><em>rho</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscScalar &amp;&#160;</td>
-          <td class="paramname"><em>alpha</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscScalar &amp;&#160;</td>
-          <td class="paramname"><em>m</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscScalar &amp;&#160;</td>
-          <td class="paramname"><em>omega</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Mat &amp;&#160;</td>
-          <td class="paramname"><em>Dy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Mat &amp;&#160;</td>
-          <td class="paramname"><em>Dyy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Mat &amp;&#160;</td>
-          <td class="paramname"><em>Dz</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Mat &amp;&#160;</td>
-          <td class="paramname"><em>Dzz</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Mat &amp;&#160;</td>
-          <td class="paramname"><em>I</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Mat &amp;&#160;</td>
-          <td class="paramname"><em>U</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Mat &amp;&#160;</td>
-          <td class="paramname"><em>Uy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscInt &amp;&#160;</td>
-          <td class="paramname"><em>zi</em> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscInt &amp;&#160;</td>
-          <td class="paramname"><em>order</em> = <code>4</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscBool &amp;&#160;</td>
-          <td class="paramname"><em>reduce_wall_order</em> = <code>PETSC_TRUE</code>&#160;</td>
+          <td class="paramname"><em>zi</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1460,27 +1186,8 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>y array </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">ny</td><td>size of y array </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">z</td><td>z array </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">nz</td><td>size of z array </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">A</td><td>A matrix (uninitialized) </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">B</td><td>B matrix (uninitialized) </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">Re</td><td>Reynolds number </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">rho</td><td>rho density </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">alpha</td><td>alpha </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">m</td><td>m for omega </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">omega</td><td>omega value </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">Dy</td><td>Dy matrix </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">Dyy</td><td>Dyy matrix </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">Dz</td><td>Dz matrix </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">Dzz</td><td>Dzz matrix </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">I</td><td>I identity matrix </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">U</td><td>U base flow matrix </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">Uy</td><td>Uy base flow matrix </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>data class to store values </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">zi</td><td>zi plane of matrix </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">order</td><td>order of accuracy of derivatives in finite difference </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">reduce_wall_order</td><td>reduce order of derivatives at the wall if true </td></tr>
   </table>
   </dd>
 </dl>
@@ -2349,7 +2056,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="acb03d267a962b22a1594adf72a2ba448"></a>
+<a class="anchor" id="a830c6be6ce992c9db886bc9afa8321d4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2362,82 +2069,14 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const PetscInt &amp;&#160;</td>
-          <td class="paramname"><em>n</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>I</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const PetscScalar &amp;&#160;</td>
-          <td class="paramname"><em>Deltay</em> = <code>1.</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>trapezoidal rule on Vec with ny values </p>
-<dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>Vector to integrate </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>size of vector </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">I</td><td>output value of integration </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">Deltay</td><td>Domain size (b-a) in \( I = \int_a^b f(x) dx\) </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a17a9e9f1c60c79073775eddf83822482"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int PSE::trapz </td>
-          <td>(</td>
-          <td class="paramtype">const Vec &amp;&#160;</td>
-          <td class="paramname"><em>q</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscInt &amp;&#160;</td>
-          <td class="paramname"><em>ny</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscInt &amp;&#160;</td>
-          <td class="paramname"><em>nz</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PetscScalar &amp;&#160;</td>
-          <td class="paramname"><em>I</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscScalar &amp;&#160;</td>
-          <td class="paramname"><em>Deltay</em> = <code>1.</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscScalar &amp;&#160;</td>
-          <td class="paramname"><em>Deltaz</em> = <code>1.</code>&#160;</td>
+          <td class="paramtype"><a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2452,54 +2091,21 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>Vector to integrate </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">ny</td><td>size of vector in ny (length(q) = 4*ny*nz) </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">nz</td><td>size of vector in nz (length(q) = 4*ny*nz) </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">I</td><td>value of integration </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">Deltay</td><td>Domain size (b-a) in y-direction </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">Deltaz</td><td>Domain size (b-z) in z-direction </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">data</td><td>data class to store Trapzy and Trapzz value and flags </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a class="anchor" id="a04768e5dc9ac57289b3e378e4ec0f675"></a>
+<a class="anchor" id="aceae6e3edc414d471c480b1c3a1c9479"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">int PSE::update_Closure </td>
           <td>(</td>
-          <td class="paramtype">const Vec &amp;&#160;</td>
-          <td class="paramname"><em>q</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Vec &amp;&#160;</td>
-          <td class="paramname"><em>qp1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscInt &amp;&#160;</td>
-          <td class="paramname"><em>ny</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscInt &amp;&#160;</td>
-          <td class="paramname"><em>nz</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscScalar &amp;&#160;</td>
-          <td class="paramname"><em>dx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">PetscScalar &amp;&#160;</td>
           <td class="paramname"><em>Ialpha</em>, </td>
         </tr>
@@ -2512,20 +2118,14 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const PetscReal &amp;&#160;</td>
-          <td class="paramname"><em>tol</em> = <code>1e-7</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscScalar &amp;&#160;</td>
-          <td class="paramname"><em>Deltay</em> = <code>2</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PetscScalar &amp;&#160;</td>
-          <td class="paramname"><em>Deltaz</em> = <code>1</code>&#160;</td>
+          <td class="paramname"><em>tol</em> = <code>1e-15</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2543,16 +2143,10 @@ Solution Procedure</div></div>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>array from previous iteration \( \hat{\textbf{q}}_i \) </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">qp1</td><td>array from current iteration \( \hat{\textbf{q}}_{i+1} \) </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">ny</td><td>size of arrays in y dimension </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">nz</td><td>size of arrays in z dimension </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">dx</td><td>x marching step distance </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">Ialpha</td><td>integral value from previous step \( \int_0^{x_i} \alpha(\xi) d\xi \) </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">alpha</td><td>initial alpha value of eigenfunction (constant from last step initially) </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>data class to store values </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">tol</td><td>tolerance on norm equation </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">Deltay</td><td>height of channel in y (default to 2) </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">Deltaz</td><td>width of channel in z(default to 1) </td></tr>
   </table>
   </dd>
 </dl>
