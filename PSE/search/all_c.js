@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['q',['q',['../classPSE_1_1PSE.html#a5c0d29125e5f953b219a027c8eeadb49',1,'PSE::PSE']]],
-  ['qp1',['qp1',['../classPSE_1_1PSE.html#a078b581e1c038bcf8072eea7389e42cb',1,'PSE::PSE']]]
+  ['omega',['omega',['../classPSE_1_1PSE.html#a07af3736a8f40a11724476be21c5b8ed',1,'PSE::PSE']]],
+  ['order',['order',['../classPSE_1_1PSE.html#a26e014231cba0f37a052a635754d12d3',1,'PSE::PSE']]]
 ];

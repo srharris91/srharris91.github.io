@@ -1,10 +1,19 @@
 var searchData=
 [
-  ['re',['Re',['../classPSE_1_1PSE.html#a96f2bbc929689402588d9ae7bc04320a',1,'PSE::PSE']]],
-  ['read_5fq',['Read_q',['../namespacePSE.html#a98021bb319e6bf4391df0844fda0d965',1,'PSE::Read_q(Vec &amp;evec, PetscScalar y[], const int ny, PetscScalar z[], const int nz, PetscScalar &amp;alpha, char const buff[]=&quot;../OrrSommerfeld_and_primitive/uvwP_201&quot;)'],['../namespacePSE.html#aa9fdc0a1f5ad0fec1fdfe9a9c641427e',1,'PSE::Read_q(Vec &amp;output, const int n, char const buff[]=&quot;./src/tofile.dat&quot;)'],['../namespacePSE.html#a1493d76919f4ea1d554af787837822a4',1,'PSE::Read_q(PetscScalar output[], const int n, char const buff[]=&quot;./src/tofile.dat&quot;)'],['../namespacePSE.html#ace8f33c751131e0b7bf9359f4929088d',1,'PSE::Read_q(PetscScalar &amp;output, char const buff[]=&quot;./src/tofile.dat&quot;)']]],
-  ['read_5fq_2ecpp',['Read_q.cpp',['../Read__q_8cpp.html',1,'']]],
-  ['read_5fq_2ehpp',['Read_q.hpp',['../Read__q_8hpp.html',1,'']]],
-  ['reduce_5fwall_5forder',['reduce_wall_order',['../classPSE_1_1PSE.html#ae0f2be20cc5efcf4152488c1d04647d7',1,'PSE::PSE']]],
-  ['rho',['rho',['../classPSE_1_1PSE.html#a2bde252a381556ecf380352550e35198',1,'PSE::PSE']]],
-  ['rhs_5ftrue',['RHS_True',['../namespacetest__tofile.html#aead4d116334dcf7a37a827138cce2ed3',1,'test_tofile']]]
+  ['pse_20solver',['PSE Solver',['../index.html',1,'']]],
+  ['print_2ecpp',['print.cpp',['../obj_2print_8cpp.html',1,'']]],
+  ['print_2ecpp',['print.cpp',['../print_8cpp.html',1,'']]],
+  ['print_2ehpp',['print.hpp',['../print_8hpp.html',1,'']]],
+  ['printint',['printInt',['../namespacePSE.html#a3da6b6642caa8372bbb1d60cac8d300d',1,'PSE']]],
+  ['printmatascii',['printMatASCII',['../namespacePSE.html#a805847775fb8d170ad2db3518044108b',1,'PSE']]],
+  ['printmatview',['printMatView',['../namespacePSE.html#a4eca5e043cde66f140837461b4b533c5',1,'PSE']]],
+  ['printscalar',['printScalar',['../namespacePSE.html#ac456c4c880624b7a6b907995a05e9b48',1,'PSE']]],
+  ['printvec',['printVec',['../namespacePSE.html#a728ecf3fee73eeb301802d577abd31dc',1,'PSE']]],
+  ['printvecascii',['printVecASCII',['../namespacePSE.html#a4364796301e74a3d38cbca8de4983dc6',1,'PSE']]],
+  ['printvecview',['printVecView',['../namespacePSE.html#adcd72375bfd6c3e459eec96fcc9fb25b',1,'PSE']]],
+  ['pse',['PSE',['../classPSE_1_1PSE.html',1,'PSE']]],
+  ['pse',['PSE',['../namespacePSE.html',1,'PSE'],['../classPSE_1_1PSE.html#aa6e15f0e7e0aa5b34ee94d1b834252c7',1,'PSE::PSE::PSE()']]],
+  ['pse_2ecpp',['PSE.cpp',['../obj_2PSE_8cpp.html',1,'']]],
+  ['pse_2ecpp',['PSE.cpp',['../PSE_8cpp.html',1,'']]],
+  ['pse_2ehpp',['PSE.hpp',['../PSE_8hpp.html',1,'']]]
 ];
