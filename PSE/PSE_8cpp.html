@@ -92,6 +92,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">PSE.cpp File Reference</div>  </div>
@@ -99,6 +100,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="PSE_8hpp_source.html">PSE.hpp</a>&quot;</code><br />
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a8d0b0043e152438bb39b918a1f98c65f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PSE_8cpp.html#a8d0b0043e152438bb39b918a1f98c65f">ANSI_COLOR_CYAN</a>&#160;&#160;&#160;&quot;\x1b[36m&quot;</td></tr>
+<tr class="separator:a8d0b0043e152438bb39b918a1f98c65f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92a364c2b863dde1a024a77eac2a5b3b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PSE_8cpp.html#a92a364c2b863dde1a024a77eac2a5b3b">ANSI_COLOR_RESET</a>&#160;&#160;&#160;&quot;\x1b[0m&quot;</td></tr>
+<tr class="separator:a92a364c2b863dde1a024a77eac2a5b3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a7a29781a20c5dd4153c3c1cecf0ff328"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PSE_8cpp.html#a7a29781a20c5dd4153c3c1cecf0ff328">main</a> (int argc, char **args)</td></tr>
@@ -110,7 +118,32 @@ Functions</h2></td></tr>
 <p>The model problem: Solve <a class="el" href="namespacePSE.html">PSE</a> equation in the channel flow Dirichlet b.c.'s on all sides Use the 3-D, finite difference stencil.</p>
 <p>Compiling the code: This code uses the complex numbers version of PETSc, so configure must be run to enable this</p>
 <p>Include "petscksp.h" so that we can use KSP solvers. Note that this file automatically includes: petscsys.h - base PETSc routines petscvec.h - vectors petscmat.h - matrices petscis.h - index sets petscksp.h - Krylov subspace methods petscviewer.h - viewers petscpc.h - preconditioners </p>
-</div><h2 class="groupheader">Function Documentation</h2>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="a8d0b0043e152438bb39b918a1f98c65f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ANSI_COLOR_CYAN&#160;&#160;&#160;&quot;\x1b[36m&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a92a364c2b863dde1a024a77eac2a5b3b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ANSI_COLOR_RESET&#160;&#160;&#160;&quot;\x1b[0m&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a7a29781a20c5dd4153c3c1cecf0ff328"></a>
 <div class="memitem">
 <div class="memproto">
@@ -134,6 +167,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>out_alpha &lt;&lt; PetscRealPart(data.alpha)&lt;&lt;"+"&lt;&lt;PetscImaginaryPart(data.alpha)&lt;&lt;"j"&lt;&lt;std::endl; </p>
 
 </div>
 </div>

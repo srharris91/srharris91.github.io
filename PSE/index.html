@@ -90,11 +90,11 @@ Copyright (C) 2018<br />
 </dd></dl>
 <h1><a class="anchor" id="Info"></a>
 Information</h1>
-<p>This code will compute the Parabolic Stability Equation (<a class="el" href="namespacePSE.html">PSE</a>) for various flows. This will read in the Orr-Sommerfeld solution from a python script, and will march it forward in \(x\). </p><div class="image">
+<p>This code will compute the Parabolic Stability Equation (<a class="el" href="namespacePSE.html">PSE</a>) for various flows. This will read in the Orr-Sommerfeld solution from a python script, and will march it forward in \(x\). If we march the parallel version of the <a class="el" href="namespacePSE.html">PSE</a>, the solution procedure would be defined below. </p><div class="image">
 <img src="Diagram_closure.png" alt="Diagram_closure.png"/>
 <div class="caption">
 Solution Procedure</div></div>
-<p>All of the code is contained in the namespace <a class="el" href="namespacePSE.html">PSE</a>.</p>
+<p>${A_{OSS}}$ would be different for the parallel <a class="el" href="namespacePSE.html">PSE</a> equation. Additionally, ${b_i}$ would also be different for the non-linear terms. (These are works in progress) All of the code is contained in the namespace <a class="el" href="namespacePSE.html">PSE</a>.</p>
 <p>The <a class="el" href="namespacePSE.html">PSE</a> equation is defined here </p><p class="formulaDsp">
 \[ A \hat{q}_{n,m} + B \frac{\partial \hat{q}_{n,m}}{\partial y} + C \frac{\partial^2 \hat{q}_{n,m}}{\partial y^2} + D \frac{\partial \hat{q}_{n,m}}{\partial x} = F \]
 </p>
