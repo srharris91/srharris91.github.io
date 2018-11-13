@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['v',['V',['../classPSE_1_1PSE.html#a0a300d697a747ab6c95e112c765914a6',1,'PSE::PSE']]],
-  ['vdy',['VDy',['../classPSE_1_1PSE.html#a21d8dda8f0ed26f2fb3e3bb8cf8a1896',1,'PSE::PSE']]],
-  ['vx',['Vx',['../classPSE_1_1PSE.html#a50a544527b7f565f0b93878ed0a1cd76',1,'PSE::PSE']]],
-  ['vy',['Vy',['../classPSE_1_1PSE.html#a44913fb547902f765ffb5d7a0f7c6381',1,'PSE::PSE']]]
+  ['u',['U',['../classPSE_1_1PSE.html#a0df6b2489fcfb18171f0265c676f3f1e',1,'PSE::PSE']]],
+  ['update_5fclosure',['update_Closure',['../namespacePSE.html#adaf103d5b2ebb63f164a5c3b26e91282',1,'PSE']]],
+  ['update_5fclosure_2ecpp',['update_Closure.cpp',['../update__Closure_8cpp.html',1,'']]],
+  ['update_5fclosure_2ehpp',['update_Closure.hpp',['../update__Closure_8hpp.html',1,'']]],
+  ['ux',['Ux',['../classPSE_1_1PSE.html#ae65aca4db59636fff6d6b4b325989c8a',1,'PSE::PSE']]],
+  ['uy',['Uy',['../classPSE_1_1PSE.html#a47acf7e1488ceba00e8d41b4071798bc',1,'PSE::PSE']]]
 ];
