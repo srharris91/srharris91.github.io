@@ -104,6 +104,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &quot;<a class="el" href="set__Vec_8hpp_source.html">set_Vec.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Init__Vec_8hpp_source.html">Init_Vec.hpp</a>&quot;</code><br />
 <code>#include &lt;string&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -119,18 +120,18 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af0d76ae2d9866d1b8ed73be02db39e15"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#af0d76ae2d9866d1b8ed73be02db39e15">PSE::Read_q</a> (PSE &amp;data, char const buff[]=&quot;../OrrSommerfeld_and_primitive/uvwP_201&quot;)</td></tr>
-<tr class="memdesc:af0d76ae2d9866d1b8ed73be02db39e15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read q from a tofile output from python.  <a href="namespacePSE.html#af0d76ae2d9866d1b8ed73be02db39e15">More...</a><br /></td></tr>
-<tr class="separator:af0d76ae2d9866d1b8ed73be02db39e15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9fdc0a1f5ad0fec1fdfe9a9c641427e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aa9fdc0a1f5ad0fec1fdfe9a9c641427e">PSE::Read_q</a> (Vec &amp;output, const int n, char const buff[]=&quot;./src/tofile.dat&quot;)</td></tr>
-<tr class="memdesc:aa9fdc0a1f5ad0fec1fdfe9a9c641427e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read q from a tofile output from python.  <a href="namespacePSE.html#aa9fdc0a1f5ad0fec1fdfe9a9c641427e">More...</a><br /></td></tr>
-<tr class="separator:aa9fdc0a1f5ad0fec1fdfe9a9c641427e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1493d76919f4ea1d554af787837822a4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a1493d76919f4ea1d554af787837822a4">PSE::Read_q</a> (PetscScalar output[], const int n, char const buff[]=&quot;./src/tofile.dat&quot;)</td></tr>
-<tr class="memdesc:a1493d76919f4ea1d554af787837822a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read y from a tofile output from python.  <a href="namespacePSE.html#a1493d76919f4ea1d554af787837822a4">More...</a><br /></td></tr>
-<tr class="separator:a1493d76919f4ea1d554af787837822a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace8f33c751131e0b7bf9359f4929088d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ace8f33c751131e0b7bf9359f4929088d">PSE::Read_q</a> (PetscScalar &amp;output, char const buff[]=&quot;./src/tofile.dat&quot;)</td></tr>
-<tr class="memdesc:ace8f33c751131e0b7bf9359f4929088d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read complex scalar from a tofile output from python.  <a href="namespacePSE.html#ace8f33c751131e0b7bf9359f4929088d">More...</a><br /></td></tr>
-<tr class="separator:ace8f33c751131e0b7bf9359f4929088d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a784a766a2f191bcdb42518a4054350c8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a784a766a2f191bcdb42518a4054350c8">PSE::Read_q</a> (PSE &amp;data, std::string &amp;buff)</td></tr>
+<tr class="memdesc:a784a766a2f191bcdb42518a4054350c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read q from a tofile output from python.  <a href="namespacePSE.html#a784a766a2f191bcdb42518a4054350c8">More...</a><br /></td></tr>
+<tr class="separator:a784a766a2f191bcdb42518a4054350c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa00269ce280ff26c0efe6bf05eafc6d1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aa00269ce280ff26c0efe6bf05eafc6d1">PSE::Read_q</a> (Vec &amp;output, const int n, std::string &amp;buff)</td></tr>
+<tr class="memdesc:aa00269ce280ff26c0efe6bf05eafc6d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read q from a tofile output from python.  <a href="namespacePSE.html#aa00269ce280ff26c0efe6bf05eafc6d1">More...</a><br /></td></tr>
+<tr class="separator:aa00269ce280ff26c0efe6bf05eafc6d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a16b0ae4a9f35cb44644b0b9fb8ce7f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a0a16b0ae4a9f35cb44644b0b9fb8ce7f">PSE::Read_q</a> (PetscScalar output[], const int n, std::string &amp;buff)</td></tr>
+<tr class="memdesc:a0a16b0ae4a9f35cb44644b0b9fb8ce7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read y from a tofile output from python.  <a href="namespacePSE.html#a0a16b0ae4a9f35cb44644b0b9fb8ce7f">More...</a><br /></td></tr>
+<tr class="separator:a0a16b0ae4a9f35cb44644b0b9fb8ce7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adebd5af66cc444f85082dae836c24ee0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#adebd5af66cc444f85082dae836c24ee0">PSE::Read_q</a> (PetscScalar &amp;output, std::string &amp;buff)</td></tr>
+<tr class="memdesc:adebd5af66cc444f85082dae836c24ee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read complex scalar from a tofile output from python.  <a href="namespacePSE.html#adebd5af66cc444f85082dae836c24ee0">More...</a><br /></td></tr>
+<tr class="separator:adebd5af66cc444f85082dae836c24ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a966c72d8d733c7734c6c784753d894c7"></a>

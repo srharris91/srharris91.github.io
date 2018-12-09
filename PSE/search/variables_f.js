@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['v',['V',['../classPSE_1_1PSE.html#a0a300d697a747ab6c95e112c765914a6',1,'PSE::PSE']]],
-  ['vdy',['VDy',['../classPSE_1_1PSE.html#a21d8dda8f0ed26f2fb3e3bb8cf8a1896',1,'PSE::PSE']]],
-  ['vx',['Vx',['../classPSE_1_1PSE.html#a50a544527b7f565f0b93878ed0a1cd76',1,'PSE::PSE']]],
-  ['vy',['Vy',['../classPSE_1_1PSE.html#a44913fb547902f765ffb5d7a0f7c6381',1,'PSE::PSE']]]
+  ['set_5fand_5fsolve_5feig_5fprimitive_5fspatial_5fz',['set_and_solve_eig_primitive_spatial_z',['../namespaceflat__plate__convergence.html#a48618f29d11332d408853b49a09e913e',1,'flat_plate_convergence']]],
+  ['sum_5fdivergence',['sum_divergence',['../classPSE_1_1PSE.html#a29e923bd8b226e8ca5bc7cde762d5ecc',1,'PSE::PSE']]]
 ];

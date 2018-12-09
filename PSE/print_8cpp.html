@@ -110,6 +110,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:a966c72d8d733c7734c6c784753d894c7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="print_8cpp.html#a966c72d8d733c7734c6c784753d894c7">ANSI_COLOR_GREEN</a>&#160;&#160;&#160;&quot;\x1b[32m&quot;</td></tr>
+<tr class="separator:a966c72d8d733c7734c6c784753d894c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d0b0043e152438bb39b918a1f98c65f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="print_8cpp.html#a8d0b0043e152438bb39b918a1f98c65f">ANSI_COLOR_CYAN</a>&#160;&#160;&#160;&quot;\x1b[36m&quot;</td></tr>
 <tr class="separator:a8d0b0043e152438bb39b918a1f98c65f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92a364c2b863dde1a024a77eac2a5b3b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="print_8cpp.html#a92a364c2b863dde1a024a77eac2a5b3b">ANSI_COLOR_RESET</a>&#160;&#160;&#160;&quot;\x1b[0m&quot;</td></tr>
@@ -141,6 +143,15 @@ Functions</h2></td></tr>
 <tr class="memitem:a4364796301e74a3d38cbca8de4983dc6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a4364796301e74a3d38cbca8de4983dc6">PSE::printVecASCII</a> (const Vec &amp;b, char const name[]=&quot;printVecASCII.txt&quot;, const PetscViewerFormat format=PETSC_VIEWER_DEFAULT)</td></tr>
 <tr class="memdesc:a4364796301e74a3d38cbca8de4983dc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">view Petsc Vec variable to ASCII file  <a href="namespacePSE.html#a4364796301e74a3d38cbca8de4983dc6">More...</a><br /></td></tr>
 <tr class="separator:a4364796301e74a3d38cbca8de4983dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba2bc7ed1e79fe8308ef56823913bb19"><td class="memItemLeft" align="right" valign="top">PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aba2bc7ed1e79fe8308ef56823913bb19">PSE::printClosureIter</a> (PSE &amp;data)</td></tr>
+<tr class="memdesc:aba2bc7ed1e79fe8308ef56823913bb19"><td class="mdescLeft">&#160;</td><td class="mdescRight">print iteration residuals to screen from update_Closure iterations  <a href="namespacePSE.html#aba2bc7ed1e79fe8308ef56823913bb19">More...</a><br /></td></tr>
+<tr class="separator:aba2bc7ed1e79fe8308ef56823913bb19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76ccac638f68601a696d48fc7ea63daa"><td class="memItemLeft" align="right" valign="top">PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a76ccac638f68601a696d48fc7ea63daa">PSE::printNonlinearIter</a> (PSE &amp;data)</td></tr>
+<tr class="memdesc:a76ccac638f68601a696d48fc7ea63daa"><td class="mdescLeft">&#160;</td><td class="mdescRight">print iteration residuals to screen from update_Nonlinear iterations  <a href="namespacePSE.html#a76ccac638f68601a696d48fc7ea63daa">More...</a><br /></td></tr>
+<tr class="separator:a76ccac638f68601a696d48fc7ea63daa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addbb9b8b23e4c512603ffeb968425d20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#addbb9b8b23e4c512603ffeb968425d20">PSE::printHeaderIter</a> ()</td></tr>
+<tr class="memdesc:addbb9b8b23e4c512603ffeb968425d20"><td class="mdescLeft">&#160;</td><td class="mdescRight">print iteration residuals header to screen  <a href="namespacePSE.html#addbb9b8b23e4c512603ffeb968425d20">More...</a><br /></td></tr>
+<tr class="separator:addbb9b8b23e4c512603ffeb968425d20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a8d0b0043e152438bb39b918a1f98c65f"></a>
@@ -149,6 +160,18 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define ANSI_COLOR_CYAN&#160;&#160;&#160;&quot;\x1b[36m&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a966c72d8d733c7734c6c784753d894c7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ANSI_COLOR_GREEN&#160;&#160;&#160;&quot;\x1b[32m&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">

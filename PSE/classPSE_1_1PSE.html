@@ -113,6 +113,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aff5cad11a8b32a3115f5ff31d7e6d254"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#aff5cad11a8b32a3115f5ff31d7e6d254">init</a> ()</td></tr>
 <tr class="memdesc:aff5cad11a8b32a3115f5ff31d7e6d254"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize matrices and vectors  <a href="#aff5cad11a8b32a3115f5ff31d7e6d254">More...</a><br /></td></tr>
 <tr class="separator:aff5cad11a8b32a3115f5ff31d7e6d254"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ef81801b08d0ea157d2e40cfb9e81d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a9ef81801b08d0ea157d2e40cfb9e81d5">print</a> ()</td></tr>
+<tr class="memdesc:a9ef81801b08d0ea157d2e40cfb9e81d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">print all members of the class  <a href="#a9ef81801b08d0ea157d2e40cfb9e81d5">More...</a><br /></td></tr>
+<tr class="separator:a9ef81801b08d0ea157d2e40cfb9e81d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a782cf4416458203de298c8cfc0907d30"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a782cf4416458203de298c8cfc0907d30">~PSE</a> ()</td></tr>
 <tr class="memdesc:a782cf4416458203de298c8cfc0907d30"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <a href="#a782cf4416458203de298c8cfc0907d30">More...</a><br /></td></tr>
 <tr class="separator:a782cf4416458203de298c8cfc0907d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,6 +137,12 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a08990513d64df643d575c4c382761df2"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a08990513d64df643d575c4c382761df2">Dzz</a></td></tr>
 <tr class="memdesc:a08990513d64df643d575c4c382761df2"><td class="mdescLeft">&#160;</td><td class="mdescRight">second derivative in z direction  <a href="#a08990513d64df643d575c4c382761df2">More...</a><br /></td></tr>
 <tr class="separator:a08990513d64df643d575c4c382761df2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3db6f936a876a026ef66318b5d490df"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ab3db6f936a876a026ef66318b5d490df">D</a></td></tr>
+<tr class="memdesc:ab3db6f936a876a026ef66318b5d490df"><td class="mdescLeft">&#160;</td><td class="mdescRight">coefficient matrix in front of dq/dx term  <a href="#ab3db6f936a876a026ef66318b5d490df">More...</a><br /></td></tr>
+<tr class="separator:ab3db6f936a876a026ef66318b5d490df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ddc33caed77b8aa7c8107356b6af5f6"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a9ddc33caed77b8aa7c8107356b6af5f6">Dp1</a></td></tr>
+<tr class="memdesc:a9ddc33caed77b8aa7c8107356b6af5f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">coefficient matrix in front of dq/dx term, with next step values  <a href="#a9ddc33caed77b8aa7c8107356b6af5f6">More...</a><br /></td></tr>
+<tr class="separator:a9ddc33caed77b8aa7c8107356b6af5f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0df6b2489fcfb18171f0265c676f3f1e"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a0df6b2489fcfb18171f0265c676f3f1e">U</a></td></tr>
 <tr class="memdesc:a0df6b2489fcfb18171f0265c676f3f1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">base flow \(U\) velocity  <a href="#a0df6b2489fcfb18171f0265c676f3f1e">More...</a><br /></td></tr>
 <tr class="separator:a0df6b2489fcfb18171f0265c676f3f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -158,12 +167,39 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a217e658c61b62f1c00f3ec7df28f693d"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a217e658c61b62f1c00f3ec7df28f693d">A</a></td></tr>
 <tr class="memdesc:a217e658c61b62f1c00f3ec7df28f693d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix to Solve <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> equation in linear system (all q,dqdy,dqdz terms)  <a href="#a217e658c61b62f1c00f3ec7df28f693d">More...</a><br /></td></tr>
 <tr class="separator:a217e658c61b62f1c00f3ec7df28f693d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2999686acc53b85bd9eb918f63f3e3d9"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a2999686acc53b85bd9eb918f63f3e3d9">A_OSS</a></td></tr>
+<tr class="memdesc:a2999686acc53b85bd9eb918f63f3e3d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix to Solve <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> equation in linear system (all q,dqdy,dqdz terms) for OSS solver.  <a href="#a2999686acc53b85bd9eb918f63f3e3d9">More...</a><br /></td></tr>
+<tr class="separator:a2999686acc53b85bd9eb918f63f3e3d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7e08dcd63716b43bd4c9478acde4175"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ab7e08dcd63716b43bd4c9478acde4175">Ap1</a></td></tr>
+<tr class="memdesc:ab7e08dcd63716b43bd4c9478acde4175"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix to Solve <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> equation in linear system (all q,dqdy,dqdz terms) evaluated at next step values.  <a href="#ab7e08dcd63716b43bd4c9478acde4175">More...</a><br /></td></tr>
+<tr class="separator:ab7e08dcd63716b43bd4c9478acde4175"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a743c62435bb51c06ca21be91d94d9b02"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a743c62435bb51c06ca21be91d94d9b02">Asolve</a></td></tr>
+<tr class="memdesc:a743c62435bb51c06ca21be91d94d9b02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix to Solve <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> equation in linear system (all q,dqdy,dqdz terms) when solving Ax=b.  <a href="#a743c62435bb51c06ca21be91d94d9b02">More...</a><br /></td></tr>
+<tr class="separator:a743c62435bb51c06ca21be91d94d9b02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76e7cba4421927f8cc33633d45405fe3"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a76e7cba4421927f8cc33633d45405fe3">B</a></td></tr>
 <tr class="memdesc:a76e7cba4421927f8cc33633d45405fe3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix to Solve <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> equation in linear system (all dqdx terms)  <a href="#a76e7cba4421927f8cc33633d45405fe3">More...</a><br /></td></tr>
 <tr class="separator:a76e7cba4421927f8cc33633d45405fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbbd92e3039ebcf75dd8b0ba1aaaca4f"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#adbbd92e3039ebcf75dd8b0ba1aaaca4f">B_OSS</a></td></tr>
+<tr class="memdesc:adbbd92e3039ebcf75dd8b0ba1aaaca4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix to Solve <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> equation in linear system (all dqdx terms) for OSS solver.  <a href="#adbbd92e3039ebcf75dd8b0ba1aaaca4f">More...</a><br /></td></tr>
+<tr class="separator:adbbd92e3039ebcf75dd8b0ba1aaaca4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a481716bb4decab553eefc5d3a53a0004"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a481716bb4decab553eefc5d3a53a0004">Bsolve</a></td></tr>
+<tr class="memdesc:a481716bb4decab553eefc5d3a53a0004"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix to Solve <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> equation in linear system (all dqdx terms) when solving A qp1=Bq.  <a href="#a481716bb4decab553eefc5d3a53a0004">More...</a><br /></td></tr>
+<tr class="separator:a481716bb4decab553eefc5d3a53a0004"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12abdca16f9f1dd8a544b698622fa0c1"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a12abdca16f9f1dd8a544b698622fa0c1">tempMatny</a></td></tr>
 <tr class="memdesc:a12abdca16f9f1dd8a544b698622fa0c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temporary Matrix to help solve map of derivatives.  <a href="#a12abdca16f9f1dd8a544b698622fa0c1">More...</a><br /></td></tr>
 <tr class="separator:a12abdca16f9f1dd8a544b698622fa0c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3673e7436f2ce2983570dd4d22866583"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a3673e7436f2ce2983570dd4d22866583">P_PSE_from_OSS</a></td></tr>
+<tr class="memdesc:a3673e7436f2ce2983570dd4d22866583"><td class="mdescLeft">&#160;</td><td class="mdescRight">permutation matrix to premultiply to q from the OSS solver, to get the u,v,w,P primitive variables only (instead of the (u, alpha*v, v, alpha*w, w, P) q vector from the OSS solver).  <a href="#a3673e7436f2ce2983570dd4d22866583">More...</a><br /></td></tr>
+<tr class="separator:a3673e7436f2ce2983570dd4d22866583"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a801933ea823de35a120c937747f918fa"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a801933ea823de35a120c937747f918fa">P_u_from_q</a></td></tr>
+<tr class="memdesc:a801933ea823de35a120c937747f918fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">permutation matrix to premultiply to q from the <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> solver, to get the u primitive variables only (instead of the (u, v, w, P) q vector from the <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> solver).  <a href="#a801933ea823de35a120c937747f918fa">More...</a><br /></td></tr>
+<tr class="separator:a801933ea823de35a120c937747f918fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06c42c753b6d196659cbe92d4bd8542d"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a06c42c753b6d196659cbe92d4bd8542d">P_v_from_q</a></td></tr>
+<tr class="memdesc:a06c42c753b6d196659cbe92d4bd8542d"><td class="mdescLeft">&#160;</td><td class="mdescRight">permutation matrix to premultiply to q from the <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> solver, to get the v primitive variables only (instead of the (u, v, w, P) q vector from the <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> solver).  <a href="#a06c42c753b6d196659cbe92d4bd8542d">More...</a><br /></td></tr>
+<tr class="separator:a06c42c753b6d196659cbe92d4bd8542d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28ee091b582c60f1c8b85785f9520600"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a28ee091b582c60f1c8b85785f9520600">P_w_from_q</a></td></tr>
+<tr class="memdesc:a28ee091b582c60f1c8b85785f9520600"><td class="mdescLeft">&#160;</td><td class="mdescRight">permutation matrix to premultiply to q from the <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> solver, to get the w primitive variables only (instead of the (u, v, w, P) q vector from the <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> solver).  <a href="#a28ee091b582c60f1c8b85785f9520600">More...</a><br /></td></tr>
+<tr class="separator:a28ee091b582c60f1c8b85785f9520600"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a742a852b1bcc2636e8a93acd67161798"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a742a852b1bcc2636e8a93acd67161798">I</a></td></tr>
 <tr class="memdesc:a742a852b1bcc2636e8a93acd67161798"><td class="mdescLeft">&#160;</td><td class="mdescRight">identity matrix, useful in setting up A,B  <a href="#a742a852b1bcc2636e8a93acd67161798">More...</a><br /></td></tr>
 <tr class="separator:a742a852b1bcc2636e8a93acd67161798"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,6 +209,9 @@ Data Fields</h2></td></tr>
 <tr class="memitem:aa83098011812ec3d6e61a35d1f649483"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#aa83098011812ec3d6e61a35d1f649483">yVec</a></td></tr>
 <tr class="memdesc:aa83098011812ec3d6e61a35d1f649483"><td class="mdescLeft">&#160;</td><td class="mdescRight">y values in Petsc parallel vector  <a href="#aa83098011812ec3d6e61a35d1f649483">More...</a><br /></td></tr>
 <tr class="separator:aa83098011812ec3d6e61a35d1f649483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35f108fddd7322871da7b7fd109486a7"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a35f108fddd7322871da7b7fd109486a7">zVec</a></td></tr>
+<tr class="memdesc:a35f108fddd7322871da7b7fd109486a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">z values in Petsc parallel vector  <a href="#a35f108fddd7322871da7b7fd109486a7">More...</a><br /></td></tr>
+<tr class="separator:a35f108fddd7322871da7b7fd109486a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a196f966f2e6b047c39716c4a55148066"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a196f966f2e6b047c39716c4a55148066">Trapzy</a></td></tr>
 <tr class="memdesc:a196f966f2e6b047c39716c4a55148066"><td class="mdescLeft">&#160;</td><td class="mdescRight">trapezoidal operator for the integral in the y direction \((\mathrm{Trapzy})f(y,z) = \int f(y,z) dy\)  <a href="#a196f966f2e6b047c39716c4a55148066">More...</a><br /></td></tr>
 <tr class="separator:a196f966f2e6b047c39716c4a55148066"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,41 +224,119 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a078b581e1c038bcf8072eea7389e42cb"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a078b581e1c038bcf8072eea7389e42cb">qp1</a></td></tr>
 <tr class="memdesc:a078b581e1c038bcf8072eea7389e42cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( q_{i+1} \)  <a href="#a078b581e1c038bcf8072eea7389e42cb">More...</a><br /></td></tr>
 <tr class="separator:a078b581e1c038bcf8072eea7389e42cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac04b437e75c4de4042a8b30631535e5c"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ac04b437e75c4de4042a8b30631535e5c">qp1_oldNonLinear</a></td></tr>
+<tr class="memdesc:ac04b437e75c4de4042a8b30631535e5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( q_{i+1} \) from previous nonlinear iteration  <a href="#ac04b437e75c4de4042a8b30631535e5c">More...</a><br /></td></tr>
+<tr class="separator:ac04b437e75c4de4042a8b30631535e5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a896e124820561762627405cc956a3237"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a896e124820561762627405cc956a3237">qp1_OSS</a></td></tr>
+<tr class="memdesc:a896e124820561762627405cc956a3237"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( q_{i+1} \) for OSS solver (larger vector)  <a href="#a896e124820561762627405cc956a3237">More...</a><br /></td></tr>
+<tr class="separator:a896e124820561762627405cc956a3237"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d030fa8658458baee4bfbb0eb8343b5"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a2d030fa8658458baee4bfbb0eb8343b5">u</a></td></tr>
+<tr class="memdesc:a2d030fa8658458baee4bfbb0eb8343b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( u \) for nonlinear solver (size ny*nz)  <a href="#a2d030fa8658458baee4bfbb0eb8343b5">More...</a><br /></td></tr>
+<tr class="separator:a2d030fa8658458baee4bfbb0eb8343b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4150d697816fcabbb41a7e20dec46199"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a4150d697816fcabbb41a7e20dec46199">v</a></td></tr>
+<tr class="memdesc:a4150d697816fcabbb41a7e20dec46199"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( v \) for nonlinear solver (size ny*nz)  <a href="#a4150d697816fcabbb41a7e20dec46199">More...</a><br /></td></tr>
+<tr class="separator:a4150d697816fcabbb41a7e20dec46199"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2080a65a68576125bbfe147c4cd9843b"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a2080a65a68576125bbfe147c4cd9843b">w</a></td></tr>
+<tr class="memdesc:a2080a65a68576125bbfe147c4cd9843b"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( w \) for nonlinear solver (size ny*nz)  <a href="#a2080a65a68576125bbfe147c4cd9843b">More...</a><br /></td></tr>
+<tr class="separator:a2080a65a68576125bbfe147c4cd9843b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ff1eba15afe331580ace144f6d028f4"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a9ff1eba15afe331580ace144f6d028f4">af</a></td></tr>
+<tr class="memdesc:a9ff1eba15afe331580ace144f6d028f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( a_f=u i \alpha e^{i \int alpha dx} \) nonlinear term  <a href="#a9ff1eba15afe331580ace144f6d028f4">More...</a><br /></td></tr>
+<tr class="separator:a9ff1eba15afe331580ace144f6d028f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42c1551fb0bdb6a541a55b77389e5d0c"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a42c1551fb0bdb6a541a55b77389e5d0c">bf</a></td></tr>
+<tr class="memdesc:a42c1551fb0bdb6a541a55b77389e5d0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( a_f=v e^{i \int alpha dx} \) nonlinear term  <a href="#a42c1551fb0bdb6a541a55b77389e5d0c">More...</a><br /></td></tr>
+<tr class="separator:a42c1551fb0bdb6a541a55b77389e5d0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a961527f75c79c450b03e180b1f3e13cd"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a961527f75c79c450b03e180b1f3e13cd">df</a></td></tr>
+<tr class="memdesc:a961527f75c79c450b03e180b1f3e13cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( d_f=u e^{i \int alpha dx} \) nonlinear term  <a href="#a961527f75c79c450b03e180b1f3e13cd">More...</a><br /></td></tr>
+<tr class="separator:a961527f75c79c450b03e180b1f3e13cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a058dc7c731403826c62729b08a807636"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a058dc7c731403826c62729b08a807636">ef</a></td></tr>
+<tr class="memdesc:a058dc7c731403826c62729b08a807636"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( e_f=w e^{i \int alpha dx} \) nonlinear term  <a href="#a058dc7c731403826c62729b08a807636">More...</a><br /></td></tr>
+<tr class="separator:a058dc7c731403826c62729b08a807636"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d0a6f9472eb7f855fdaa8706990ecb4"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a5d0a6f9472eb7f855fdaa8706990ecb4">tempVecnynz</a></td></tr>
+<tr class="memdesc:a5d0a6f9472eb7f855fdaa8706990ecb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">temporary vector of size ny*nz  <a href="#a5d0a6f9472eb7f855fdaa8706990ecb4">More...</a><br /></td></tr>
+<tr class="separator:a5d0a6f9472eb7f855fdaa8706990ecb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade8abd50659afd329f50bf184a8e02d1"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ade8abd50659afd329f50bf184a8e02d1">onesVecny</a></td></tr>
 <tr class="memdesc:ade8abd50659afd329f50bf184a8e02d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of ones.  <a href="#ade8abd50659afd329f50bf184a8e02d1">More...</a><br /></td></tr>
 <tr class="separator:ade8abd50659afd329f50bf184a8e02d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a783e427bba8024bd76a219362c265c9d"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a783e427bba8024bd76a219362c265c9d">tempVecq</a></td></tr>
+<tr class="memdesc:a783e427bba8024bd76a219362c265c9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">temporary vector of size qp1 (4*ny*nz)  <a href="#a783e427bba8024bd76a219362c265c9d">More...</a><br /></td></tr>
+<tr class="separator:a783e427bba8024bd76a219362c265c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e3c261e5e0ccc5f62b45e8c2eff601e"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a8e3c261e5e0ccc5f62b45e8c2eff601e">tempVecny</a></td></tr>
 <tr class="memdesc:a8e3c261e5e0ccc5f62b45e8c2eff601e"><td class="mdescLeft">&#160;</td><td class="mdescRight">temporary vector  <a href="#a8e3c261e5e0ccc5f62b45e8c2eff601e">More...</a><br /></td></tr>
 <tr class="separator:a8e3c261e5e0ccc5f62b45e8c2eff601e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab73ad901dfd880394ebd38fe92544373"><td class="memItemLeft" align="right" valign="top">PetscReal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ab73ad901dfd880394ebd38fe92544373">nonlinear_tol</a></td></tr>
+<tr class="memdesc:ab73ad901dfd880394ebd38fe92544373"><td class="mdescLeft">&#160;</td><td class="mdescRight">nonlinear tolerance (exit nonlinear iterations once nonlinear error is below this tolerance) (default 1E-9)  <a href="#ab73ad901dfd880394ebd38fe92544373">More...</a><br /></td></tr>
+<tr class="separator:ab73ad901dfd880394ebd38fe92544373"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5722144e47500cdf99f8e0e1ecc448a4"><td class="memItemLeft" align="right" valign="top">PetscReal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a5722144e47500cdf99f8e0e1ecc448a4">nonlinear_error</a></td></tr>
+<tr class="memdesc:a5722144e47500cdf99f8e0e1ecc448a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">nonlinear error value \( |q^{N} - q^{N-1}| \)  <a href="#a5722144e47500cdf99f8e0e1ecc448a4">More...</a><br /></td></tr>
+<tr class="separator:a5722144e47500cdf99f8e0e1ecc448a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96f2bbc929689402588d9ae7bc04320a"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a96f2bbc929689402588d9ae7bc04320a">Re</a></td></tr>
-<tr class="memdesc:a96f2bbc929689402588d9ae7bc04320a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reynolds number.  <a href="#a96f2bbc929689402588d9ae7bc04320a">More...</a><br /></td></tr>
+<tr class="memdesc:a96f2bbc929689402588d9ae7bc04320a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reynolds number (default 2000)  <a href="#a96f2bbc929689402588d9ae7bc04320a">More...</a><br /></td></tr>
 <tr class="separator:a96f2bbc929689402588d9ae7bc04320a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afae948a96c07b8001c22a5a78374f7db"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#afae948a96c07b8001c22a5a78374f7db">Re0</a></td></tr>
+<tr class="memdesc:afae948a96c07b8001c22a5a78374f7db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reynolds number at original x0 location (start of <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a>) (default 2000)  <a href="#afae948a96c07b8001c22a5a78374f7db">More...</a><br /></td></tr>
+<tr class="separator:afae948a96c07b8001c22a5a78374f7db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bde252a381556ecf380352550e35198"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a2bde252a381556ecf380352550e35198">rho</a></td></tr>
-<tr class="memdesc:a2bde252a381556ecf380352550e35198"><td class="mdescLeft">&#160;</td><td class="mdescRight">density of fluid  <a href="#a2bde252a381556ecf380352550e35198">More...</a><br /></td></tr>
+<tr class="memdesc:a2bde252a381556ecf380352550e35198"><td class="mdescLeft">&#160;</td><td class="mdescRight">density of fluid (default 100)  <a href="#a2bde252a381556ecf380352550e35198">More...</a><br /></td></tr>
 <tr class="separator:a2bde252a381556ecf380352550e35198"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08c3a28aeb60cfcfd8567a4c23f05b31"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a08c3a28aeb60cfcfd8567a4c23f05b31">Ialpha</a></td></tr>
+<tr class="memdesc:a08c3a28aeb60cfcfd8567a4c23f05b31"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( \int_{x_i}^{x_{i+1}} \alpha(x) dx \) spatial eigenvalue (x-direction) (this is integrated using trapezoidal rule in update_Nonlinear  <a href="#a08c3a28aeb60cfcfd8567a4c23f05b31">More...</a><br /></td></tr>
+<tr class="separator:a08c3a28aeb60cfcfd8567a4c23f05b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3259ed77491652d69b3556e31e0d3805"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a3259ed77491652d69b3556e31e0d3805">Ialpha_old</a></td></tr>
+<tr class="memdesc:a3259ed77491652d69b3556e31e0d3805"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( \int_{x_{i-1}}^{x_{i}} \alpha(x) dx \) spatial eigenvalue (x-direction) (this is integrated using trapezoidal rule in update_Nonlinear  <a href="#a3259ed77491652d69b3556e31e0d3805">More...</a><br /></td></tr>
+<tr class="separator:a3259ed77491652d69b3556e31e0d3805"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2775125470d53552f62ada0921df31a"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ab2775125470d53552f62ada0921df31a">alpha</a></td></tr>
 <tr class="memdesc:ab2775125470d53552f62ada0921df31a"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( \alpha \) spatial eigenvalue (x-direction)  <a href="#ab2775125470d53552f62ada0921df31a">More...</a><br /></td></tr>
 <tr class="separator:ab2775125470d53552f62ada0921df31a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac20fbe7159588c202a9cd25fa79b6e04"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ac20fbe7159588c202a9cd25fa79b6e04">alpha_old</a></td></tr>
+<tr class="memdesc:ac20fbe7159588c202a9cd25fa79b6e04"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( \alpha \) spatial eigenvalue (x-direction) of previous step  <a href="#ac20fbe7159588c202a9cd25fa79b6e04">More...</a><br /></td></tr>
+<tr class="separator:ac20fbe7159588c202a9cd25fa79b6e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeeae59587b42aaeda4ce59c0357993c4"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#aeeae59587b42aaeda4ce59c0357993c4">delta_alpha</a></td></tr>
+<tr class="memdesc:aeeae59587b42aaeda4ce59c0357993c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( \Delta \alpha \) spatial eigenvalue change in during update_Closure steps (x-direction)  <a href="#aeeae59587b42aaeda4ce59c0357993c4">More...</a><br /></td></tr>
+<tr class="separator:aeeae59587b42aaeda4ce59c0357993c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c71c09037469163f6c922e5793c6ca7"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a4c71c09037469163f6c922e5793c6ca7">closure_value</a></td></tr>
+<tr class="memdesc:a4c71c09037469163f6c922e5793c6ca7"><td class="mdescLeft">&#160;</td><td class="mdescRight">value of closure \( \int_\Omega q_x q^H d\Omega \)  <a href="#a4c71c09037469163f6c922e5793c6ca7">More...</a><br /></td></tr>
+<tr class="separator:a4c71c09037469163f6c922e5793c6ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b49df06a71c50e73cdea11ace8a4778"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a8b49df06a71c50e73cdea11ace8a4778">target_alpha</a></td></tr>
+<tr class="memdesc:a8b49df06a71c50e73cdea11ace8a4778"><td class="mdescLeft">&#160;</td><td class="mdescRight">target \( \alpha \) spatial eigenvalue (x-direction) that we want to converge to (1.72 times by literature values)  <a href="#a8b49df06a71c50e73cdea11ace8a4778">More...</a><br /></td></tr>
+<tr class="separator:a8b49df06a71c50e73cdea11ace8a4778"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29e923bd8b226e8ca5bc7cde762d5ecc"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a29e923bd8b226e8ca5bc7cde762d5ecc">sum_divergence</a></td></tr>
+<tr class="memdesc:a29e923bd8b226e8ca5bc7cde762d5ecc"><td class="mdescLeft">&#160;</td><td class="mdescRight">base flow divergence calculation from blausius profile (for checking purposes  <a href="#a29e923bd8b226e8ca5bc7cde762d5ecc">More...</a><br /></td></tr>
+<tr class="separator:a29e923bd8b226e8ca5bc7cde762d5ecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a988003ba82c7ab1249df682e4502e56b"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a988003ba82c7ab1249df682e4502e56b">m</a></td></tr>
-<tr class="memdesc:a988003ba82c7ab1249df682e4502e56b"><td class="mdescLeft">&#160;</td><td class="mdescRight">\(m\)  <a href="#a988003ba82c7ab1249df682e4502e56b">More...</a><br /></td></tr>
+<tr class="memdesc:a988003ba82c7ab1249df682e4502e56b"><td class="mdescLeft">&#160;</td><td class="mdescRight">\(m\) (default 1)  <a href="#a988003ba82c7ab1249df682e4502e56b">More...</a><br /></td></tr>
 <tr class="separator:a988003ba82c7ab1249df682e4502e56b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07af3736a8f40a11724476be21c5b8ed"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a07af3736a8f40a11724476be21c5b8ed">omega</a></td></tr>
-<tr class="memdesc:a07af3736a8f40a11724476be21c5b8ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( \omega \) temporal eigenvalue  <a href="#a07af3736a8f40a11724476be21c5b8ed">More...</a><br /></td></tr>
+<tr class="memdesc:a07af3736a8f40a11724476be21c5b8ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( \omega \) temporal eigenvalue (default 0.3)  <a href="#a07af3736a8f40a11724476be21c5b8ed">More...</a><br /></td></tr>
 <tr class="separator:a07af3736a8f40a11724476be21c5b8ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba8cd0852a564040f9784d5810f4aae0"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#aba8cd0852a564040f9784d5810f4aae0">F</a></td></tr>
+<tr class="memdesc:aba8cd0852a564040f9784d5810f4aae0"><td class="mdescLeft">&#160;</td><td class="mdescRight">\(F\) frequency related to \(omega\)  <a href="#aba8cd0852a564040f9784d5810f4aae0">More...</a><br /></td></tr>
+<tr class="separator:aba8cd0852a564040f9784d5810f4aae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ef34ef03d7177b759e7cb1b7ba0a67b"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a5ef34ef03d7177b759e7cb1b7ba0a67b">F_initial</a></td></tr>
+<tr class="memdesc:a5ef34ef03d7177b759e7cb1b7ba0a67b"><td class="mdescLeft">&#160;</td><td class="mdescRight">\(F\) frequency related to \(omega\) for the initial LST solution into <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> (used for eigenmode jump validation case)  <a href="#a5ef34ef03d7177b759e7cb1b7ba0a67b">More...</a><br /></td></tr>
+<tr class="separator:a5ef34ef03d7177b759e7cb1b7ba0a67b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad093e095cc6abeb5046c8552ece5a777"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ad093e095cc6abeb5046c8552ece5a777">hx</a></td></tr>
-<tr class="memdesc:ad093e095cc6abeb5046c8552ece5a777"><td class="mdescLeft">&#160;</td><td class="mdescRight">distance to march in x-direction  <a href="#ad093e095cc6abeb5046c8552ece5a777">More...</a><br /></td></tr>
+<tr class="memdesc:ad093e095cc6abeb5046c8552ece5a777"><td class="mdescLeft">&#160;</td><td class="mdescRight">distance to march in x-direction (default 2.5)  <a href="#ad093e095cc6abeb5046c8552ece5a777">More...</a><br /></td></tr>
 <tr class="separator:ad093e095cc6abeb5046c8552ece5a777"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb911f5b761589f1f930cd16355ff201"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#acb911f5b761589f1f930cd16355ff201">deltay</a></td></tr>
+<tr class="memdesc:acb911f5b761589f1f930cd16355ff201"><td class="mdescLeft">&#160;</td><td class="mdescRight">stretching ratio in the y-direction (default 0.)  <a href="#acb911f5b761589f1f930cd16355ff201">More...</a><br /></td></tr>
+<tr class="separator:acb911f5b761589f1f930cd16355ff201"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cec526602d953c7444bbe9c0ee460a8"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a4cec526602d953c7444bbe9c0ee460a8">nu</a></td></tr>
 <tr class="memdesc:a4cec526602d953c7444bbe9c0ee460a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">viscous \(\nu\) term in the equation (Blasius BL)  <a href="#a4cec526602d953c7444bbe9c0ee460a8">More...</a><br /></td></tr>
 <tr class="separator:a4cec526602d953c7444bbe9c0ee460a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f30e8cafc58c8d431d47cd97486b651"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a0f30e8cafc58c8d431d47cd97486b651">x</a></td></tr>
 <tr class="memdesc:a0f30e8cafc58c8d431d47cd97486b651"><td class="mdescLeft">&#160;</td><td class="mdescRight">x-location  <a href="#a0f30e8cafc58c8d431d47cd97486b651">More...</a><br /></td></tr>
 <tr class="separator:a0f30e8cafc58c8d431d47cd97486b651"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a426ad9174b2930653763135132eac8ef"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a426ad9174b2930653763135132eac8ef">num_boundary_layers_high</a></td></tr>
+<tr class="memdesc:a426ad9174b2930653763135132eac8ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of boundary layers (approx) high to create the grid by default (default 6)  <a href="#a426ad9174b2930653763135132eac8ef">More...</a><br /></td></tr>
+<tr class="separator:a426ad9174b2930653763135132eac8ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8752ee16540357312b93fe7e31e16047"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a8752ee16540357312b93fe7e31e16047">closure_tol</a></td></tr>
+<tr class="memdesc:a8752ee16540357312b93fe7e31e16047"><td class="mdescLeft">&#160;</td><td class="mdescRight">closure tolerance (exit closure iterations once closure is below this tolerance) (default 1E-9)  <a href="#a8752ee16540357312b93fe7e31e16047">More...</a><br /></td></tr>
+<tr class="separator:a8752ee16540357312b93fe7e31e16047"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a1a17372ca8144ca30efd8cebcca286"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a9a1a17372ca8144ca30efd8cebcca286">Deltay</a></td></tr>
-<tr class="memdesc:a9a1a17372ca8144ca30efd8cebcca286"><td class="mdescLeft">&#160;</td><td class="mdescRight">\(\Delta y\) height of the domain  <a href="#a9a1a17372ca8144ca30efd8cebcca286">More...</a><br /></td></tr>
+<tr class="memdesc:a9a1a17372ca8144ca30efd8cebcca286"><td class="mdescLeft">&#160;</td><td class="mdescRight">\(\Delta y\) height of the domain (default 2.)  <a href="#a9a1a17372ca8144ca30efd8cebcca286">More...</a><br /></td></tr>
 <tr class="separator:a9a1a17372ca8144ca30efd8cebcca286"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5985054816d689f5a09bd29597410ec7"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a5985054816d689f5a09bd29597410ec7">Deltaz</a></td></tr>
-<tr class="memdesc:a5985054816d689f5a09bd29597410ec7"><td class="mdescLeft">&#160;</td><td class="mdescRight">\(\Delta z\) width of the domain  <a href="#a5985054816d689f5a09bd29597410ec7">More...</a><br /></td></tr>
+<tr class="memdesc:a5985054816d689f5a09bd29597410ec7"><td class="mdescLeft">&#160;</td><td class="mdescRight">\(\Delta z\) width of the domain (default 1.)  <a href="#a5985054816d689f5a09bd29597410ec7">More...</a><br /></td></tr>
 <tr class="separator:a5985054816d689f5a09bd29597410ec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c1d2692dd1f283377e24eb5ef8000ee"><td class="memItemLeft" align="right" valign="top">PetscScalar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a0c1d2692dd1f283377e24eb5ef8000ee">y</a></td></tr>
 <tr class="memdesc:a0c1d2692dd1f283377e24eb5ef8000ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">y vector (each processor has whole vector)  <a href="#a0c1d2692dd1f283377e24eb5ef8000ee">More...</a><br /></td></tr>
@@ -240,10 +357,10 @@ Data Fields</h2></td></tr>
 <tr class="memdesc:a27dba46ce56b1f4daa23a722c4c3aaee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Blasius Boundary Layer similarity variable steps \(d\eta\) (size ny-1)  <a href="#a27dba46ce56b1f4daa23a722c4c3aaee">More...</a><br /></td></tr>
 <tr class="separator:a27dba46ce56b1f4daa23a722c4c3aaee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7db22783db29cd80e400874d0f25806e"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a7db22783db29cd80e400874d0f25806e">ny</a></td></tr>
-<tr class="memdesc:a7db22783db29cd80e400874d0f25806e"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of grid points in the y-direction  <a href="#a7db22783db29cd80e400874d0f25806e">More...</a><br /></td></tr>
+<tr class="memdesc:a7db22783db29cd80e400874d0f25806e"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of grid points in the y-direction (default 101)  <a href="#a7db22783db29cd80e400874d0f25806e">More...</a><br /></td></tr>
 <tr class="separator:a7db22783db29cd80e400874d0f25806e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae68d10727d8542c5f077a3df8d483c85"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ae68d10727d8542c5f077a3df8d483c85">nz</a></td></tr>
-<tr class="memdesc:ae68d10727d8542c5f077a3df8d483c85"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of grid points in the z-direction  <a href="#ae68d10727d8542c5f077a3df8d483c85">More...</a><br /></td></tr>
+<tr class="memdesc:ae68d10727d8542c5f077a3df8d483c85"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of grid points in the z-direction (default 6)  <a href="#ae68d10727d8542c5f077a3df8d483c85">More...</a><br /></td></tr>
 <tr class="separator:ae68d10727d8542c5f077a3df8d483c85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95e8e18ac608555f191353ce1b2fce86"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a95e8e18ac608555f191353ce1b2fce86">dim</a></td></tr>
 <tr class="memdesc:a95e8e18ac608555f191353ce1b2fce86"><td class="mdescLeft">&#160;</td><td class="mdescRight">dimension of large matrices \( ny*nz \) in <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> solver  <a href="#a95e8e18ac608555f191353ce1b2fce86">More...</a><br /></td></tr>
@@ -251,14 +368,32 @@ Data Fields</h2></td></tr>
 <tr class="memitem:aef9d50868bd74bdea608b0494f3346ca"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#aef9d50868bd74bdea608b0494f3346ca">dimOSS</a></td></tr>
 <tr class="memdesc:aef9d50868bd74bdea608b0494f3346ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">dimension of large matrices \( ny*nz \) in Orr-Sommerfeld solver  <a href="#aef9d50868bd74bdea608b0494f3346ca">More...</a><br /></td></tr>
 <tr class="separator:aef9d50868bd74bdea608b0494f3346ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9f04b009b1c2b5b470de9df16d34ffb"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#af9f04b009b1c2b5b470de9df16d34ffb">dim_nynz</a></td></tr>
+<tr class="memdesc:af9f04b009b1c2b5b470de9df16d34ffb"><td class="mdescLeft">&#160;</td><td class="mdescRight">dimension of small vectors \( ny*nz \) in <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> solver (only one primitive variable u, for all locations ny,nz  <a href="#af9f04b009b1c2b5b470de9df16d34ffb">More...</a><br /></td></tr>
+<tr class="separator:af9f04b009b1c2b5b470de9df16d34ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26e014231cba0f37a052a635754d12d3"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a26e014231cba0f37a052a635754d12d3">order</a></td></tr>
-<tr class="memdesc:a26e014231cba0f37a052a635754d12d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">order of accuracy  <a href="#a26e014231cba0f37a052a635754d12d3">More...</a><br /></td></tr>
+<tr class="memdesc:a26e014231cba0f37a052a635754d12d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">order of accuracy (default 4)  <a href="#a26e014231cba0f37a052a635754d12d3">More...</a><br /></td></tr>
 <tr class="separator:a26e014231cba0f37a052a635754d12d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc9a574740b0e93a33628d0c01384855"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#abc9a574740b0e93a33628d0c01384855">xsteps</a></td></tr>
-<tr class="memdesc:abc9a574740b0e93a33628d0c01384855"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of steps to take  <a href="#abc9a574740b0e93a33628d0c01384855">More...</a><br /></td></tr>
+<tr class="memdesc:abc9a574740b0e93a33628d0c01384855"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of steps to take (default 15)  <a href="#abc9a574740b0e93a33628d0c01384855">More...</a><br /></td></tr>
 <tr class="separator:abc9a574740b0e93a33628d0c01384855"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeca2d8d974d0a24f29898632d9e54d67"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#aeca2d8d974d0a24f29898632d9e54d67">multiply_nypts_for_bblf</a> =100</td></tr>
-<tr class="memdesc:aeca2d8d974d0a24f29898632d9e54d67"><td class="mdescLeft">&#160;</td><td class="mdescRight">blasius boundary layer flow multiply ny by this number to integrate a uniform grid even further  <a href="#aeca2d8d974d0a24f29898632d9e54d67">More...</a><br /></td></tr>
+<tr class="memitem:a82f00b5b3a618f959ea1d538fba9588f"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a82f00b5b3a618f959ea1d538fba9588f">type_marching</a></td></tr>
+<tr class="memdesc:a82f00b5b3a618f959ea1d538fba9588f"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of marching [1=Implicit Euler (default), 2=Crank-Nicolson]  <a href="#a82f00b5b3a618f959ea1d538fba9588f">More...</a><br /></td></tr>
+<tr class="separator:a82f00b5b3a618f959ea1d538fba9588f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a419b3a2971e1991a1ba9b5774f8f1684"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a419b3a2971e1991a1ba9b5774f8f1684">closure_iter</a></td></tr>
+<tr class="memdesc:a419b3a2971e1991a1ba9b5774f8f1684"><td class="mdescLeft">&#160;</td><td class="mdescRight">current closure iteration number (changed in <a class="el" href="update__Closure_8cpp.html">update_Closure.cpp</a>)  <a href="#a419b3a2971e1991a1ba9b5774f8f1684">More...</a><br /></td></tr>
+<tr class="separator:a419b3a2971e1991a1ba9b5774f8f1684"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c7b2afbaae3282ab636e45bb2c1e4ef"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a2c7b2afbaae3282ab636e45bb2c1e4ef">nonlinear_iter</a></td></tr>
+<tr class="memdesc:a2c7b2afbaae3282ab636e45bb2c1e4ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">current nonlinear iteration number (changed in <a class="el" href="update__Nonlinear_8cpp.html">update_Nonlinear.cpp</a>)  <a href="#a2c7b2afbaae3282ab636e45bb2c1e4ef">More...</a><br /></td></tr>
+<tr class="separator:a2c7b2afbaae3282ab636e45bb2c1e4ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e98c05065e5abb85d874abddce5a29e"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a1e98c05065e5abb85d874abddce5a29e">OSS_nev</a></td></tr>
+<tr class="memdesc:a1e98c05065e5abb85d874abddce5a29e"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of eigenvalues to solve near the target_alpha for the Ax_kBx OSS solver  <a href="#a1e98c05065e5abb85d874abddce5a29e">More...</a><br /></td></tr>
+<tr class="separator:a1e98c05065e5abb85d874abddce5a29e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f5e395c3d411ba6fa1897cf488c2209"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a8f5e395c3d411ba6fa1897cf488c2209">istep</a></td></tr>
+<tr class="memdesc:a8f5e395c3d411ba6fa1897cf488c2209"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global marching step for <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a>.  <a href="#a8f5e395c3d411ba6fa1897cf488c2209">More...</a><br /></td></tr>
+<tr class="separator:a8f5e395c3d411ba6fa1897cf488c2209"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeca2d8d974d0a24f29898632d9e54d67"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#aeca2d8d974d0a24f29898632d9e54d67">multiply_nypts_for_bblf</a></td></tr>
+<tr class="memdesc:aeca2d8d974d0a24f29898632d9e54d67"><td class="mdescLeft">&#160;</td><td class="mdescRight">blasius boundary layer flow multiply ny by this number to integrate a uniform grid even further (default 100)  <a href="#aeca2d8d974d0a24f29898632d9e54d67">More...</a><br /></td></tr>
 <tr class="separator:aeca2d8d974d0a24f29898632d9e54d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46f676bd1539a9105ec5a01e35cd4be7"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a46f676bd1539a9105ec5a01e35cd4be7">type_base_flow</a></td></tr>
 <tr class="memdesc:a46f676bd1539a9105ec5a01e35cd4be7"><td class="mdescLeft">&#160;</td><td class="mdescRight">1=Poisuille channel flow, 2=Blasius Flat-Plate  <a href="#a46f676bd1539a9105ec5a01e35cd4be7">More...</a><br /></td></tr>
@@ -266,6 +401,9 @@ Data Fields</h2></td></tr>
 <tr class="memitem:ae0f2be20cc5efcf4152488c1d04647d7"><td class="memItemLeft" align="right" valign="top">PetscBool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ae0f2be20cc5efcf4152488c1d04647d7">reduce_wall_order</a> =PETSC_TRUE</td></tr>
 <tr class="memdesc:ae0f2be20cc5efcf4152488c1d04647d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">do we want to reduce the order of the derivative at the wall? (only in y-direction because z is periodic)  <a href="#ae0f2be20cc5efcf4152488c1d04647d7">More...</a><br /></td></tr>
 <tr class="separator:ae0f2be20cc5efcf4152488c1d04647d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a462a618aa288a3a4190c03301d2aadb0"><td class="memItemLeft" align="right" valign="top">PetscBool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a462a618aa288a3a4190c03301d2aadb0">flag_read_q_filename</a> =PETSC_FALSE</td></tr>
+<tr class="memdesc:a462a618aa288a3a4190c03301d2aadb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag to state if reading file in from python scripts  <a href="#a462a618aa288a3a4190c03301d2aadb0">More...</a><br /></td></tr>
+<tr class="separator:a462a618aa288a3a4190c03301d2aadb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab32523165f07bbc72a567200b9ab1782"><td class="memItemLeft" align="right" valign="top">PetscBool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ab32523165f07bbc72a567200b9ab1782">flag_set_D</a> =PETSC_FALSE</td></tr>
 <tr class="memdesc:ab32523165f07bbc72a567200b9ab1782"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag to set derivative operators  <a href="#ab32523165f07bbc72a567200b9ab1782">More...</a><br /></td></tr>
 <tr class="separator:ab32523165f07bbc72a567200b9ab1782"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -296,12 +434,39 @@ Data Fields</h2></td></tr>
 <tr class="memitem:aa1a11a831b5a3c67239b2417ed51fa8c"><td class="memItemLeft" align="right" valign="top">PetscBool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#aa1a11a831b5a3c67239b2417ed51fa8c">flag_p_term</a> =PETSC_FALSE</td></tr>
 <tr class="memdesc:aa1a11a831b5a3c67239b2417ed51fa8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag to neglect pressure term (to allow for smaller x step size)  <a href="#aa1a11a831b5a3c67239b2417ed51fa8c">More...</a><br /></td></tr>
 <tr class="separator:aa1a11a831b5a3c67239b2417ed51fa8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6da9147a7c2d0d9819df251330c30b50"><td class="memItemLeft" align="right" valign="top">PetscBool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a6da9147a7c2d0d9819df251330c30b50">flag_LST_marching</a> =PETSC_FALSE</td></tr>
+<tr class="memdesc:a6da9147a7c2d0d9819df251330c30b50"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag to calculate the local stability theory at each x location  <a href="#a6da9147a7c2d0d9819df251330c30b50">More...</a><br /></td></tr>
+<tr class="separator:a6da9147a7c2d0d9819df251330c30b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada02f985c0c7f551f30d3f5f31ea1333"><td class="memItemLeft" align="right" valign="top">PetscBool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ada02f985c0c7f551f30d3f5f31ea1333">flag_F_initial</a> =PETSC_FALSE</td></tr>
+<tr class="memdesc:ada02f985c0c7f551f30d3f5f31ea1333"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag indicating if an initial F is used instead of the given F  <a href="#ada02f985c0c7f551f30d3f5f31ea1333">More...</a><br /></td></tr>
+<tr class="separator:ada02f985c0c7f551f30d3f5f31ea1333"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00627d81011f088b4cad99bf44450cb2"><td class="memItemLeft" align="right" valign="top">PetscBool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a00627d81011f088b4cad99bf44450cb2">flag_Created_grid</a> =PETSC_FALSE</td></tr>
+<tr class="memdesc:a00627d81011f088b4cad99bf44450cb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">internal flag used for indicating if a grid was generated for LST the first time it ran  <a href="#a00627d81011f088b4cad99bf44450cb2">More...</a><br /></td></tr>
+<tr class="separator:a00627d81011f088b4cad99bf44450cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8188e505b00ebf196d1d1840d79db36f"><td class="memItemLeft" align="right" valign="top">PetscBool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a8188e505b00ebf196d1d1840d79db36f">flag_parallel_blasius</a> =PETSC_FALSE</td></tr>
+<tr class="memdesc:a8188e505b00ebf196d1d1840d79db36f"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag to indicte if wanting parallel blasius base flow  <a href="#a8188e505b00ebf196d1d1840d79db36f">More...</a><br /></td></tr>
+<tr class="separator:a8188e505b00ebf196d1d1840d79db36f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6c37f586734b88cc48a6af10958fd10"><td class="memItemLeft" align="right" valign="top">PetscBool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ac6c37f586734b88cc48a6af10958fd10">flag_explicit_x</a> =PETSC_FALSE</td></tr>
+<tr class="memdesc:ac6c37f586734b88cc48a6af10958fd10"><td class="mdescLeft">&#160;</td><td class="mdescRight">set x to be at a certain location (used for OSS_blasius validation study for alternate LST at downstream locations)  <a href="#ac6c37f586734b88cc48a6af10958fd10">More...</a><br /></td></tr>
+<tr class="separator:ac6c37f586734b88cc48a6af10958fd10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a921d3b6ce047f6ce7d2bf02bea406136"><td class="memItemLeft" align="right" valign="top">PetscBool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a921d3b6ce047f6ce7d2bf02bea406136">flag_nonlinear</a> =PETSC_FALSE</td></tr>
+<tr class="memdesc:a921d3b6ce047f6ce7d2bf02bea406136"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag to set if wanting to add nonlinear terms  <a href="#a921d3b6ce047f6ce7d2bf02bea406136">More...</a><br /></td></tr>
+<tr class="separator:a921d3b6ce047f6ce7d2bf02bea406136"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0779779a042ea2973dfa76c25abcae7d"><td class="memItemLeft" align="right" valign="top">PetscBool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a0779779a042ea2973dfa76c25abcae7d">flag_2D</a> =PETSC_FALSE</td></tr>
+<tr class="memdesc:a0779779a042ea2973dfa76c25abcae7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag indicating if 2D \(\beta=0\) calculation  <a href="#a0779779a042ea2973dfa76c25abcae7d">More...</a><br /></td></tr>
+<tr class="separator:a0779779a042ea2973dfa76c25abcae7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad32cd99dc7de8fefda4a69361c3add82"><td class="memItemLeft" align="right" valign="top">PetscBool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ad32cd99dc7de8fefda4a69361c3add82">flag_LST</a> =PETSC_FALSE</td></tr>
 <tr class="memdesc:ad32cd99dc7de8fefda4a69361c3add82"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag to consider only the local stability theory (neglect non-parallel flow terms in the governing equation)  <a href="#ad32cd99dc7de8fefda4a69361c3add82">More...</a><br /></td></tr>
 <tr class="separator:ad32cd99dc7de8fefda4a69361c3add82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3aa4e548f6b0882a09985e96e43013b9"><td class="memItemLeft" align="right" valign="top">PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a3aa4e548f6b0882a09985e96e43013b9">ierr</a></td></tr>
 <tr class="memdesc:a3aa4e548f6b0882a09985e96e43013b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag to catch error from Petsc functions  <a href="#a3aa4e548f6b0882a09985e96e43013b9">More...</a><br /></td></tr>
 <tr class="separator:a3aa4e548f6b0882a09985e96e43013b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec227cb4acee51ad89d1f8154015c076"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#aec227cb4acee51ad89d1f8154015c076">read_q_filename</a></td></tr>
+<tr class="memdesc:aec227cb4acee51ad89d1f8154015c076"><td class="mdescLeft">&#160;</td><td class="mdescRight">base filename if reading output from the OSS python scripts  <a href="#aec227cb4acee51ad89d1f8154015c076">More...</a><br /></td></tr>
+<tr class="separator:aec227cb4acee51ad89d1f8154015c076"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae597055fff54f1c57db730cbf7bebaf7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ae597055fff54f1c57db730cbf7bebaf7">output_folder</a></td></tr>
+<tr class="memdesc:ae597055fff54f1c57db730cbf7bebaf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">output folder to  <a href="#ae597055fff54f1c57db730cbf7bebaf7">More...</a><br /></td></tr>
+<tr class="separator:ae597055fff54f1c57db730cbf7bebaf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class to contain various variables for <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> solution. </p>
@@ -375,6 +540,23 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a9ef81801b08d0ea157d2e40cfb9e81d5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PSE::PSE::print </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>print all members of the class </p>
+
+</div>
+</div>
 <h2 class="groupheader">Field Documentation</h2>
 <a class="anchor" id="a217e658c61b62f1c00f3ec7df28f693d"></a>
 <div class="memitem">
@@ -390,6 +572,34 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a2999686acc53b85bd9eb918f63f3e3d9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Mat PSE::PSE::A_OSS</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Matrix to Solve <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> equation in linear system (all q,dqdy,dqdz terms) for OSS solver. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9ff1eba15afe331580ace144f6d028f4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vec PSE::PSE::af</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\( a_f=u i \alpha e^{i \int alpha dx} \) nonlinear term </p>
+
+</div>
+</div>
 <a class="anchor" id="ab2775125470d53552f62ada0921df31a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -401,6 +611,48 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>\( \alpha \) spatial eigenvalue (x-direction) </p>
+
+</div>
+</div>
+<a class="anchor" id="ac20fbe7159588c202a9cd25fa79b6e04"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscScalar PSE::PSE::alpha_old</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\( \alpha \) spatial eigenvalue (x-direction) of previous step </p>
+
+</div>
+</div>
+<a class="anchor" id="ab7e08dcd63716b43bd4c9478acde4175"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Mat PSE::PSE::Ap1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Matrix to Solve <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> equation in linear system (all q,dqdy,dqdz terms) evaluated at next step values. </p>
+
+</div>
+</div>
+<a class="anchor" id="a743c62435bb51c06ca21be91d94d9b02"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Mat PSE::PSE::Asolve</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Matrix to Solve <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> equation in linear system (all q,dqdy,dqdz terms) when solving Ax=b. </p>
 
 </div>
 </div>
@@ -432,6 +684,132 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="adbbd92e3039ebcf75dd8b0ba1aaaca4f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Mat PSE::PSE::B_OSS</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Matrix to Solve <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> equation in linear system (all dqdx terms) for OSS solver. </p>
+
+</div>
+</div>
+<a class="anchor" id="a42c1551fb0bdb6a541a55b77389e5d0c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vec PSE::PSE::bf</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\( a_f=v e^{i \int alpha dx} \) nonlinear term </p>
+
+</div>
+</div>
+<a class="anchor" id="a481716bb4decab553eefc5d3a53a0004"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Mat PSE::PSE::Bsolve</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Matrix to Solve <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> equation in linear system (all dqdx terms) when solving A qp1=Bq. </p>
+
+</div>
+</div>
+<a class="anchor" id="a419b3a2971e1991a1ba9b5774f8f1684"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscInt PSE::PSE::closure_iter</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>current closure iteration number (changed in <a class="el" href="update__Closure_8cpp.html">update_Closure.cpp</a>) </p>
+
+</div>
+</div>
+<a class="anchor" id="a8752ee16540357312b93fe7e31e16047"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscScalar PSE::PSE::closure_tol</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>closure tolerance (exit closure iterations once closure is below this tolerance) (default 1E-9) </p>
+
+</div>
+</div>
+<a class="anchor" id="a4c71c09037469163f6c922e5793c6ca7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscScalar PSE::PSE::closure_value</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>value of closure \( \int_\Omega q_x q^H d\Omega \) </p>
+
+</div>
+</div>
+<a class="anchor" id="ab3db6f936a876a026ef66318b5d490df"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Mat PSE::PSE::D</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>coefficient matrix in front of dq/dx term </p>
+
+</div>
+</div>
+<a class="anchor" id="aeeae59587b42aaeda4ce59c0357993c4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscScalar PSE::PSE::delta_alpha</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\( \Delta \alpha \) spatial eigenvalue change in during update_Closure steps (x-direction) </p>
+
+</div>
+</div>
+<a class="anchor" id="acb911f5b761589f1f930cd16355ff201"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscScalar PSE::PSE::deltay</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>stretching ratio in the y-direction (default 0.) </p>
+
+</div>
+</div>
 <a class="anchor" id="a9a1a17372ca8144ca30efd8cebcca286"></a>
 <div class="memitem">
 <div class="memproto">
@@ -442,7 +820,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>\(\Delta y\) height of the domain </p>
+<p>\(\Delta y\) height of the domain (default 2.) </p>
 
 </div>
 </div>
@@ -456,7 +834,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>\(\Delta z\) width of the domain </p>
+<p>\(\Delta z\) width of the domain (default 1.) </p>
 
 </div>
 </div>
@@ -474,6 +852,20 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a961527f75c79c450b03e180b1f3e13cd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vec PSE::PSE::df</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\( d_f=u e^{i \int alpha dx} \) nonlinear term </p>
+
+</div>
+</div>
 <a class="anchor" id="a95e8e18ac608555f191353ce1b2fce86"></a>
 <div class="memitem">
 <div class="memproto">
@@ -488,6 +880,20 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="af9f04b009b1c2b5b470de9df16d34ffb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscInt PSE::PSE::dim_nynz</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>dimension of small vectors \( ny*nz \) in <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> solver (only one primitive variable u, for all locations ny,nz </p>
+
+</div>
+</div>
 <a class="anchor" id="aef9d50868bd74bdea608b0494f3346ca"></a>
 <div class="memitem">
 <div class="memproto">
@@ -499,6 +905,20 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>dimension of large matrices \( ny*nz \) in Orr-Sommerfeld solver </p>
+
+</div>
+</div>
+<a class="anchor" id="a9ddc33caed77b8aa7c8107356b6af5f6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Mat PSE::PSE::Dp1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>coefficient matrix in front of dq/dx term, with next step values </p>
 
 </div>
 </div>
@@ -558,6 +978,20 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a058dc7c731403826c62729b08a807636"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vec PSE::PSE::ef</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\( e_f=w e^{i \int alpha dx} \) nonlinear term </p>
+
+</div>
+</div>
 <a class="anchor" id="ad451c4b4dd87773162c397655d1a0607"></a>
 <div class="memitem">
 <div class="memproto">
@@ -569,6 +1003,48 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Blasius Boundary Layer similarity variable \(\eta\) (size ny) </p>
+
+</div>
+</div>
+<a class="anchor" id="aba8cd0852a564040f9784d5810f4aae0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscScalar PSE::PSE::F</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\(F\) frequency related to \(omega\) </p>
+
+</div>
+</div>
+<a class="anchor" id="a5ef34ef03d7177b759e7cb1b7ba0a67b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscScalar PSE::PSE::F_initial</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\(F\) frequency related to \(omega\) for the initial LST solution into <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> (used for eigenmode jump validation case) </p>
+
+</div>
+</div>
+<a class="anchor" id="a0779779a042ea2973dfa76c25abcae7d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscBool PSE::PSE::flag_2D =PETSC_FALSE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>flag indicating if 2D \(\beta=0\) calculation </p>
 
 </div>
 </div>
@@ -586,6 +1062,20 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a00627d81011f088b4cad99bf44450cb2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscBool PSE::PSE::flag_Created_grid =PETSC_FALSE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>internal flag used for indicating if a grid was generated for LST the first time it ran </p>
+
+</div>
+</div>
 <a class="anchor" id="a3a2f6295b831812c61c4236391b73c95"></a>
 <div class="memitem">
 <div class="memproto">
@@ -597,6 +1087,34 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>flag to output debug type files </p>
+
+</div>
+</div>
+<a class="anchor" id="ac6c37f586734b88cc48a6af10958fd10"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscBool PSE::PSE::flag_explicit_x =PETSC_FALSE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>set x to be at a certain location (used for OSS_blasius validation study for alternate LST at downstream locations) </p>
+
+</div>
+</div>
+<a class="anchor" id="ada02f985c0c7f551f30d3f5f31ea1333"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscBool PSE::PSE::flag_F_initial =PETSC_FALSE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>flag indicating if an initial F is used instead of the given F </p>
 
 </div>
 </div>
@@ -628,6 +1146,20 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a6da9147a7c2d0d9819df251330c30b50"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscBool PSE::PSE::flag_LST_marching =PETSC_FALSE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>flag to calculate the local stability theory at each x location </p>
+
+</div>
+</div>
 <a class="anchor" id="aa85ab65634aa734467dab12fb61eed0a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -642,6 +1174,20 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a921d3b6ce047f6ce7d2bf02bea406136"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscBool PSE::PSE::flag_nonlinear =PETSC_FALSE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>flag to set if wanting to add nonlinear terms </p>
+
+</div>
+</div>
 <a class="anchor" id="aa1a11a831b5a3c67239b2417ed51fa8c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -653,6 +1199,34 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>flag to neglect pressure term (to allow for smaller x step size) </p>
+
+</div>
+</div>
+<a class="anchor" id="a8188e505b00ebf196d1d1840d79db36f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscBool PSE::PSE::flag_parallel_blasius =PETSC_FALSE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>flag to indicte if wanting parallel blasius base flow </p>
+
+</div>
+</div>
+<a class="anchor" id="a462a618aa288a3a4190c03301d2aadb0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscBool PSE::PSE::flag_read_q_filename =PETSC_FALSE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>flag to state if reading file in from python scripts </p>
 
 </div>
 </div>
@@ -736,7 +1310,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>distance to march in x-direction </p>
+<p>distance to march in x-direction (default 2.5) </p>
 
 </div>
 </div>
@@ -754,6 +1328,34 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a08c3a28aeb60cfcfd8567a4c23f05b31"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscScalar PSE::PSE::Ialpha</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\( \int_{x_i}^{x_{i+1}} \alpha(x) dx \) spatial eigenvalue (x-direction) (this is integrated using trapezoidal rule in update_Nonlinear </p>
+
+</div>
+</div>
+<a class="anchor" id="a3259ed77491652d69b3556e31e0d3805"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscScalar PSE::PSE::Ialpha_old</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\( \int_{x_{i-1}}^{x_{i}} \alpha(x) dx \) spatial eigenvalue (x-direction) (this is integrated using trapezoidal rule in update_Nonlinear </p>
+
+</div>
+</div>
 <a class="anchor" id="a3aa4e548f6b0882a09985e96e43013b9"></a>
 <div class="memitem">
 <div class="memproto">
@@ -768,6 +1370,20 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a8f5e395c3d411ba6fa1897cf488c2209"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscInt PSE::PSE::istep</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Global marching step for <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a>. </p>
+
+</div>
+</div>
 <a class="anchor" id="a988003ba82c7ab1249df682e4502e56b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -778,7 +1394,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>\(m\) </p>
+<p>\(m\) (default 1) </p>
 
 </div>
 </div>
@@ -787,12 +1403,54 @@ Data Fields</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">PetscInt PSE::PSE::multiply_nypts_for_bblf =100</td>
+          <td class="memname">PetscInt PSE::PSE::multiply_nypts_for_bblf</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>blasius boundary layer flow multiply ny by this number to integrate a uniform grid even further </p>
+<p>blasius boundary layer flow multiply ny by this number to integrate a uniform grid even further (default 100) </p>
+
+</div>
+</div>
+<a class="anchor" id="a5722144e47500cdf99f8e0e1ecc448a4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscReal PSE::PSE::nonlinear_error</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>nonlinear error value \( |q^{N} - q^{N-1}| \) </p>
+
+</div>
+</div>
+<a class="anchor" id="a2c7b2afbaae3282ab636e45bb2c1e4ef"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscInt PSE::PSE::nonlinear_iter</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>current nonlinear iteration number (changed in <a class="el" href="update__Nonlinear_8cpp.html">update_Nonlinear.cpp</a>) </p>
+
+</div>
+</div>
+<a class="anchor" id="ab73ad901dfd880394ebd38fe92544373"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscReal PSE::PSE::nonlinear_tol</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>nonlinear tolerance (exit nonlinear iterations once nonlinear error is below this tolerance) (default 1E-9) </p>
 
 </div>
 </div>
@@ -810,6 +1468,20 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a426ad9174b2930653763135132eac8ef"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscScalar PSE::PSE::num_boundary_layers_high</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>number of boundary layers (approx) high to create the grid by default (default 6) </p>
+
+</div>
+</div>
 <a class="anchor" id="a7db22783db29cd80e400874d0f25806e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -820,7 +1492,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>number of grid points in the y-direction </p>
+<p>number of grid points in the y-direction (default 101) </p>
 
 </div>
 </div>
@@ -834,7 +1506,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>number of grid points in the z-direction </p>
+<p>number of grid points in the z-direction (default 6) </p>
 
 </div>
 </div>
@@ -848,7 +1520,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>\( \omega \) temporal eigenvalue </p>
+<p>\( \omega \) temporal eigenvalue (default 0.3) </p>
 
 </div>
 </div>
@@ -890,7 +1562,91 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>order of accuracy </p>
+<p>order of accuracy (default 4) </p>
+
+</div>
+</div>
+<a class="anchor" id="a1e98c05065e5abb85d874abddce5a29e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscInt PSE::PSE::OSS_nev</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>number of eigenvalues to solve near the target_alpha for the Ax_kBx OSS solver </p>
+
+</div>
+</div>
+<a class="anchor" id="ae597055fff54f1c57db730cbf7bebaf7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string PSE::PSE::output_folder</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>output folder to </p>
+
+</div>
+</div>
+<a class="anchor" id="a3673e7436f2ce2983570dd4d22866583"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Mat PSE::PSE::P_PSE_from_OSS</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>permutation matrix to premultiply to q from the OSS solver, to get the u,v,w,P primitive variables only (instead of the (u, alpha*v, v, alpha*w, w, P) q vector from the OSS solver). </p>
+
+</div>
+</div>
+<a class="anchor" id="a801933ea823de35a120c937747f918fa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Mat PSE::PSE::P_u_from_q</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>permutation matrix to premultiply to q from the <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> solver, to get the u primitive variables only (instead of the (u, v, w, P) q vector from the <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> solver). </p>
+
+</div>
+</div>
+<a class="anchor" id="a06c42c753b6d196659cbe92d4bd8542d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Mat PSE::PSE::P_v_from_q</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>permutation matrix to premultiply to q from the <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> solver, to get the v primitive variables only (instead of the (u, v, w, P) q vector from the <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> solver). </p>
+
+</div>
+</div>
+<a class="anchor" id="a28ee091b582c60f1c8b85785f9520600"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Mat PSE::PSE::P_w_from_q</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>permutation matrix to premultiply to q from the <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> solver, to get the w primitive variables only (instead of the (u, v, w, P) q vector from the <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> solver). </p>
 
 </div>
 </div>
@@ -922,6 +1678,34 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ac04b437e75c4de4042a8b30631535e5c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vec PSE::PSE::qp1_oldNonLinear</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\( q_{i+1} \) from previous nonlinear iteration </p>
+
+</div>
+</div>
+<a class="anchor" id="a896e124820561762627405cc956a3237"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vec PSE::PSE::qp1_OSS</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\( q_{i+1} \) for OSS solver (larger vector) </p>
+
+</div>
+</div>
 <a class="anchor" id="a96f2bbc929689402588d9ae7bc04320a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -932,7 +1716,35 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Reynolds number. </p>
+<p>Reynolds number (default 2000) </p>
+
+</div>
+</div>
+<a class="anchor" id="afae948a96c07b8001c22a5a78374f7db"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscScalar PSE::PSE::Re0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reynolds number at original x0 location (start of <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a>) (default 2000) </p>
+
+</div>
+</div>
+<a class="anchor" id="aec227cb4acee51ad89d1f8154015c076"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string PSE::PSE::read_q_filename</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>base filename if reading output from the OSS python scripts </p>
 
 </div>
 </div>
@@ -960,7 +1772,35 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>density of fluid </p>
+<p>density of fluid (default 100) </p>
+
+</div>
+</div>
+<a class="anchor" id="a29e923bd8b226e8ca5bc7cde762d5ecc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscScalar PSE::PSE::sum_divergence</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>base flow divergence calculation from blausius profile (for checking purposes </p>
+
+</div>
+</div>
+<a class="anchor" id="a8b49df06a71c50e73cdea11ace8a4778"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscScalar PSE::PSE::target_alpha</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>target \( \alpha \) spatial eigenvalue (x-direction) that we want to converge to (1.72 times by literature values) </p>
 
 </div>
 </div>
@@ -989,6 +1829,34 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>temporary vector </p>
+
+</div>
+</div>
+<a class="anchor" id="a5d0a6f9472eb7f855fdaa8706990ecb4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vec PSE::PSE::tempVecnynz</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>temporary vector of size ny*nz </p>
+
+</div>
+</div>
+<a class="anchor" id="a783e427bba8024bd76a219362c265c9d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vec PSE::PSE::tempVecq</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>temporary vector of size qp1 (4*ny*nz) </p>
 
 </div>
 </div>
@@ -1034,6 +1902,20 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a82f00b5b3a618f959ea1d538fba9588f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscInt PSE::PSE::type_marching</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>type of marching [1=Implicit Euler (default), 2=Crank-Nicolson] </p>
+
+</div>
+</div>
 <a class="anchor" id="a0df6b2489fcfb18171f0265c676f3f1e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1045,6 +1927,20 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>base flow \(U\) velocity </p>
+
+</div>
+</div>
+<a class="anchor" id="a2d030fa8658458baee4bfbb0eb8343b5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vec PSE::PSE::u</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\( u \) for nonlinear solver (size ny*nz) </p>
 
 </div>
 </div>
@@ -1090,6 +1986,20 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a4150d697816fcabbb41a7e20dec46199"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vec PSE::PSE::v</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\( v \) for nonlinear solver (size ny*nz) </p>
+
+</div>
+</div>
 <a class="anchor" id="a21d8dda8f0ed26f2fb3e3bb8cf8a1896"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1132,6 +2042,20 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a2080a65a68576125bbfe147c4cd9843b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vec PSE::PSE::w</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\( w \) for nonlinear solver (size ny*nz) </p>
+
+</div>
+</div>
 <a class="anchor" id="a0f30e8cafc58c8d431d47cd97486b651"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1170,7 +2094,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>number of steps to take </p>
+<p>number of steps to take (default 15) </p>
 
 </div>
 </div>
@@ -1213,6 +2137,20 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>z vector (each processor has whole vector) </p>
+
+</div>
+</div>
+<a class="anchor" id="a35f108fddd7322871da7b7fd109486a7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vec PSE::PSE::zVec</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>z values in Petsc parallel vector </p>
 
 </div>
 </div>
