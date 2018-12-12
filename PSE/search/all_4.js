@@ -1,9 +1,7 @@
 var searchData=
 [
   ['d',['D',['../classPSE_1_1PSE.html#ab3db6f936a876a026ef66318b5d490df',1,'PSE::PSE']]],
-  ['delta',['delta',['../namespaceflat__plate.html#a895504df78b41ed1c7327aa3ae967bd9',1,'flat_plate']]],
   ['delta_5falpha',['delta_alpha',['../classPSE_1_1PSE.html#aeeae59587b42aaeda4ce59c0357993c4',1,'PSE::PSE']]],
-  ['deltas',['deltas',['../namespaceflat__plate__delta__convergence.html#abe70a01ceabca761df6eecd961ee87ce',1,'flat_plate_delta_convergence']]],
   ['deltay',['deltay',['../classPSE_1_1PSE.html#acb911f5b761589f1f930cd16355ff201',1,'PSE::PSE::deltay()'],['../classPSE_1_1PSE.html#a9a1a17372ca8144ca30efd8cebcca286',1,'PSE::PSE::Deltay()']]],
   ['deltaz',['Deltaz',['../classPSE_1_1PSE.html#a5985054816d689f5a09bd29597410ec7',1,'PSE::PSE']]],
   ['destroy',['destroy',['../classPSE_1_1PSE.html#a98320f8fa0f867adedabd8c93f32c202',1,'PSE::PSE']]],

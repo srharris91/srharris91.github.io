@@ -121,15 +121,15 @@ Functions</h2></td></tr>
 </p>
 <p>.  <a href="#ad8518bbf640f7df9a882d0f9d4f92d27">More...</a><br /></td></tr>
 <tr class="separator:ad8518bbf640f7df9a882d0f9d4f92d27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6b3cf1ddae425e811cf278753d2440e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ae6b3cf1ddae425e811cf278753d2440e">calc_Closure</a> (PetscScalar &amp;I, <a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data)</td></tr>
-<tr class="memdesc:ae6b3cf1ddae425e811cf278753d2440e"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the closure equation \( \int_{\Omega} \hat{\textbf{q}}^\dagger \hat{\textbf{q}}_x dy \) and output the result  <a href="#ae6b3cf1ddae425e811cf278753d2440e">More...</a><br /></td></tr>
-<tr class="separator:ae6b3cf1ddae425e811cf278753d2440e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad14b9fc2858d4f98c1df1198e7c40b00"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ad14b9fc2858d4f98c1df1198e7c40b00">calc_Closure</a> (PetscScalar &amp;I, <a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data, Vec &amp;q, Vec &amp;qp1)</td></tr>
+<tr class="memdesc:ad14b9fc2858d4f98c1df1198e7c40b00"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the closure equation \( \int_{\Omega} \hat{\textbf{q}}^\dagger \hat{\textbf{q}}_x dy \) and output the result  <a href="#ad14b9fc2858d4f98c1df1198e7c40b00">More...</a><br /></td></tr>
+<tr class="separator:ad14b9fc2858d4f98c1df1198e7c40b00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a611b399ebda39dbf48643d3620bf8180"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a611b399ebda39dbf48643d3620bf8180">calc_L2</a> (PetscReal &amp;error, Vec &amp;x1, Vec &amp;x2, PetscInt n, NormType type=NORM_2)</td></tr>
 <tr class="memdesc:a611b399ebda39dbf48643d3620bf8180"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the \( L_2 \) norm of the difference between x1 and x2 vectors and return  <a href="#a611b399ebda39dbf48643d3620bf8180">More...</a><br /></td></tr>
 <tr class="separator:a611b399ebda39dbf48643d3620bf8180"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64c75835be8f5f9f0e1c77afb0e4698c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a64c75835be8f5f9f0e1c77afb0e4698c">calc_LST</a> (<a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data)</td></tr>
-<tr class="memdesc:a64c75835be8f5f9f0e1c77afb0e4698c"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the Local Stability Theory (LST) Orr-Sommerfeld Squire equations in primitive variables at this x-location and store the alpha and qp1 of the target spatial values.  <a href="#a64c75835be8f5f9f0e1c77afb0e4698c">More...</a><br /></td></tr>
-<tr class="separator:a64c75835be8f5f9f0e1c77afb0e4698c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67fc663e63ff83eed663a2e99c70559a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a67fc663e63ff83eed663a2e99c70559a">calc_LST</a> (<a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data, PetscScalar target_alpha, PetscScalar &amp;alpha, Vec &amp;qp1_OSS, Vec &amp;qp1)</td></tr>
+<tr class="memdesc:a67fc663e63ff83eed663a2e99c70559a"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the Local Stability Theory (LST) Orr-Sommerfeld Squire equations in primitive variables at this x-location and store the alpha and qp1 of the target spatial values.  <a href="#a67fc663e63ff83eed663a2e99c70559a">More...</a><br /></td></tr>
+<tr class="separator:a67fc663e63ff83eed663a2e99c70559a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac37c47da094495b1ef751d210b41f4c5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ac37c47da094495b1ef751d210b41f4c5">Create_grid</a> (<a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data, PetscScalar deltay=0.)</td></tr>
 <tr class="memdesc:ac37c47da094495b1ef751d210b41f4c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">create y and z grid and stretch in y direction using stretching if deltay is nonzero  <a href="#ac37c47da094495b1ef751d210b41f4c5">More...</a><br /></td></tr>
 <tr class="separator:ac37c47da094495b1ef751d210b41f4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -226,15 +226,15 @@ Functions</h2></td></tr>
 </p>
 <p> To solve the spatial eigenvalue problem \(\mathbf{\mathcal{A}q} = \alpha \mathbf{\mathcal{B}q}\)  <a href="#ab7d5b769d9c0425545e1701eaa181e2e">More...</a><br /></td></tr>
 <tr class="separator:ab7d5b769d9c0425545e1701eaa181e2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfcefb6f908868b981d52867a38a8940"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#adfcefb6f908868b981d52867a38a8940">set_A_and_Ds</a> (<a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data)</td></tr>
-<tr class="memdesc:adfcefb6f908868b981d52867a38a8940"><td class="mdescLeft">&#160;</td><td class="mdescRight">set A and B matrix for <a class="el" href="namespacePSE.html">PSE</a> equations  <a href="#adfcefb6f908868b981d52867a38a8940">More...</a><br /></td></tr>
-<tr class="separator:adfcefb6f908868b981d52867a38a8940"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa03a89105e706fa67f7cd042c76a1be6"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aa03a89105e706fa67f7cd042c76a1be6">set_A_and_Ds</a> (<a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data, PetscScalar &amp;alpha)</td></tr>
+<tr class="memdesc:aa03a89105e706fa67f7cd042c76a1be6"><td class="mdescLeft">&#160;</td><td class="mdescRight">set A and B matrix for <a class="el" href="namespacePSE.html">PSE</a> equations  <a href="#aa03a89105e706fa67f7cd042c76a1be6">More...</a><br /></td></tr>
+<tr class="separator:aa03a89105e706fa67f7cd042c76a1be6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeeb30fb64d89502daeceb49f296c48de"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aeeb30fb64d89502daeceb49f296c48de">set_A_and_Ds_nonlinear</a> (<a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data)</td></tr>
 <tr class="memdesc:aeeb30fb64d89502daeceb49f296c48de"><td class="mdescLeft">&#160;</td><td class="mdescRight">set A and D matrix linear terms for <a class="el" href="namespacePSE.html">PSE</a> equations for nonlinear terms  <a href="#aeeb30fb64d89502daeceb49f296c48de">More...</a><br /></td></tr>
 <tr class="separator:aeeb30fb64d89502daeceb49f296c48de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a902f18cf6b9325d3faf801b9e30b3a1c"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a902f18cf6b9325d3faf801b9e30b3a1c">set_A_and_Ds_zi</a> (<a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data, const PetscInt &amp;zi=0)</td></tr>
-<tr class="memdesc:a902f18cf6b9325d3faf801b9e30b3a1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">set A and B matrix linear terms for <a class="el" href="namespacePSE.html">PSE</a> equations for zi plane (also sets the permutation matrices to extract u from q, etc.  <a href="#a902f18cf6b9325d3faf801b9e30b3a1c">More...</a><br /></td></tr>
-<tr class="separator:a902f18cf6b9325d3faf801b9e30b3a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ef0799fa0695c45ee5d5d66f4da8289"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a8ef0799fa0695c45ee5d5d66f4da8289">set_A_and_Ds_zi</a> (<a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data, PetscScalar &amp;alpha, const PetscInt &amp;zi=0)</td></tr>
+<tr class="memdesc:a8ef0799fa0695c45ee5d5d66f4da8289"><td class="mdescLeft">&#160;</td><td class="mdescRight">set A and B matrix linear terms for <a class="el" href="namespacePSE.html">PSE</a> equations for zi plane (also sets the permutation matrices to extract u from q, etc.  <a href="#a8ef0799fa0695c45ee5d5d66f4da8289">More...</a><br /></td></tr>
+<tr class="separator:a8ef0799fa0695c45ee5d5d66f4da8289"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b2ed663ec0562dc6e5e1ac5f48e1428"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a1b2ed663ec0562dc6e5e1ac5f48e1428">set_b</a> (const Mat &amp;B, const Vec &amp;qn, Vec &amp;b)</td></tr>
 <tr class="memdesc:a1b2ed663ec0562dc6e5e1ac5f48e1428"><td class="mdescLeft">&#160;</td><td class="mdescRight">set b vector from B and q as b=B*q  <a href="#a1b2ed663ec0562dc6e5e1ac5f48e1428">More...</a><br /></td></tr>
 <tr class="separator:a1b2ed663ec0562dc6e5e1ac5f48e1428"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -244,15 +244,15 @@ Functions</h2></td></tr>
 <tr class="memitem:aa04e24f274b343e927d35d88c1c51804"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aa04e24f274b343e927d35d88c1c51804">set_BCs</a> (<a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data)</td></tr>
 <tr class="memdesc:aa04e24f274b343e927d35d88c1c51804"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets Boundary Condition equations in Matrix A and Matrix B in A+ B*dqdx=0 linear system for solving the <a class="el" href="namespacePSE.html">PSE</a> equations  <a href="#aa04e24f274b343e927d35d88c1c51804">More...</a><br /></td></tr>
 <tr class="separator:aa04e24f274b343e927d35d88c1c51804"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a381d9bf3fa26cc965c6053399cfc7b3e"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a381d9bf3fa26cc965c6053399cfc7b3e">set_Crank_Nicolson_Advance</a> (<a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data)</td></tr>
-<tr class="memdesc:a381d9bf3fa26cc965c6053399cfc7b3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">set up Crank-Nicolson advancing matrices A x = b system by creating matrices and setting BCs  <a href="#a381d9bf3fa26cc965c6053399cfc7b3e">More...</a><br /></td></tr>
-<tr class="separator:a381d9bf3fa26cc965c6053399cfc7b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3d814d4df74ea2faf8d09fd55227c0b"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#af3d814d4df74ea2faf8d09fd55227c0b">set_Crank_Nicolson_Advance</a> (<a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data, Vec &amp;q, PetscScalar &amp;alpha)</td></tr>
+<tr class="memdesc:af3d814d4df74ea2faf8d09fd55227c0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">set up Crank-Nicolson advancing matrices A x = b system by creating matrices and setting BCs  <a href="#af3d814d4df74ea2faf8d09fd55227c0b">More...</a><br /></td></tr>
+<tr class="separator:af3d814d4df74ea2faf8d09fd55227c0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1243b4f1e9b24d23fdb837af6bedcc16"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a1243b4f1e9b24d23fdb837af6bedcc16">set_D</a> (const PetscScalar y[], const PetscInt &amp;n, Mat &amp;output, <a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data, const PetscInt &amp;order=2, const PetscInt &amp;d=2, const PetscBool &amp;periodic=PETSC_FALSE, const PetscBool &amp;reduce_wall_order=PETSC_TRUE, const PetscBool &amp;uniform=PETSC_TRUE)</td></tr>
 <tr class="memdesc:a1243b4f1e9b24d23fdb837af6bedcc16"><td class="mdescLeft">&#160;</td><td class="mdescRight">set D matrix operator for specified order and derivative  <a href="#a1243b4f1e9b24d23fdb837af6bedcc16">More...</a><br /></td></tr>
 <tr class="separator:a1243b4f1e9b24d23fdb837af6bedcc16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4817918726e786a431429ffc6d5bbb34"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a4817918726e786a431429ffc6d5bbb34">set_Euler_Advance</a> (<a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data)</td></tr>
-<tr class="memdesc:a4817918726e786a431429ffc6d5bbb34"><td class="mdescLeft">&#160;</td><td class="mdescRight">set up Euler advancing matrices A x = b system by creating matrices and setting BCs  <a href="#a4817918726e786a431429ffc6d5bbb34">More...</a><br /></td></tr>
-<tr class="separator:a4817918726e786a431429ffc6d5bbb34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addfaa7ccc0701dca9c473434a9a83778"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#addfaa7ccc0701dca9c473434a9a83778">set_Euler_Advance</a> (<a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data, Vec &amp;q, PetscScalar &amp;alpha)</td></tr>
+<tr class="memdesc:addfaa7ccc0701dca9c473434a9a83778"><td class="mdescLeft">&#160;</td><td class="mdescRight">set up Euler advancing matrices A x = b system by creating matrices and setting BCs  <a href="#addfaa7ccc0701dca9c473434a9a83778">More...</a><br /></td></tr>
+<tr class="separator:addfaa7ccc0701dca9c473434a9a83778"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadb460f33e3b6822bce281047b3f92df"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aadb460f33e3b6822bce281047b3f92df">set_Mat</a> (const PetscScalar *const *Ain, const PetscInt &amp;n, Mat &amp;A, const InsertMode &amp;addv=ADD_VALUES)</td></tr>
 <tr class="memdesc:aadb460f33e3b6822bce281047b3f92df"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a matrix from PetscScalar 2D matrix to PETSc Mat type in parallel  <a href="#aadb460f33e3b6822bce281047b3f92df">More...</a><br /></td></tr>
 <tr class="separator:aadb460f33e3b6822bce281047b3f92df"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -298,12 +298,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a830c6be6ce992c9db886bc9afa8321d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a830c6be6ce992c9db886bc9afa8321d4">trapz</a> (const Vec &amp;q, PetscScalar &amp;I, <a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data)</td></tr>
 <tr class="memdesc:a830c6be6ce992c9db886bc9afa8321d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">trapezoidal rule on Vec with ny,nz values  <a href="#a830c6be6ce992c9db886bc9afa8321d4">More...</a><br /></td></tr>
 <tr class="separator:a830c6be6ce992c9db886bc9afa8321d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a839540cd1f00789a49a0577267978016"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a839540cd1f00789a49a0577267978016">update_Closure</a> (<a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data, const PetscInt &amp;maxiter=50)</td></tr>
-<tr class="memdesc:a839540cd1f00789a49a0577267978016"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the closure equation \( \int_\Omega \hat{\textbf{q}}^\dagger \hat{\textbf{q}}_x dy \) and output the result This is part of the solution procedure shown in the bottom half of this diagram  <a href="#a839540cd1f00789a49a0577267978016">More...</a><br /></td></tr>
-<tr class="separator:a839540cd1f00789a49a0577267978016"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fa23c0128631c36553bc6cce7c70d58"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a4fa23c0128631c36553bc6cce7c70d58">update_Nonlinear</a> (<a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data, const PetscInt &amp;maxiter=50)</td></tr>
-<tr class="memdesc:a4fa23c0128631c36553bc6cce7c70d58"><td class="mdescLeft">&#160;</td><td class="mdescRight">advance the Nonlinear <a class="el" href="namespacePSE.html">PSE</a> system one x step  <a href="#a4fa23c0128631c36553bc6cce7c70d58">More...</a><br /></td></tr>
-<tr class="separator:a4fa23c0128631c36553bc6cce7c70d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00d6a319bd35d2b3b49f35b53b06db28"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a00d6a319bd35d2b3b49f35b53b06db28">update_Closure</a> (<a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data, Vec &amp;q, Vec &amp;qp1, PetscScalar &amp;alpha, const PetscInt &amp;maxiter=50)</td></tr>
+<tr class="memdesc:a00d6a319bd35d2b3b49f35b53b06db28"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the closure equation \( \int_\Omega \hat{\textbf{q}}^\dagger \hat{\textbf{q}}_x dy \) and output the result This is part of the solution procedure shown in the bottom half of this diagram  <a href="#a00d6a319bd35d2b3b49f35b53b06db28">More...</a><br /></td></tr>
+<tr class="separator:a00d6a319bd35d2b3b49f35b53b06db28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18f68cc4e295b911e3dedd896a9d7ca5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a18f68cc4e295b911e3dedd896a9d7ca5">update_Nonlinear</a> (<a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data, Vec &amp;q, Vec &amp;qp1, PetscScalar &amp;alpha_old, PetscScalar &amp;alpha, PetscScalar &amp;Ialpha_old, PetscScalar &amp;Ialpha, const PetscInt &amp;maxiter=50)</td></tr>
+<tr class="memdesc:a18f68cc4e295b911e3dedd896a9d7ca5"><td class="mdescLeft">&#160;</td><td class="mdescRight">advance the Nonlinear <a class="el" href="namespacePSE.html">PSE</a> system one x step  <a href="#a18f68cc4e295b911e3dedd896a9d7ca5">More...</a><br /></td></tr>
+<tr class="separator:a18f68cc4e295b911e3dedd896a9d7ca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ad8518bbf640f7df9a882d0f9d4f92d27"></a>
@@ -554,7 +554,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae6b3cf1ddae425e811cf278753d2440e"></a>
+<a class="anchor" id="ad14b9fc2858d4f98c1df1198e7c40b00"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -568,7 +568,19 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;&#160;</td>
-          <td class="paramname"><em>data</em>&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vec &amp;&#160;</td>
+          <td class="paramname"><em>q</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vec &amp;&#160;</td>
+          <td class="paramname"><em>qp1</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -584,6 +596,8 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">I</td><td>output integral value </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>data class to store values </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>q at last marching step </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">qp1</td><td>q at current marching step </td></tr>
   </table>
   </dd>
 </dl>
@@ -647,7 +661,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a64c75835be8f5f9f0e1c77afb0e4698c"></a>
+<a class="anchor" id="a67fc663e63ff83eed663a2e99c70559a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -655,8 +669,36 @@ Functions</h2></td></tr>
           <td class="memname">int PSE::calc_LST </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;&#160;</td>
-          <td class="paramname"><em>data</em></td><td>)</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">PetscScalar&#160;</td>
+          <td class="paramname"><em>target_alpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PetscScalar &amp;&#160;</td>
+          <td class="paramname"><em>alpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vec &amp;&#160;</td>
+          <td class="paramname"><em>qp1_OSS</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vec &amp;&#160;</td>
+          <td class="paramname"><em>qp1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -667,6 +709,10 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>data class to store values </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">target_alpha</td><td>target alpha guess </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">alpha</td><td>alpha from OSS solver </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">qp1_OSS</td><td>eigenvector of size data.dimOSS </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">qp1</td><td>eigenvector of size data.dim </td></tr>
   </table>
   </dd>
 </dl>
@@ -1644,7 +1690,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="adfcefb6f908868b981d52867a38a8940"></a>
+<a class="anchor" id="aa03a89105e706fa67f7cd042c76a1be6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1652,8 +1698,18 @@ Functions</h2></td></tr>
           <td class="memname">PetscInt PSE::set_A_and_Ds </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;&#160;</td>
-          <td class="paramname"><em>data</em></td><td>)</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">PetscScalar &amp;&#160;</td>
+          <td class="paramname"><em>alpha</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1662,7 +1718,8 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">data</td><td>data class containing all matrices, vectors, scalars, and problem size </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>data class containing all matrices, vectors, scalars, and problem size </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">alpha</td><td>\( \alpha \) eigenvalue from previous iteration </td></tr>
   </table>
   </dd>
 </dl>
@@ -1694,7 +1751,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a902f18cf6b9325d3faf801b9e30b3a1c"></a>
+<a class="anchor" id="a8ef0799fa0695c45ee5d5d66f4da8289"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1703,6 +1760,12 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;&#160;</td>
           <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PetscScalar &amp;&#160;</td>
+          <td class="paramname"><em>alpha</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1723,6 +1786,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>data class to store values </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">alpha</td><td>eigenvalue from previous iteration </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">zi</td><td>zi plane of matrix </td></tr>
   </table>
   </dd>
@@ -1848,7 +1912,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a381d9bf3fa26cc965c6053399cfc7b3e"></a>
+<a class="anchor" id="af3d814d4df74ea2faf8d09fd55227c0b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1856,8 +1920,24 @@ Functions</h2></td></tr>
           <td class="memname">PetscInt PSE::set_Crank_Nicolson_Advance </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;&#160;</td>
-          <td class="paramname"><em>data</em></td><td>)</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">Vec &amp;&#160;</td>
+          <td class="paramname"><em>q</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PetscScalar &amp;&#160;</td>
+          <td class="paramname"><em>alpha</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1867,6 +1947,8 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>data class to store values </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>q at last marching step </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">alpha</td><td>eigenvalue from previous step </td></tr>
   </table>
   </dd>
 </dl>
@@ -1958,7 +2040,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4817918726e786a431429ffc6d5bbb34"></a>
+<a class="anchor" id="addfaa7ccc0701dca9c473434a9a83778"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1966,8 +2048,24 @@ Functions</h2></td></tr>
           <td class="memname">PetscInt PSE::set_Euler_Advance </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;&#160;</td>
-          <td class="paramname"><em>data</em></td><td>)</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">Vec &amp;&#160;</td>
+          <td class="paramname"><em>q</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PetscScalar &amp;&#160;</td>
+          <td class="paramname"><em>alpha</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1977,6 +2075,8 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>data class to store values </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>q at last marching step </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">alpha</td><td>eigenvalue \( \alpha \) from the previous iteration </td></tr>
   </table>
   </dd>
 </dl>
@@ -3081,7 +3181,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a839540cd1f00789a49a0577267978016"></a>
+<a class="anchor" id="a00d6a319bd35d2b3b49f35b53b06db28"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -3090,6 +3190,24 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;&#160;</td>
           <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vec &amp;&#160;</td>
+          <td class="paramname"><em>q</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vec &amp;&#160;</td>
+          <td class="paramname"><em>qp1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PetscScalar &amp;&#160;</td>
+          <td class="paramname"><em>alpha</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3107,13 +3225,16 @@ Functions</h2></td></tr>
 
 <p>calculate the closure equation \( \int_\Omega \hat{\textbf{q}}^\dagger \hat{\textbf{q}}_x dy \) and output the result This is part of the solution procedure shown in the bottom half of this diagram </p>
 <div class="image">
-<img src="Diagram_closure.png" alt="Diagram_closure.png"/>
+<img src="Research_Diagram_Linear.png" alt="Research_Diagram_Linear.png"/>
 <div class="caption">
 Solution Procedure</div></div>
 <dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>data class to store values </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>q at previous marching step </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">qp1</td><td>current marching step </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">alpha</td><td>\( \alpha \) value at current marching step </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">maxiter</td><td>maximum number of iterations (not implimented) </td></tr>
   </table>
   </dd>
@@ -3121,7 +3242,7 @@ Solution Procedure</div></div>
 
 </div>
 </div>
-<a class="anchor" id="a4fa23c0128631c36553bc6cce7c70d58"></a>
+<a class="anchor" id="a18f68cc4e295b911e3dedd896a9d7ca5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -3130,6 +3251,42 @@ Solution Procedure</div></div>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;&#160;</td>
           <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vec &amp;&#160;</td>
+          <td class="paramname"><em>q</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vec &amp;&#160;</td>
+          <td class="paramname"><em>qp1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PetscScalar &amp;&#160;</td>
+          <td class="paramname"><em>alpha_old</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PetscScalar &amp;&#160;</td>
+          <td class="paramname"><em>alpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PetscScalar &amp;&#160;</td>
+          <td class="paramname"><em>Ialpha_old</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PetscScalar &amp;&#160;</td>
+          <td class="paramname"><em>Ialpha</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3150,6 +3307,12 @@ Solution Procedure</div></div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>data class to store values </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>q at previous marching step </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">qp1</td><td>current marching step </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">alpha_old</td><td>\( \alpha \) value at previous marching step (will be updated) </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">alpha</td><td>\( \alpha \) value at current marching step </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">Ialpha_old</td><td>\( \int_{x_0}^{x_{i+1}} \alpha dx \) value at previous marching step </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">Ialpha</td><td>\( \int_{x_0}^{x_{i+1}} \alpha dx \) value at current marching step </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">maxiter</td><td>maximum number of iterations (not implimented) </td></tr>
   </table>
   </dd>

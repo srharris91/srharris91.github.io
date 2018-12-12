@@ -87,7 +87,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_d70a5c819a6821198f056b3074531cc9.html">src</a></li><li class="navelem"><a class="el" href="dir_0fc79c695a466c25ee23d07effcdc57d.html">obj</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_3bc03cc55d4aa6566f37b02a8017003e.html">obj</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -99,6 +99,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="set__Euler__Advance_8hpp_source.html">set_Euler_Advance.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="print_8hpp_source.html">print.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Init__Vec_8hpp_source.html">Init_Vec.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="set__Mat_8hpp_source.html">set_Mat.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="set__Vec_8hpp_source.html">set_Vec.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="set__b_8hpp_source.html">set_b.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="set__BCs_8hpp_source.html">set_BCs.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="set__A__and__Ds_8hpp_source.html">set_A_and_Ds.hpp</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -107,9 +114,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9fa7463fb62fd319d4b545923eed13fd"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a9fa7463fb62fd319d4b545923eed13fd">PSE::set_Euler_Advance</a> (const PetscScalar &amp;hx, Mat &amp;A, Mat &amp;B)</td></tr>
-<tr class="memdesc:a9fa7463fb62fd319d4b545923eed13fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">matrix multiplication for Euler stepping, A+= 1/hx * B and B*=1/hx  <a href="namespacePSE.html#a9fa7463fb62fd319d4b545923eed13fd">More...</a><br /></td></tr>
-<tr class="separator:a9fa7463fb62fd319d4b545923eed13fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addfaa7ccc0701dca9c473434a9a83778"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#addfaa7ccc0701dca9c473434a9a83778">PSE::set_Euler_Advance</a> (PSE &amp;data, Vec &amp;q, PetscScalar &amp;alpha)</td></tr>
+<tr class="memdesc:addfaa7ccc0701dca9c473434a9a83778"><td class="mdescLeft">&#160;</td><td class="mdescRight">set up Euler advancing matrices A x = b system by creating matrices and setting BCs  <a href="namespacePSE.html#addfaa7ccc0701dca9c473434a9a83778">More...</a><br /></td></tr>
+<tr class="separator:addfaa7ccc0701dca9c473434a9a83778"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

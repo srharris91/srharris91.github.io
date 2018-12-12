@@ -1,17 +1,15 @@
 var searchData=
 [
-  ['target_5falpha',['target_alpha',['../classPSE_1_1PSE.html#a8b49df06a71c50e73cdea11ace8a4778',1,'PSE::PSE']]],
-  ['tempmatny',['tempMatny',['../classPSE_1_1PSE.html#a12abdca16f9f1dd8a544b698622fa0c1',1,'PSE::PSE']]],
-  ['tempvecny',['tempVecny',['../classPSE_1_1PSE.html#a8e3c261e5e0ccc5f62b45e8c2eff601e',1,'PSE::PSE']]],
-  ['tempvecnynz',['tempVecnynz',['../classPSE_1_1PSE.html#a5d0a6f9472eb7f855fdaa8706990ecb4',1,'PSE::PSE']]],
-  ['tempvecq',['tempVecq',['../classPSE_1_1PSE.html#a783e427bba8024bd76a219362c265c9d',1,'PSE::PSE']]],
-  ['test_5ftofile',['test_tofile',['../namespacetest__tofile.html',1,'']]],
-  ['test_5ftofile_2epy',['test_tofile.py',['../test__tofile_8py.html',1,'']]],
-  ['trapz',['trapz',['../namespacePSE.html#a830c6be6ce992c9db886bc9afa8321d4',1,'PSE']]],
-  ['trapz_2ecpp',['trapz.cpp',['../trapz_8cpp.html',1,'']]],
-  ['trapz_2ehpp',['trapz.hpp',['../trapz_8hpp.html',1,'']]],
-  ['trapzy',['Trapzy',['../classPSE_1_1PSE.html#a196f966f2e6b047c39716c4a55148066',1,'PSE::PSE']]],
-  ['trapzz',['Trapzz',['../classPSE_1_1PSE.html#addd16e34bd63560b1d503acfc8a8630f',1,'PSE::PSE']]],
-  ['type_5fbase_5fflow',['type_base_flow',['../classPSE_1_1PSE.html#a46f676bd1539a9105ec5a01e35cd4be7',1,'PSE::PSE']]],
-  ['type_5fmarching',['type_marching',['../classPSE_1_1PSE.html#a82f00b5b3a618f959ea1d538fba9588f',1,'PSE::PSE']]]
+  ['u',['U',['../classPSE_1_1PSE.html#a0df6b2489fcfb18171f0265c676f3f1e',1,'PSE::PSE::U()'],['../classPSE_1_1PSE.html#a2d030fa8658458baee4bfbb0eb8343b5',1,'PSE::PSE::u()']]],
+  ['u_5fmodes',['u_modes',['../classPSE_1_1PSE.html#ad4db51bd35809fe560d6840354061890',1,'PSE::PSE']]],
+  ['update_5fclosure',['update_Closure',['../namespacePSE.html#a00d6a319bd35d2b3b49f35b53b06db28',1,'PSE']]],
+  ['update_5fclosure_2ecpp',['update_Closure.cpp',['../update__Closure_8cpp.html',1,'']]],
+  ['update_5fclosure_2ecpp',['update_Closure.cpp',['../obj_2update__Closure_8cpp.html',1,'']]],
+  ['update_5fclosure_2ehpp',['update_Closure.hpp',['../update__Closure_8hpp.html',1,'']]],
+  ['update_5fnonlinear',['update_Nonlinear',['../namespacePSE.html#a18f68cc4e295b911e3dedd896a9d7ca5',1,'PSE']]],
+  ['update_5fnonlinear_2ecpp',['update_Nonlinear.cpp',['../obj_2update__Nonlinear_8cpp.html',1,'']]],
+  ['update_5fnonlinear_2ecpp',['update_Nonlinear.cpp',['../update__Nonlinear_8cpp.html',1,'']]],
+  ['update_5fnonlinear_2ehpp',['update_Nonlinear.hpp',['../update__Nonlinear_8hpp.html',1,'']]],
+  ['ux',['Ux',['../classPSE_1_1PSE.html#ae65aca4db59636fff6d6b4b325989c8a',1,'PSE::PSE']]],
+  ['uy',['Uy',['../classPSE_1_1PSE.html#a47acf7e1488ceba00e8d41b4071798bc',1,'PSE::PSE']]]
 ];

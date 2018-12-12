@@ -230,6 +230,12 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a896e124820561762627405cc956a3237"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a896e124820561762627405cc956a3237">qp1_OSS</a></td></tr>
 <tr class="memdesc:a896e124820561762627405cc956a3237"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( q_{i+1} \) for OSS solver (larger vector)  <a href="#a896e124820561762627405cc956a3237">More...</a><br /></td></tr>
 <tr class="separator:a896e124820561762627405cc956a3237"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa55f0d414f54006ec489b01199284f0b"><td class="memItemLeft" align="right" valign="top">Vec *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#aa55f0d414f54006ec489b01199284f0b">q_modes</a></td></tr>
+<tr class="memdesc:aa55f0d414f54006ec489b01199284f0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">dynamic array of all nonlinear modes being marched  <a href="#aa55f0d414f54006ec489b01199284f0b">More...</a><br /></td></tr>
+<tr class="separator:aa55f0d414f54006ec489b01199284f0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c813923eb6db27a95360a2b41a090d9"><td class="memItemLeft" align="right" valign="top">Vec *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a4c813923eb6db27a95360a2b41a090d9">qp1_modes</a></td></tr>
+<tr class="memdesc:a4c813923eb6db27a95360a2b41a090d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">dynamic array of all nonlinear modes being marched  <a href="#a4c813923eb6db27a95360a2b41a090d9">More...</a><br /></td></tr>
+<tr class="separator:a4c813923eb6db27a95360a2b41a090d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d030fa8658458baee4bfbb0eb8343b5"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a2d030fa8658458baee4bfbb0eb8343b5">u</a></td></tr>
 <tr class="memdesc:a2d030fa8658458baee4bfbb0eb8343b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( u \) for nonlinear solver (size ny*nz)  <a href="#a2d030fa8658458baee4bfbb0eb8343b5">More...</a><br /></td></tr>
 <tr class="separator:a2d030fa8658458baee4bfbb0eb8343b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -239,6 +245,15 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a2080a65a68576125bbfe147c4cd9843b"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a2080a65a68576125bbfe147c4cd9843b">w</a></td></tr>
 <tr class="memdesc:a2080a65a68576125bbfe147c4cd9843b"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( w \) for nonlinear solver (size ny*nz)  <a href="#a2080a65a68576125bbfe147c4cd9843b">More...</a><br /></td></tr>
 <tr class="separator:a2080a65a68576125bbfe147c4cd9843b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4db51bd35809fe560d6840354061890"><td class="memItemLeft" align="right" valign="top">Vec *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ad4db51bd35809fe560d6840354061890">u_modes</a></td></tr>
+<tr class="memdesc:ad4db51bd35809fe560d6840354061890"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( u \) dynamic array for nonlinear solver (size of each vector is ny*nz)  <a href="#ad4db51bd35809fe560d6840354061890">More...</a><br /></td></tr>
+<tr class="separator:ad4db51bd35809fe560d6840354061890"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a466290728a1fb66f8b2f2d95b500da0d"><td class="memItemLeft" align="right" valign="top">Vec *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a466290728a1fb66f8b2f2d95b500da0d">v_modes</a></td></tr>
+<tr class="memdesc:a466290728a1fb66f8b2f2d95b500da0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( v \) dynamic array for nonlinear solver (size of each vector is ny*nz)  <a href="#a466290728a1fb66f8b2f2d95b500da0d">More...</a><br /></td></tr>
+<tr class="separator:a466290728a1fb66f8b2f2d95b500da0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab05071173866f56ffd4c6399908d636d"><td class="memItemLeft" align="right" valign="top">Vec *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ab05071173866f56ffd4c6399908d636d">w_modes</a></td></tr>
+<tr class="memdesc:ab05071173866f56ffd4c6399908d636d"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( w \) dynamic array for nonlinear solver (size of each vector is ny*nz)  <a href="#ab05071173866f56ffd4c6399908d636d">More...</a><br /></td></tr>
+<tr class="separator:ab05071173866f56ffd4c6399908d636d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ff1eba15afe331580ace144f6d028f4"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a9ff1eba15afe331580ace144f6d028f4">af</a></td></tr>
 <tr class="memdesc:a9ff1eba15afe331580ace144f6d028f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( a_f=u i \alpha e^{i \int alpha dx} \) nonlinear term  <a href="#a9ff1eba15afe331580ace144f6d028f4">More...</a><br /></td></tr>
 <tr class="separator:a9ff1eba15afe331580ace144f6d028f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -284,12 +299,24 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a3259ed77491652d69b3556e31e0d3805"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a3259ed77491652d69b3556e31e0d3805">Ialpha_old</a></td></tr>
 <tr class="memdesc:a3259ed77491652d69b3556e31e0d3805"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( \int_{x_{i-1}}^{x_{i}} \alpha(x) dx \) spatial eigenvalue (x-direction) (this is integrated using trapezoidal rule in update_Nonlinear  <a href="#a3259ed77491652d69b3556e31e0d3805">More...</a><br /></td></tr>
 <tr class="separator:a3259ed77491652d69b3556e31e0d3805"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ccbd1d5c4be04a848deaa4af38ee638"><td class="memItemLeft" align="right" valign="top">PetscScalar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a0ccbd1d5c4be04a848deaa4af38ee638">Ialpha_modes</a></td></tr>
+<tr class="memdesc:a0ccbd1d5c4be04a848deaa4af38ee638"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( \int_{x_i}^{x_{i+1}} \alpha(x) dx \) spatial eigenvalue (x-direction) (this is integrated using trapezoidal rule in update_Nonlinear for each nonlinear mode  <a href="#a0ccbd1d5c4be04a848deaa4af38ee638">More...</a><br /></td></tr>
+<tr class="separator:a0ccbd1d5c4be04a848deaa4af38ee638"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67fb0bc47eb1c6ff993dc53c7b717eb1"><td class="memItemLeft" align="right" valign="top">PetscScalar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a67fb0bc47eb1c6ff993dc53c7b717eb1">Ialpha_old_modes</a></td></tr>
+<tr class="memdesc:a67fb0bc47eb1c6ff993dc53c7b717eb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( \int_{x_{i-1}}^{x_{i}} \alpha(x) dx \) spatial eigenvalue (x-direction) (this is integrated using trapezoidal rule in update_Nonlinear for each nonlinear mode  <a href="#a67fb0bc47eb1c6ff993dc53c7b717eb1">More...</a><br /></td></tr>
+<tr class="separator:a67fb0bc47eb1c6ff993dc53c7b717eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2775125470d53552f62ada0921df31a"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ab2775125470d53552f62ada0921df31a">alpha</a></td></tr>
 <tr class="memdesc:ab2775125470d53552f62ada0921df31a"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( \alpha \) spatial eigenvalue (x-direction)  <a href="#ab2775125470d53552f62ada0921df31a">More...</a><br /></td></tr>
 <tr class="separator:ab2775125470d53552f62ada0921df31a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac20fbe7159588c202a9cd25fa79b6e04"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ac20fbe7159588c202a9cd25fa79b6e04">alpha_old</a></td></tr>
 <tr class="memdesc:ac20fbe7159588c202a9cd25fa79b6e04"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( \alpha \) spatial eigenvalue (x-direction) of previous step  <a href="#ac20fbe7159588c202a9cd25fa79b6e04">More...</a><br /></td></tr>
 <tr class="separator:ac20fbe7159588c202a9cd25fa79b6e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa940c067bdff6ffaec94366a62684d5f"><td class="memItemLeft" align="right" valign="top">PetscScalar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#aa940c067bdff6ffaec94366a62684d5f">alpha_modes</a></td></tr>
+<tr class="memdesc:aa940c067bdff6ffaec94366a62684d5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( \alpha \) spatial eigenvalue (x-direction) for each nonlinear mode  <a href="#aa940c067bdff6ffaec94366a62684d5f">More...</a><br /></td></tr>
+<tr class="separator:aa940c067bdff6ffaec94366a62684d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae20b9832766802234af4c836b9da3f6d"><td class="memItemLeft" align="right" valign="top">PetscScalar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ae20b9832766802234af4c836b9da3f6d">alpha_old_modes</a></td></tr>
+<tr class="memdesc:ae20b9832766802234af4c836b9da3f6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( \alpha \) spatial eigenvalue (x-direction) of previous step for each nonlinear mode  <a href="#ae20b9832766802234af4c836b9da3f6d">More...</a><br /></td></tr>
+<tr class="separator:ae20b9832766802234af4c836b9da3f6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeeae59587b42aaeda4ce59c0357993c4"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#aeeae59587b42aaeda4ce59c0357993c4">delta_alpha</a></td></tr>
 <tr class="memdesc:aeeae59587b42aaeda4ce59c0357993c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( \Delta \alpha \) spatial eigenvalue change in during update_Closure steps (x-direction)  <a href="#aeeae59587b42aaeda4ce59c0357993c4">More...</a><br /></td></tr>
 <tr class="separator:aeeae59587b42aaeda4ce59c0357993c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -308,6 +335,9 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a07af3736a8f40a11724476be21c5b8ed"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a07af3736a8f40a11724476be21c5b8ed">omega</a></td></tr>
 <tr class="memdesc:a07af3736a8f40a11724476be21c5b8ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( \omega \) temporal eigenvalue (default 0.3)  <a href="#a07af3736a8f40a11724476be21c5b8ed">More...</a><br /></td></tr>
 <tr class="separator:a07af3736a8f40a11724476be21c5b8ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c1f9f8d6f16d08885e123af13dcc083"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a6c1f9f8d6f16d08885e123af13dcc083">beta</a></td></tr>
+<tr class="memdesc:a6c1f9f8d6f16d08885e123af13dcc083"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( \beta \) spanwise eigenvalue if using 2D (default 0.)  <a href="#a6c1f9f8d6f16d08885e123af13dcc083">More...</a><br /></td></tr>
+<tr class="separator:a6c1f9f8d6f16d08885e123af13dcc083"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba8cd0852a564040f9784d5810f4aae0"><td class="memItemLeft" align="right" valign="top">PetscScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#aba8cd0852a564040f9784d5810f4aae0">F</a></td></tr>
 <tr class="memdesc:aba8cd0852a564040f9784d5810f4aae0"><td class="mdescLeft">&#160;</td><td class="mdescRight">\(F\) frequency related to \(omega\)  <a href="#aba8cd0852a564040f9784d5810f4aae0">More...</a><br /></td></tr>
 <tr class="separator:aba8cd0852a564040f9784d5810f4aae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -381,11 +411,14 @@ Data Fields</h2></td></tr>
 <tr class="memdesc:a82f00b5b3a618f959ea1d538fba9588f"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of marching [1=Implicit Euler (default), 2=Crank-Nicolson]  <a href="#a82f00b5b3a618f959ea1d538fba9588f">More...</a><br /></td></tr>
 <tr class="separator:a82f00b5b3a618f959ea1d538fba9588f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a419b3a2971e1991a1ba9b5774f8f1684"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a419b3a2971e1991a1ba9b5774f8f1684">closure_iter</a></td></tr>
-<tr class="memdesc:a419b3a2971e1991a1ba9b5774f8f1684"><td class="mdescLeft">&#160;</td><td class="mdescRight">current closure iteration number (changed in <a class="el" href="update__Closure_8cpp.html">update_Closure.cpp</a>)  <a href="#a419b3a2971e1991a1ba9b5774f8f1684">More...</a><br /></td></tr>
+<tr class="memdesc:a419b3a2971e1991a1ba9b5774f8f1684"><td class="mdescLeft">&#160;</td><td class="mdescRight">current closure iteration number (changed in update_Closure.cpp)  <a href="#a419b3a2971e1991a1ba9b5774f8f1684">More...</a><br /></td></tr>
 <tr class="separator:a419b3a2971e1991a1ba9b5774f8f1684"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c7b2afbaae3282ab636e45bb2c1e4ef"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a2c7b2afbaae3282ab636e45bb2c1e4ef">nonlinear_iter</a></td></tr>
-<tr class="memdesc:a2c7b2afbaae3282ab636e45bb2c1e4ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">current nonlinear iteration number (changed in <a class="el" href="update__Nonlinear_8cpp.html">update_Nonlinear.cpp</a>)  <a href="#a2c7b2afbaae3282ab636e45bb2c1e4ef">More...</a><br /></td></tr>
+<tr class="memdesc:a2c7b2afbaae3282ab636e45bb2c1e4ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">current nonlinear iteration number (changed in update_Nonlinear.cpp)  <a href="#a2c7b2afbaae3282ab636e45bb2c1e4ef">More...</a><br /></td></tr>
 <tr class="separator:a2c7b2afbaae3282ab636e45bb2c1e4ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e85fd53fca64d0b277f526e691ec447"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a7e85fd53fca64d0b277f526e691ec447">nonlinear_num_modes</a></td></tr>
+<tr class="memdesc:a7e85fd53fca64d0b277f526e691ec447"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of nonlinear modes to truncate (negative ones will be conjugated and added as well)  <a href="#a7e85fd53fca64d0b277f526e691ec447">More...</a><br /></td></tr>
+<tr class="separator:a7e85fd53fca64d0b277f526e691ec447"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e98c05065e5abb85d874abddce5a29e"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a1e98c05065e5abb85d874abddce5a29e">OSS_nev</a></td></tr>
 <tr class="memdesc:a1e98c05065e5abb85d874abddce5a29e"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of eigenvalues to solve near the target_alpha for the Ax_kBx OSS solver  <a href="#a1e98c05065e5abb85d874abddce5a29e">More...</a><br /></td></tr>
 <tr class="separator:a1e98c05065e5abb85d874abddce5a29e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -614,6 +647,20 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aa940c067bdff6ffaec94366a62684d5f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscScalar * PSE::PSE::alpha_modes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\( \alpha \) spatial eigenvalue (x-direction) for each nonlinear mode </p>
+
+</div>
+</div>
 <a class="anchor" id="ac20fbe7159588c202a9cd25fa79b6e04"></a>
 <div class="memitem">
 <div class="memproto">
@@ -625,6 +672,20 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>\( \alpha \) spatial eigenvalue (x-direction) of previous step </p>
+
+</div>
+</div>
+<a class="anchor" id="ae20b9832766802234af4c836b9da3f6d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscScalar * PSE::PSE::alpha_old_modes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\( \alpha \) spatial eigenvalue (x-direction) of previous step for each nonlinear mode </p>
 
 </div>
 </div>
@@ -698,6 +759,20 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a6c1f9f8d6f16d08885e123af13dcc083"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscScalar PSE::PSE::beta</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\( \beta \) spanwise eigenvalue if using 2D (default 0.) </p>
+
+</div>
+</div>
 <a class="anchor" id="a42c1551fb0bdb6a541a55b77389e5d0c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -736,7 +811,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>current closure iteration number (changed in <a class="el" href="update__Closure_8cpp.html">update_Closure.cpp</a>) </p>
+<p>current closure iteration number (changed in update_Closure.cpp) </p>
 
 </div>
 </div>
@@ -1342,6 +1417,20 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a0ccbd1d5c4be04a848deaa4af38ee638"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscScalar * PSE::PSE::Ialpha_modes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\( \int_{x_i}^{x_{i+1}} \alpha(x) dx \) spatial eigenvalue (x-direction) (this is integrated using trapezoidal rule in update_Nonlinear for each nonlinear mode </p>
+
+</div>
+</div>
 <a class="anchor" id="a3259ed77491652d69b3556e31e0d3805"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1353,6 +1442,20 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>\( \int_{x_{i-1}}^{x_{i}} \alpha(x) dx \) spatial eigenvalue (x-direction) (this is integrated using trapezoidal rule in update_Nonlinear </p>
+
+</div>
+</div>
+<a class="anchor" id="a67fb0bc47eb1c6ff993dc53c7b717eb1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscScalar * PSE::PSE::Ialpha_old_modes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\( \int_{x_{i-1}}^{x_{i}} \alpha(x) dx \) spatial eigenvalue (x-direction) (this is integrated using trapezoidal rule in update_Nonlinear for each nonlinear mode </p>
 
 </div>
 </div>
@@ -1436,7 +1539,21 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>current nonlinear iteration number (changed in <a class="el" href="update__Nonlinear_8cpp.html">update_Nonlinear.cpp</a>) </p>
+<p>current nonlinear iteration number (changed in update_Nonlinear.cpp) </p>
+
+</div>
+</div>
+<a class="anchor" id="a7e85fd53fca64d0b277f526e691ec447"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscInt PSE::PSE::nonlinear_num_modes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>number of nonlinear modes to truncate (negative ones will be conjugated and added as well) </p>
 
 </div>
 </div>
@@ -1664,6 +1781,20 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aa55f0d414f54006ec489b01199284f0b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vec * PSE::PSE::q_modes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>dynamic array of all nonlinear modes being marched </p>
+
+</div>
+</div>
 <a class="anchor" id="a078b581e1c038bcf8072eea7389e42cb"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1675,6 +1806,20 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>\( q_{i+1} \) </p>
+
+</div>
+</div>
+<a class="anchor" id="a4c813923eb6db27a95360a2b41a090d9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vec * PSE::PSE::qp1_modes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>dynamic array of all nonlinear modes being marched </p>
 
 </div>
 </div>
@@ -1944,6 +2089,20 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ad4db51bd35809fe560d6840354061890"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vec * PSE::PSE::u_modes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\( u \) dynamic array for nonlinear solver (size of each vector is ny*nz) </p>
+
+</div>
+</div>
 <a class="anchor" id="ae65aca4db59636fff6d6b4b325989c8a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2000,6 +2159,20 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a466290728a1fb66f8b2f2d95b500da0d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vec * PSE::PSE::v_modes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\( v \) dynamic array for nonlinear solver (size of each vector is ny*nz) </p>
+
+</div>
+</div>
 <a class="anchor" id="a21d8dda8f0ed26f2fb3e3bb8cf8a1896"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2053,6 +2226,20 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>\( w \) for nonlinear solver (size ny*nz) </p>
+
+</div>
+</div>
+<a class="anchor" id="ab05071173866f56ffd4c6399908d636d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vec * PSE::PSE::w_modes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\( w \) dynamic array for nonlinear solver (size of each vector is ny*nz) </p>
 
 </div>
 </div>

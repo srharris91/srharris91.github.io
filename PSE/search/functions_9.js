@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['plot_5fevec_5fa_5fbranch',['plot_evec_a_branch',['../namespaceOSS__Primitive__3D_1_1base__flow_1_1base__flow.html#a4a5f32b499911f03230713b9b05bde7c',1,'OSS_Primitive_3D.base_flow.base_flow.plot_evec_a_branch()'],['../namespaceOSS__Primitive__3D_1_1run__and__plot_1_1run__and__plot.html#ae382def1d5c5336fb181a68aaaeaec1d',1,'OSS_Primitive_3D.run_and_plot.run_and_plot.plot_evec_a_branch()']]],
-  ['plot_5fevec_5fall_5fbranches',['plot_evec_all_branches',['../namespaceOSS__Primitive__3D_1_1base__flow_1_1base__flow.html#a7948e2b9720d4643025eb82eb1a9317a',1,'OSS_Primitive_3D.base_flow.base_flow.plot_evec_all_branches()'],['../namespaceOSS__Primitive__3D_1_1run__and__plot_1_1run__and__plot.html#addbcec2844d51847072031fd25710e74',1,'OSS_Primitive_3D.run_and_plot.run_and_plot.plot_evec_all_branches()']]],
-  ['plot_5fmesh_5fconvergence',['plot_mesh_convergence',['../namespaceOSS__Primitive__3D_1_1base__flow_1_1base__flow.html#a752189ee04dc2b3db25d2b36a9a16e7d',1,'OSS_Primitive_3D.base_flow.base_flow.plot_mesh_convergence()'],['../namespaceOSS__Primitive__3D_1_1run__and__plot_1_1run__and__plot.html#aa90920ee69e397dae040177a1ab3f533',1,'OSS_Primitive_3D.run_and_plot.run_and_plot.plot_mesh_convergence()']]],
   ['print',['print',['../classPSE_1_1PSE.html#a9ef81801b08d0ea157d2e40cfb9e81d5',1,'PSE::PSE']]],
   ['printclosureiter',['printClosureIter',['../namespacePSE.html#aba2bc7ed1e79fe8308ef56823913bb19',1,'PSE']]],
   ['printheaderiter',['printHeaderIter',['../namespacePSE.html#addbb9b8b23e4c512603ffeb968425d20',1,'PSE']]],

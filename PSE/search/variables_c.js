@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['p_5fpse_5ffrom_5foss',['P_PSE_from_OSS',['../classPSE_1_1PSE.html#a3673e7436f2ce2983570dd4d22866583',1,'PSE::PSE']]],
-  ['p_5fu_5ffrom_5fq',['P_u_from_q',['../classPSE_1_1PSE.html#a801933ea823de35a120c937747f918fa',1,'PSE::PSE']]],
-  ['p_5fv_5ffrom_5fq',['P_v_from_q',['../classPSE_1_1PSE.html#a06c42c753b6d196659cbe92d4bd8542d',1,'PSE::PSE']]],
-  ['p_5fw_5ffrom_5fq',['P_w_from_q',['../classPSE_1_1PSE.html#a28ee091b582c60f1c8b85785f9520600',1,'PSE::PSE']]]
+  ['q',['q',['../classPSE_1_1PSE.html#a5c0d29125e5f953b219a027c8eeadb49',1,'PSE::PSE']]],
+  ['q_5fmodes',['q_modes',['../classPSE_1_1PSE.html#aa55f0d414f54006ec489b01199284f0b',1,'PSE::PSE']]],
+  ['qp1',['qp1',['../classPSE_1_1PSE.html#a078b581e1c038bcf8072eea7389e42cb',1,'PSE::PSE']]],
+  ['qp1_5fmodes',['qp1_modes',['../classPSE_1_1PSE.html#a4c813923eb6db27a95360a2b41a090d9',1,'PSE::PSE']]],
+  ['qp1_5foldnonlinear',['qp1_oldNonLinear',['../classPSE_1_1PSE.html#ac04b437e75c4de4042a8b30631535e5c',1,'PSE::PSE']]],
+  ['qp1_5foss',['qp1_OSS',['../classPSE_1_1PSE.html#a896e124820561762627405cc956a3237',1,'PSE::PSE']]]
 ];
