@@ -217,6 +217,15 @@ Functions</h2></td></tr>
 <tr class="memitem:adebd5af66cc444f85082dae836c24ee0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#adebd5af66cc444f85082dae836c24ee0">Read_q</a> (PetscScalar &amp;output, std::string &amp;buff)</td></tr>
 <tr class="memdesc:adebd5af66cc444f85082dae836c24ee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read complex scalar from a tofile output from python.  <a href="#adebd5af66cc444f85082dae836c24ee0">More...</a><br /></td></tr>
 <tr class="separator:adebd5af66cc444f85082dae836c24ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5b961f444d5cc8a19d2ea6c466c26cc"><td class="memItemLeft" align="right" valign="top">PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ae5b961f444d5cc8a19d2ea6c466c26cc">Read_MatLabVec</a> (Vec &amp;output, std::string &amp;buff)</td></tr>
+<tr class="memdesc:ae5b961f444d5cc8a19d2ea6c466c26cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read complex scalar vector from a matlab file (be sure this uses the PetscBinaryWrite() MatLab function)  <a href="#ae5b961f444d5cc8a19d2ea6c466c26cc">More...</a><br /></td></tr>
+<tr class="separator:ae5b961f444d5cc8a19d2ea6c466c26cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48fecf23dc69ac871eefb7efdedbae0e"><td class="memItemLeft" align="right" valign="top">PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a48fecf23dc69ac871eefb7efdedbae0e">Read_MatLabMat</a> (Mat &amp;output, std::string &amp;buff)</td></tr>
+<tr class="memdesc:a48fecf23dc69ac871eefb7efdedbae0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read complex scalar matrix from a matlab file (be sure this uses the PetscBinaryWrite() MatLab function)  <a href="#a48fecf23dc69ac871eefb7efdedbae0e">More...</a><br /></td></tr>
+<tr class="separator:a48fecf23dc69ac871eefb7efdedbae0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28d16ac83d532b86b8963e79437bbd76"><td class="memItemLeft" align="right" valign="top">PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a28d16ac83d532b86b8963e79437bbd76">Read_MatLab</a> (<a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data, std::string &amp;buff)</td></tr>
+<tr class="memdesc:a28d16ac83d532b86b8963e79437bbd76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read input matrix and vectors input data from a matlab files (be sure this uses the PetscBinaryWrite() MatLab function) Reads and sets y, yVec, z, zVec, q, qp1, alpha, Deltay, and Deltaz quantities in the <a class="el" href="namespacePSE.html">PSE</a> class.  <a href="#a28d16ac83d532b86b8963e79437bbd76">More...</a><br /></td></tr>
+<tr class="separator:a28d16ac83d532b86b8963e79437bbd76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7d5b769d9c0425545e1701eaa181e2e"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ab7d5b769d9c0425545e1701eaa181e2e">set_A_and_B_OSS_zi</a> (<a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;data, const PetscInt &amp;zi=0)</td></tr>
 <tr class="memdesc:ab7d5b769d9c0425545e1701eaa181e2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">set A and B matrix for Orr-Sommerfeld equations for zi plane Note that the wavelike ansatz is \(u=\hat{u}(y,z) \exp (i (-\omega t + \alpha x))\) </p><p class="formulaDsp">
 \[ \begin{aligned} (-i \omega - \frac{1}{Re}(\partial_y^2 + \partial_z^2))\hat{u} + U&#39; \hat{v} &amp;= \alpha (-i \hat{P} - \frac{i}{Re}(\partial_y \hat{v} + \partial_z \hat{w}) - iU \hat{u})\\ (-i \omega - \frac{1}{Re}(\partial_y^2 + \partial_z^2))\hat{v} + \partial_y \hat{P} &amp;= \alpha (- \frac{1}{Re}(\alpha \hat{v}) - iU \hat{v})\\ (\alpha \hat{v}) &amp;= \alpha \cdot \hat{v}\\ (-i \omega - \frac{1}{Re}(\partial_y^2 + \partial_z^2))\hat{w} + \partial_z \hat{P} &amp;= \alpha (- \frac{1}{Re}(\alpha \hat{w}) - iU \hat{w})\\ (\alpha \hat{w}) &amp;= \alpha \cdot \hat{w}\\ \partial_y \hat{v} + \partial_z \hat{w} &amp;= \alpha (-i \hat{u})\\ \end{aligned}\]
@@ -283,6 +292,15 @@ Functions</h2></td></tr>
 <tr class="memitem:aa82823d0901aa0c7d667a8f02379cf50"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aa82823d0901aa0c7d667a8f02379cf50">set_Mat_from_Vec</a> (Vec &amp;x, PetscInt &amp;ny, PetscInt &amp;nz, PetscInt &amp;rowoffset, Mat &amp;A, const InsertMode &amp;addv=ADD_VALUES)</td></tr>
 <tr class="memdesc:aa82823d0901aa0c7d667a8f02379cf50"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a matrix A (large ny*nz*4) from a vector (ny*nz) (used in the diagonals) at a certain rowoffset (between 0-ny*3). Be sure that A is already initialized  <a href="#aa82823d0901aa0c7d667a8f02379cf50">More...</a><br /></td></tr>
 <tr class="separator:aa82823d0901aa0c7d667a8f02379cf50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a571185db1144849b1bf9f27e4dd9c3be"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a571185db1144849b1bf9f27e4dd9c3be">set_Mat_from_bf_Dy</a> (Vec &amp;bf, PetscInt &amp;ny, PetscInt &amp;nz, Mat &amp;Dy, Mat *P_bfnyi_from_bfnynz, Mat *bfDy)</td></tr>
+<tr class="memdesc:a571185db1144849b1bf9f27e4dd9c3be"><td class="mdescLeft">&#160;</td><td class="mdescRight">set an array of Matrices bfDy of array length nz and each Mat size of ny x ny from a vector bf (ny*nz) MatMatMult multiplied by Dy Be sure that each array Mat of bfDy is already initialized, and bf and Dy are already created with values  <a href="#a571185db1144849b1bf9f27e4dd9c3be">More...</a><br /></td></tr>
+<tr class="separator:a571185db1144849b1bf9f27e4dd9c3be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7af3dc32aff4e33533b8595ad7ab555"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#ae7af3dc32aff4e33533b8595ad7ab555">set_Mat_from_ef_Dz</a> (Vec &amp;ef, PetscInt &amp;ny, PetscInt &amp;nz, Mat &amp;Dz, Mat *P_efnzi_from_efnynz, Mat *efDz)</td></tr>
+<tr class="memdesc:ae7af3dc32aff4e33533b8595ad7ab555"><td class="mdescLeft">&#160;</td><td class="mdescRight">set an array of Matrices efDz of array length ny and each Mat size of nz x nz from a vector ef (ny*nz) MatMatMult multiplied by Dz Be sure that each array Mat of efDz is already initialized, and ef and Dz are already created with values  <a href="#ae7af3dc32aff4e33533b8595ad7ab555">More...</a><br /></td></tr>
+<tr class="separator:ae7af3dc32aff4e33533b8595ad7ab555"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fea93f0b43d3be5d423ab9259b42935"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#a5fea93f0b43d3be5d423ab9259b42935">set_Mat_efDz_into_A</a> (const PetscScalar &amp;a, const Mat *efDz, const PetscInt &amp;nz, const PetscInt &amp;yi, const PetscInt &amp;zi, Mat &amp;A, const PetscInt &amp;n, const PetscInt &amp;nvars=4, const PetscInt &amp;rowoffset=0, const PetscInt &amp;coloffset=0, const InsertMode &amp;addv=ADD_VALUES)</td></tr>
+<tr class="memdesc:a5fea93f0b43d3be5d423ab9259b42935"><td class="mdescLeft">&#160;</td><td class="mdescRight">set an array of Matrices efDz of array length ny and each Mat size of nz x nz into the large A matrix of size 4*ny*nz This must be called for each ny,nz point to set the efDz into the correct spots in A  <a href="#a5fea93f0b43d3be5d423ab9259b42935">More...</a><br /></td></tr>
+<tr class="separator:a5fea93f0b43d3be5d423ab9259b42935"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6401d0b66259dc17e248b11ba8994c2"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePSE.html#aa6401d0b66259dc17e248b11ba8994c2">set_Vec</a> (const PetscScalar *bin, const PetscInt &amp;n, Vec &amp;b, const PetscBool &amp;parallel=PETSC_TRUE)</td></tr>
 <tr class="memdesc:aa6401d0b66259dc17e248b11ba8994c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">set a vector from PetscScalar 1D vector to PETSc Vec type in parallel  <a href="#aa6401d0b66259dc17e248b11ba8994c2">More...</a><br /></td></tr>
 <tr class="separator:aa6401d0b66259dc17e248b11ba8994c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1484,6 +1502,114 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>data class to hold data </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">buff</td><td>filename of binary to read (output of python script </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a28d16ac83d532b86b8963e79437bbd76"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int PSE::Read_MatLab </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPSE_1_1PSE.html">PSE</a> &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>buff</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read input matrix and vectors input data from a matlab files (be sure this uses the PetscBinaryWrite() MatLab function) Reads and sets y, yVec, z, zVec, q, qp1, alpha, Deltay, and Deltaz quantities in the <a class="el" href="namespacePSE.html">PSE</a> class. </p>
+<dl class="section return"><dt>Returns</dt><dd>ierr </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">data</td><td>data class to hold data </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">buff</td><td>filename (without endings) of binary matlab files to read (output of matlab script using PetscSpecific binary write functions and fwrite) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a48fecf23dc69ac871eefb7efdedbae0e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscErrorCode PSE::Read_MatLabMat </td>
+          <td>(</td>
+          <td class="paramtype">Mat &amp;&#160;</td>
+          <td class="paramname"><em>output</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>buff</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read complex scalar matrix from a matlab file (be sure this uses the PetscBinaryWrite() MatLab function) </p>
+<dl class="section return"><dt>Returns</dt><dd>ierr </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">output</td><td>complex scalar matrix to return after reading file (uninitialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">buff</td><td>filename of binary matlab file to read (output of matlab script using PetscSpecific binary write functions) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae5b961f444d5cc8a19d2ea6c466c26cc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscErrorCode PSE::Read_MatLabVec </td>
+          <td>(</td>
+          <td class="paramtype">Vec &amp;&#160;</td>
+          <td class="paramname"><em>output</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>buff</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read complex scalar vector from a matlab file (be sure this uses the PetscBinaryWrite() MatLab function) </p>
+<dl class="section return"><dt>Returns</dt><dd>ierr </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">output</td><td>complex scalar vector to return after reading file (uninitialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">buff</td><td>filename of binary matlab file to read (output of matlab script using PetscSpecific binary write functions) </td></tr>
   </table>
   </dd>
 </dl>
@@ -2822,6 +2948,233 @@ Functions</h2></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>column Vec </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>length of Vec </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">A</td><td>Matrix of size nxn </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a5fea93f0b43d3be5d423ab9259b42935"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscInt PSE::set_Mat_efDz_into_A </td>
+          <td>(</td>
+          <td class="paramtype">const PetscScalar &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Mat *&#160;</td>
+          <td class="paramname"><em>efDz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
+          <td class="paramname"><em>nz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
+          <td class="paramname"><em>yi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
+          <td class="paramname"><em>zi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Mat &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
+          <td class="paramname"><em>nvars</em> = <code>4</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
+          <td class="paramname"><em>rowoffset</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const PetscInt &amp;&#160;</td>
+          <td class="paramname"><em>coloffset</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const InsertMode &amp;&#160;</td>
+          <td class="paramname"><em>addv</em> = <code>ADD_VALUES</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>set an array of Matrices efDz of array length ny and each Mat size of nz x nz into the large A matrix of size 4*ny*nz This must be called for each ny,nz point to set the efDz into the correct spots in A </p>
+<dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>premultple to efDz (usually set to one) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">efDz</td><td>sub matrix to set into mat in z direction (array of size ny each matrix of size nz,nz) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nz</td><td>nzxnz size of square sub matrix Dz </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">yi</td><td>which y pt you are looking at </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">zi</td><td>which z plane you are looking at </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">A</td><td>Matrix A to set value (already initialized) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>size of square Matrix A </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nvars</td><td>number of variables in vector 4 if (u,v,w,P) or 6 if (u, v, av, w, aw, P) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">rowoffset</td><td>start inserting Asub in A starting at rowoffset row </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">coloffset</td><td>start inserting Asub in A starting at coloffset column </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">addv</td><td>insert values or add values to matrix A </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a571185db1144849b1bf9f27e4dd9c3be"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscInt PSE::set_Mat_from_bf_Dy </td>
+          <td>(</td>
+          <td class="paramtype">Vec &amp;&#160;</td>
+          <td class="paramname"><em>bf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PetscInt &amp;&#160;</td>
+          <td class="paramname"><em>ny</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PetscInt &amp;&#160;</td>
+          <td class="paramname"><em>nz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Mat &amp;&#160;</td>
+          <td class="paramname"><em>Dy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Mat *&#160;</td>
+          <td class="paramname"><em>P_bfnyi_from_bfnynz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Mat *&#160;</td>
+          <td class="paramname"><em>bfDy</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>set an array of Matrices bfDy of array length nz and each Mat size of ny x ny from a vector bf (ny*nz) MatMatMult multiplied by Dy Be sure that each array Mat of bfDy is already initialized, and bf and Dy are already created with values </p>
+<dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bf</td><td>vector of length ny*nz </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ny</td><td>ny, number of pts in y-direction </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nz</td><td>nz, number of pts in z-direction </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Dy</td><td>derivative operator of vector of length ny </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">P_bfnyi_from_bfnynz</td><td>array of matrices to extract bf of length ny at z coordinate i from bf of length ny*nz </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">bfDy</td><td>array of matrices to be set (each Mat of size ny,ny) and array length of nz </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae7af3dc32aff4e33533b8595ad7ab555"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscInt PSE::set_Mat_from_ef_Dz </td>
+          <td>(</td>
+          <td class="paramtype">Vec &amp;&#160;</td>
+          <td class="paramname"><em>ef</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PetscInt &amp;&#160;</td>
+          <td class="paramname"><em>ny</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PetscInt &amp;&#160;</td>
+          <td class="paramname"><em>nz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Mat &amp;&#160;</td>
+          <td class="paramname"><em>Dz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Mat *&#160;</td>
+          <td class="paramname"><em>P_efnzi_from_efnynz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Mat *&#160;</td>
+          <td class="paramname"><em>efDz</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>set an array of Matrices efDz of array length ny and each Mat size of nz x nz from a vector ef (ny*nz) MatMatMult multiplied by Dz Be sure that each array Mat of efDz is already initialized, and ef and Dz are already created with values </p>
+<dl class="section return"><dt>Returns</dt><dd>0 if successful </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ef</td><td>vector of length ny*nz </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ny</td><td>ny, number of pts in y-direction </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nz</td><td>nz, number of pts in z-direction </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Dz</td><td>derivative operator of vector of length nz </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">P_efnzi_from_efnynz</td><td>array of matrices to extract ef of length nz at y coordinate i from ef of length ny*nz </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">efDz</td><td>array of matrices to be set (each Mat of size nz,nz) and array length of ny </td></tr>
   </table>
   </dd>
 </dl>

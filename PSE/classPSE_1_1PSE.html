@@ -164,6 +164,9 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a21d8dda8f0ed26f2fb3e3bb8cf8a1896"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a21d8dda8f0ed26f2fb3e3bb8cf8a1896">VDy</a></td></tr>
 <tr class="memdesc:a21d8dda8f0ed26f2fb3e3bb8cf8a1896"><td class="mdescLeft">&#160;</td><td class="mdescRight">matmatmult of \(V \mathcal{D}_y\)  <a href="#a21d8dda8f0ed26f2fb3e3bb8cf8a1896">More...</a><br /></td></tr>
 <tr class="separator:a21d8dda8f0ed26f2fb3e3bb8cf8a1896"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9b5939f10eb333d856bf99a08185dd5"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ab9b5939f10eb333d856bf99a08185dd5">UDy</a></td></tr>
+<tr class="memdesc:ab9b5939f10eb333d856bf99a08185dd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">matmatmult of \(U \mathcal{D}_y\)  <a href="#ab9b5939f10eb333d856bf99a08185dd5">More...</a><br /></td></tr>
+<tr class="separator:ab9b5939f10eb333d856bf99a08185dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a217e658c61b62f1c00f3ec7df28f693d"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a217e658c61b62f1c00f3ec7df28f693d">A</a></td></tr>
 <tr class="memdesc:a217e658c61b62f1c00f3ec7df28f693d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrix to Solve <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> equation in linear system (all q,dqdy,dqdz terms)  <a href="#a217e658c61b62f1c00f3ec7df28f693d">More...</a><br /></td></tr>
 <tr class="separator:a217e658c61b62f1c00f3ec7df28f693d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -200,6 +203,18 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a28ee091b582c60f1c8b85785f9520600"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a28ee091b582c60f1c8b85785f9520600">P_w_from_q</a></td></tr>
 <tr class="memdesc:a28ee091b582c60f1c8b85785f9520600"><td class="mdescLeft">&#160;</td><td class="mdescRight">permutation matrix to premultiply to q from the <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> solver, to get the w primitive variables only (instead of the (u, v, w, P) q vector from the <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a> solver).  <a href="#a28ee091b582c60f1c8b85785f9520600">More...</a><br /></td></tr>
 <tr class="separator:a28ee091b582c60f1c8b85785f9520600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acef992d65ef8f53478ac043af84d28d8"><td class="memItemLeft" align="right" valign="top">Mat *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#acef992d65ef8f53478ac043af84d28d8">P_bfnyi_from_bfnynz</a></td></tr>
+<tr class="memdesc:acef992d65ef8f53478ac043af84d28d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">array of permutation matrices to extract out ny length vector from bf of length ny*nz  <a href="#acef992d65ef8f53478ac043af84d28d8">More...</a><br /></td></tr>
+<tr class="separator:acef992d65ef8f53478ac043af84d28d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36af0edf8e5c601611cbdb70491f136e"><td class="memItemLeft" align="right" valign="top">Mat *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a36af0edf8e5c601611cbdb70491f136e">P_efnzi_from_efnynz</a></td></tr>
+<tr class="memdesc:a36af0edf8e5c601611cbdb70491f136e"><td class="mdescLeft">&#160;</td><td class="mdescRight">array of permutation matrices to extract out ny length vector from ef of length ny*nz  <a href="#a36af0edf8e5c601611cbdb70491f136e">More...</a><br /></td></tr>
+<tr class="separator:a36af0edf8e5c601611cbdb70491f136e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61d06af98cebd5534928ac17caf7056a"><td class="memItemLeft" align="right" valign="top">Mat *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a61d06af98cebd5534928ac17caf7056a">bfDy</a></td></tr>
+<tr class="memdesc:a61d06af98cebd5534928ac17caf7056a"><td class="mdescLeft">&#160;</td><td class="mdescRight">dynamic array (size nz) of matrix bf*Dy  <a href="#a61d06af98cebd5534928ac17caf7056a">More...</a><br /></td></tr>
+<tr class="separator:a61d06af98cebd5534928ac17caf7056a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafbfa5b7d1c42ada053ac94ed6416a23"><td class="memItemLeft" align="right" valign="top">Mat *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#aafbfa5b7d1c42ada053ac94ed6416a23">efDz</a></td></tr>
+<tr class="memdesc:aafbfa5b7d1c42ada053ac94ed6416a23"><td class="mdescLeft">&#160;</td><td class="mdescRight">dynamic array (size ny) of matrix ef*Dz  <a href="#aafbfa5b7d1c42ada053ac94ed6416a23">More...</a><br /></td></tr>
+<tr class="separator:aafbfa5b7d1c42ada053ac94ed6416a23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a742a852b1bcc2636e8a93acd67161798"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a742a852b1bcc2636e8a93acd67161798">I</a></td></tr>
 <tr class="memdesc:a742a852b1bcc2636e8a93acd67161798"><td class="mdescLeft">&#160;</td><td class="mdescRight">identity matrix, useful in setting up A,B  <a href="#a742a852b1bcc2636e8a93acd67161798">More...</a><br /></td></tr>
 <tr class="separator:a742a852b1bcc2636e8a93acd67161798"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -278,6 +293,9 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a8e3c261e5e0ccc5f62b45e8c2eff601e"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a8e3c261e5e0ccc5f62b45e8c2eff601e">tempVecny</a></td></tr>
 <tr class="memdesc:a8e3c261e5e0ccc5f62b45e8c2eff601e"><td class="mdescLeft">&#160;</td><td class="mdescRight">temporary vector  <a href="#a8e3c261e5e0ccc5f62b45e8c2eff601e">More...</a><br /></td></tr>
 <tr class="separator:a8e3c261e5e0ccc5f62b45e8c2eff601e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa62985de7d02cc565e73c6d5d05b1c05"><td class="memItemLeft" align="right" valign="top">PetscReal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#aa62985de7d02cc565e73c6d5d05b1c05">initial_amplitude</a></td></tr>
+<tr class="memdesc:aa62985de7d02cc565e73c6d5d05b1c05"><td class="mdescLeft">&#160;</td><td class="mdescRight">initial TS amplitude (of normalized eigenvector if using normalizing) (default 0.0025)  <a href="#aa62985de7d02cc565e73c6d5d05b1c05">More...</a><br /></td></tr>
+<tr class="separator:aa62985de7d02cc565e73c6d5d05b1c05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab73ad901dfd880394ebd38fe92544373"><td class="memItemLeft" align="right" valign="top">PetscReal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ab73ad901dfd880394ebd38fe92544373">nonlinear_tol</a></td></tr>
 <tr class="memdesc:ab73ad901dfd880394ebd38fe92544373"><td class="mdescLeft">&#160;</td><td class="mdescRight">nonlinear tolerance (exit nonlinear iterations once nonlinear error is below this tolerance) (default 1E-9)  <a href="#ab73ad901dfd880394ebd38fe92544373">More...</a><br /></td></tr>
 <tr class="separator:ab73ad901dfd880394ebd38fe92544373"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -411,10 +429,10 @@ Data Fields</h2></td></tr>
 <tr class="memdesc:a82f00b5b3a618f959ea1d538fba9588f"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of marching [1=Implicit Euler (default), 2=Crank-Nicolson]  <a href="#a82f00b5b3a618f959ea1d538fba9588f">More...</a><br /></td></tr>
 <tr class="separator:a82f00b5b3a618f959ea1d538fba9588f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a419b3a2971e1991a1ba9b5774f8f1684"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a419b3a2971e1991a1ba9b5774f8f1684">closure_iter</a></td></tr>
-<tr class="memdesc:a419b3a2971e1991a1ba9b5774f8f1684"><td class="mdescLeft">&#160;</td><td class="mdescRight">current closure iteration number (changed in <a class="el" href="update__Closure_8cpp.html">update_Closure.cpp</a>)  <a href="#a419b3a2971e1991a1ba9b5774f8f1684">More...</a><br /></td></tr>
+<tr class="memdesc:a419b3a2971e1991a1ba9b5774f8f1684"><td class="mdescLeft">&#160;</td><td class="mdescRight">current closure iteration number (changed in update_Closure.cpp)  <a href="#a419b3a2971e1991a1ba9b5774f8f1684">More...</a><br /></td></tr>
 <tr class="separator:a419b3a2971e1991a1ba9b5774f8f1684"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c7b2afbaae3282ab636e45bb2c1e4ef"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a2c7b2afbaae3282ab636e45bb2c1e4ef">nonlinear_iter</a></td></tr>
-<tr class="memdesc:a2c7b2afbaae3282ab636e45bb2c1e4ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">current nonlinear iteration number (changed in <a class="el" href="update__Nonlinear_8cpp.html">update_Nonlinear.cpp</a>)  <a href="#a2c7b2afbaae3282ab636e45bb2c1e4ef">More...</a><br /></td></tr>
+<tr class="memdesc:a2c7b2afbaae3282ab636e45bb2c1e4ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">current nonlinear iteration number (changed in update_Nonlinear.cpp)  <a href="#a2c7b2afbaae3282ab636e45bb2c1e4ef">More...</a><br /></td></tr>
 <tr class="separator:a2c7b2afbaae3282ab636e45bb2c1e4ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e85fd53fca64d0b277f526e691ec447"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a7e85fd53fca64d0b277f526e691ec447">nonlinear_num_modes</a></td></tr>
 <tr class="memdesc:a7e85fd53fca64d0b277f526e691ec447"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of nonlinear modes to truncate (negative ones will be conjugated and added as well)  <a href="#a7e85fd53fca64d0b277f526e691ec447">More...</a><br /></td></tr>
@@ -437,12 +455,27 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a462a618aa288a3a4190c03301d2aadb0"><td class="memItemLeft" align="right" valign="top">PetscBool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a462a618aa288a3a4190c03301d2aadb0">flag_read_q_filename</a> =PETSC_FALSE</td></tr>
 <tr class="memdesc:a462a618aa288a3a4190c03301d2aadb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag to state if reading file in from python scripts  <a href="#a462a618aa288a3a4190c03301d2aadb0">More...</a><br /></td></tr>
 <tr class="separator:a462a618aa288a3a4190c03301d2aadb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1f8cfbfe60e54275c65a00415bdd2fe"><td class="memItemLeft" align="right" valign="top">PetscBool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ac1f8cfbfe60e54275c65a00415bdd2fe">flag_read_matlab_filename</a> =PETSC_FALSE</td></tr>
+<tr class="memdesc:ac1f8cfbfe60e54275c65a00415bdd2fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag to state if reading file in from matlab scripts  <a href="#ac1f8cfbfe60e54275c65a00415bdd2fe">More...</a><br /></td></tr>
+<tr class="separator:ac1f8cfbfe60e54275c65a00415bdd2fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab32523165f07bbc72a567200b9ab1782"><td class="memItemLeft" align="right" valign="top">PetscBool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ab32523165f07bbc72a567200b9ab1782">flag_set_D</a> =PETSC_FALSE</td></tr>
 <tr class="memdesc:ab32523165f07bbc72a567200b9ab1782"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag to set derivative operators  <a href="#ab32523165f07bbc72a567200b9ab1782">More...</a><br /></td></tr>
 <tr class="separator:ab32523165f07bbc72a567200b9ab1782"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60c07732acb290ed9b238814cf4cc1d3"><td class="memItemLeft" align="right" valign="top">PetscBool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a60c07732acb290ed9b238814cf4cc1d3">flag_uniform</a> =PETSC_TRUE</td></tr>
 <tr class="memdesc:a60c07732acb290ed9b238814cf4cc1d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">uniform mesh?  <a href="#a60c07732acb290ed9b238814cf4cc1d3">More...</a><br /></td></tr>
 <tr class="separator:a60c07732acb290ed9b238814cf4cc1d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e43f9b7daf307ad73cc9febd1d1bc1e"><td class="memItemLeft" align="right" valign="top">PetscBool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a4e43f9b7daf307ad73cc9febd1d1bc1e">flag_OSS_gov_Schmid</a> =PETSC_FALSE</td></tr>
+<tr class="memdesc:a4e43f9b7daf307ad73cc9febd1d1bc1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use Schmid Orr-Sommerfield governing equations and inflated matrix as found in equation 7.110 of his textbook.  <a href="#a4e43f9b7daf307ad73cc9febd1d1bc1e">More...</a><br /></td></tr>
+<tr class="separator:a4e43f9b7daf307ad73cc9febd1d1bc1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb1247831246a77eef14285eb5d9b217"><td class="memItemLeft" align="right" valign="top">PetscBool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#aeb1247831246a77eef14285eb5d9b217">flag_update_alpha</a> =PETSC_TRUE</td></tr>
+<tr class="memdesc:aeb1247831246a77eef14285eb5d9b217"><td class="mdescLeft">&#160;</td><td class="mdescRight">update alpha in matrices every x-step  <a href="#aeb1247831246a77eef14285eb5d9b217">More...</a><br /></td></tr>
+<tr class="separator:aeb1247831246a77eef14285eb5d9b217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bf81bdb1ea2fe3b62fb001c35e05f0b"><td class="memItemLeft" align="right" valign="top">PetscBool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a1bf81bdb1ea2fe3b62fb001c35e05f0b">flag_one_grid_pt_less_z</a> =PETSC_FALSE</td></tr>
+<tr class="memdesc:a1bf81bdb1ea2fe3b62fb001c35e05f0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">one grid point less in the z-direction (from the stated Deltaz)  <a href="#a1bf81bdb1ea2fe3b62fb001c35e05f0b">More...</a><br /></td></tr>
+<tr class="separator:a1bf81bdb1ea2fe3b62fb001c35e05f0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7f24315fc8b65675912991a104384ac"><td class="memItemLeft" align="right" valign="top">PetscBool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ad7f24315fc8b65675912991a104384ac">flag_normalize</a> =PETSC_TRUE</td></tr>
+<tr class="memdesc:ad7f24315fc8b65675912991a104384ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">normalize by maximum fluctuating quantitiy (during initial scaling)  <a href="#ad7f24315fc8b65675912991a104384ac">More...</a><br /></td></tr>
+<tr class="separator:ad7f24315fc8b65675912991a104384ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57234a3b07d5837b95f4034e6cfaa82a"><td class="memItemLeft" align="right" valign="top">PetscBool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#a57234a3b07d5837b95f4034e6cfaa82a">flag_set_I</a> =PETSC_FALSE</td></tr>
 <tr class="memdesc:a57234a3b07d5837b95f4034e6cfaa82a"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag to set identity matrix  <a href="#a57234a3b07d5837b95f4034e6cfaa82a">More...</a><br /></td></tr>
 <tr class="separator:a57234a3b07d5837b95f4034e6cfaa82a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -497,6 +530,9 @@ Data Fields</h2></td></tr>
 <tr class="memitem:aec227cb4acee51ad89d1f8154015c076"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#aec227cb4acee51ad89d1f8154015c076">read_q_filename</a></td></tr>
 <tr class="memdesc:aec227cb4acee51ad89d1f8154015c076"><td class="mdescLeft">&#160;</td><td class="mdescRight">base filename if reading output from the OSS python scripts  <a href="#aec227cb4acee51ad89d1f8154015c076">More...</a><br /></td></tr>
 <tr class="separator:aec227cb4acee51ad89d1f8154015c076"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5616c7dfda0b0fb2fead67fdd129d5f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#aa5616c7dfda0b0fb2fead67fdd129d5f">read_matlab_filename</a></td></tr>
+<tr class="memdesc:aa5616c7dfda0b0fb2fead67fdd129d5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">base filename if reading output from the matlab scripts  <a href="#aa5616c7dfda0b0fb2fead67fdd129d5f">More...</a><br /></td></tr>
+<tr class="separator:aa5616c7dfda0b0fb2fead67fdd129d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae597055fff54f1c57db730cbf7bebaf7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPSE_1_1PSE.html#ae597055fff54f1c57db730cbf7bebaf7">output_folder</a></td></tr>
 <tr class="memdesc:ae597055fff54f1c57db730cbf7bebaf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">output folder to  <a href="#ae597055fff54f1c57db730cbf7bebaf7">More...</a><br /></td></tr>
 <tr class="separator:ae597055fff54f1c57db730cbf7bebaf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -787,6 +823,20 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a61d06af98cebd5534928ac17caf7056a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Mat * PSE::PSE::bfDy</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>dynamic array (size nz) of matrix bf*Dy </p>
+
+</div>
+</div>
 <a class="anchor" id="a481716bb4decab553eefc5d3a53a0004"></a>
 <div class="memitem">
 <div class="memproto">
@@ -811,7 +861,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>current closure iteration number (changed in <a class="el" href="update__Closure_8cpp.html">update_Closure.cpp</a>) </p>
+<p>current closure iteration number (changed in update_Closure.cpp) </p>
 
 </div>
 </div>
@@ -1067,6 +1117,20 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aafbfa5b7d1c42ada053ac94ed6416a23"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Mat * PSE::PSE::efDz</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>dynamic array (size ny) of matrix ef*Dz </p>
+
+</div>
+</div>
 <a class="anchor" id="ad451c4b4dd87773162c397655d1a0607"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1263,6 +1327,48 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ad7f24315fc8b65675912991a104384ac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscBool PSE::PSE::flag_normalize =PETSC_TRUE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>normalize by maximum fluctuating quantitiy (during initial scaling) </p>
+
+</div>
+</div>
+<a class="anchor" id="a1bf81bdb1ea2fe3b62fb001c35e05f0b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscBool PSE::PSE::flag_one_grid_pt_less_z =PETSC_FALSE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>one grid point less in the z-direction (from the stated Deltaz) </p>
+
+</div>
+</div>
+<a class="anchor" id="a4e43f9b7daf307ad73cc9febd1d1bc1e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscBool PSE::PSE::flag_OSS_gov_Schmid =PETSC_FALSE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Use Schmid Orr-Sommerfield governing equations and inflated matrix as found in equation 7.110 of his textbook. </p>
+
+</div>
+</div>
 <a class="anchor" id="aa1a11a831b5a3c67239b2417ed51fa8c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1288,6 +1394,20 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>flag to indicte if wanting parallel blasius base flow </p>
+
+</div>
+</div>
+<a class="anchor" id="ac1f8cfbfe60e54275c65a00415bdd2fe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscBool PSE::PSE::flag_read_matlab_filename =PETSC_FALSE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>flag to state if reading file in from matlab scripts </p>
 
 </div>
 </div>
@@ -1372,6 +1492,20 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>uniform mesh? </p>
+
+</div>
+</div>
+<a class="anchor" id="aeb1247831246a77eef14285eb5d9b217"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscBool PSE::PSE::flag_update_alpha =PETSC_TRUE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>update alpha in matrices every x-step </p>
 
 </div>
 </div>
@@ -1473,6 +1607,20 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aa62985de7d02cc565e73c6d5d05b1c05"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscReal PSE::PSE::initial_amplitude</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>initial TS amplitude (of normalized eigenvector if using normalizing) (default 0.0025) </p>
+
+</div>
+</div>
 <a class="anchor" id="a8f5e395c3d411ba6fa1897cf488c2209"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1539,7 +1687,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>current nonlinear iteration number (changed in <a class="el" href="update__Nonlinear_8cpp.html">update_Nonlinear.cpp</a>) </p>
+<p>current nonlinear iteration number (changed in update_Nonlinear.cpp) </p>
 
 </div>
 </div>
@@ -1711,6 +1859,34 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="acef992d65ef8f53478ac043af84d28d8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Mat * PSE::PSE::P_bfnyi_from_bfnynz</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>array of permutation matrices to extract out ny length vector from bf of length ny*nz </p>
+
+</div>
+</div>
+<a class="anchor" id="a36af0edf8e5c601611cbdb70491f136e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Mat * PSE::PSE::P_efnzi_from_efnynz</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>array of permutation matrices to extract out ny length vector from ef of length ny*nz </p>
+
+</div>
+</div>
 <a class="anchor" id="a3673e7436f2ce2983570dd4d22866583"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1876,6 +2052,20 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reynolds number at original x0 location (start of <a class="el" href="classPSE_1_1PSE.html" title="Class to contain various variables for PSE solution. ">PSE</a>) (default 2000) </p>
+
+</div>
+</div>
+<a class="anchor" id="aa5616c7dfda0b0fb2fead67fdd129d5f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string PSE::PSE::read_matlab_filename</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>base filename if reading output from the matlab scripts </p>
 
 </div>
 </div>
@@ -2100,6 +2290,20 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p>\( u \) dynamic array for nonlinear solver (size of each vector is ny*nz) </p>
+
+</div>
+</div>
+<a class="anchor" id="ab9b5939f10eb333d856bf99a08185dd5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Mat PSE::PSE::UDy</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>matmatmult of \(U \mathcal{D}_y\) </p>
 
 </div>
 </div>

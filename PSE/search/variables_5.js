@@ -13,12 +13,17 @@ var searchData=
   ['flag_5flst_5fmarching',['flag_LST_marching',['../classPSE_1_1PSE.html#a6da9147a7c2d0d9819df251330c30b50',1,'PSE::PSE']]],
   ['flag_5fmarching',['flag_marching',['../classPSE_1_1PSE.html#aa85ab65634aa734467dab12fb61eed0a',1,'PSE::PSE']]],
   ['flag_5fnonlinear',['flag_nonlinear',['../classPSE_1_1PSE.html#a921d3b6ce047f6ce7d2bf02bea406136',1,'PSE::PSE']]],
+  ['flag_5fnormalize',['flag_normalize',['../classPSE_1_1PSE.html#ad7f24315fc8b65675912991a104384ac',1,'PSE::PSE']]],
+  ['flag_5fone_5fgrid_5fpt_5fless_5fz',['flag_one_grid_pt_less_z',['../classPSE_1_1PSE.html#a1bf81bdb1ea2fe3b62fb001c35e05f0b',1,'PSE::PSE']]],
+  ['flag_5foss_5fgov_5fschmid',['flag_OSS_gov_Schmid',['../classPSE_1_1PSE.html#a4e43f9b7daf307ad73cc9febd1d1bc1e',1,'PSE::PSE']]],
   ['flag_5fp_5fterm',['flag_p_term',['../classPSE_1_1PSE.html#aa1a11a831b5a3c67239b2417ed51fa8c',1,'PSE::PSE']]],
   ['flag_5fparallel_5fblasius',['flag_parallel_blasius',['../classPSE_1_1PSE.html#a8188e505b00ebf196d1d1840d79db36f',1,'PSE::PSE']]],
+  ['flag_5fread_5fmatlab_5ffilename',['flag_read_matlab_filename',['../classPSE_1_1PSE.html#ac1f8cfbfe60e54275c65a00415bdd2fe',1,'PSE::PSE']]],
   ['flag_5fread_5fq_5ffilename',['flag_read_q_filename',['../classPSE_1_1PSE.html#a462a618aa288a3a4190c03301d2aadb0',1,'PSE::PSE']]],
   ['flag_5fset_5fd',['flag_set_D',['../classPSE_1_1PSE.html#ab32523165f07bbc72a567200b9ab1782',1,'PSE::PSE']]],
   ['flag_5fset_5fi',['flag_set_I',['../classPSE_1_1PSE.html#a57234a3b07d5837b95f4034e6cfaa82a',1,'PSE::PSE']]],
   ['flag_5ftrapzy',['flag_trapzy',['../classPSE_1_1PSE.html#a16c76a365822d917e5963aeb777c43a2',1,'PSE::PSE']]],
   ['flag_5ftrapzz',['flag_trapzz',['../classPSE_1_1PSE.html#a880285480701341abd0368d30bae5e7c',1,'PSE::PSE']]],
-  ['flag_5funiform',['flag_uniform',['../classPSE_1_1PSE.html#a60c07732acb290ed9b238814cf4cc1d3',1,'PSE::PSE']]]
+  ['flag_5funiform',['flag_uniform',['../classPSE_1_1PSE.html#a60c07732acb290ed9b238814cf4cc1d3',1,'PSE::PSE']]],
+  ['flag_5fupdate_5falpha',['flag_update_alpha',['../classPSE_1_1PSE.html#aeb1247831246a77eef14285eb5d9b217',1,'PSE::PSE']]]
 ];
