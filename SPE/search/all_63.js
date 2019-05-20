@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['calc_5fclosure',['calc_Closure',['../namespaceSPE.html#a8b473e31d0e9421cdc887c11e0baf792',1,'SPE']]],
+  ['calc_5fclosure_2ecpp',['calc_Closure.cpp',['../calc__Closure_8cpp.html',1,'']]],
+  ['calc_5fclosure_2ecpp',['calc_Closure.cpp',['../obj_2calc__Closure_8cpp.html',1,'']]],
+  ['calc_5fclosure_2ehpp',['calc_Closure.hpp',['../calc__Closure_8hpp.html',1,'']]],
+  ['calc_5fl2',['calc_L2',['../namespaceSPE.html#a116be7eaa0729c0d593458e88f0daff9',1,'SPE::calc_L2(PetscReal &amp;error, Vec &amp;x1, Vec &amp;x2, PetscInt n, NormType type=NORM_2)'],['../namespaceSPE.html#ab462173f3b98c1b085f7411036ac7b4a',1,'SPE::calc_L2(PetscReal &amp;error, Mat &amp;x1, Mat &amp;x2, PetscInt n, NormType type=NORM_2)']]],
+  ['calc_5fl2_2ecpp',['calc_L2.cpp',['../calc__L2_8cpp.html',1,'']]],
+  ['calc_5fl2_2ecpp',['calc_L2.cpp',['../obj_2calc__L2_8cpp.html',1,'']]],
+  ['calc_5fl2_2ehpp',['calc_L2.hpp',['../calc__L2_8hpp.html',1,'']]],
+  ['calc_5flst',['calc_LST',['../namespaceSPE.html#a4baf182ac98c709701d2ac22268516a2',1,'SPE']]],
+  ['calc_5flst_2ecpp',['calc_LST.cpp',['../calc__LST_8cpp.html',1,'']]],
+  ['calc_5flst_2ecpp',['calc_LST.cpp',['../obj_2calc__LST_8cpp.html',1,'']]],
+  ['calc_5flst_2ehpp',['calc_LST.hpp',['../calc__LST_8hpp.html',1,'']]],
+  ['class_2ecpp',['class.cpp',['../obj_2class_8cpp.html',1,'']]],
+  ['class_2ecpp',['class.cpp',['../class_8cpp.html',1,'']]],
+  ['class_2ehpp',['class.hpp',['../class_8hpp.html',1,'']]],
+  ['closure_5fiter',['closure_iter',['../classSPE_1_1SPE.html#a84a21403926ad841d14600f7a49518fe',1,'SPE::SPE']]],
+  ['closure_5ftol',['closure_tol',['../classSPE_1_1SPE.html#ac23ca970dbaf92205713304ce9694104',1,'SPE::SPE']]],
+  ['closure_5fvalue',['closure_value',['../classSPE_1_1SPE.html#a812f3b7c1ca91fc1579a3bfe0156eb96',1,'SPE::SPE']]],
+  ['create_5fgrid',['Create_grid',['../namespaceSPE.html#a6146385b9d4b24a455bb34a37c602ac2',1,'SPE']]],
+  ['create_5fgrid_2ecpp',['Create_grid.cpp',['../Create__grid_8cpp.html',1,'']]],
+  ['create_5fgrid_2ecpp',['Create_grid.cpp',['../obj_2Create__grid_8cpp.html',1,'']]],
+  ['create_5fgrid_2ehpp',['Create_grid.hpp',['../Create__grid_8hpp.html',1,'']]]
+];
